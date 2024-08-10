@@ -411,7 +411,7 @@ header {
 }
 .column-container .column .responsiveImage {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .feedback {
@@ -546,10 +546,10 @@ header {
     }
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 768px) {
     .ant-tabs-tab {
       border: none !important;
-      padding: 3% !important;
+      padding: 1% !important;
       background: rgb(0 0 0 / 0%) !important;
 
       .ant-tabs-tab-btn {
@@ -633,7 +633,7 @@ textarea.ant-input {
     padding: 0 2rem;
   }
   .order-page {
-    height: 160vh !important;
+    height: 100vh !important;
   }
   a.header__button--order {
     display: none;
@@ -699,7 +699,7 @@ textarea.ant-input {
     }
   }
   .order-page {
-    height: 150vh !important  ;
+    height: 120vh !important  ;
   }
   .order-content {
     justify-content: center;

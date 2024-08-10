@@ -82,6 +82,8 @@
     min-height: 52rem;
     background-color: var(--background-cream);
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
     h1 {
       font-weight: 700;

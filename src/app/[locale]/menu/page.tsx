@@ -27,7 +27,7 @@ const Menu = () => {
   const [tabPosition, setTabPosition] = useState<TabPosition>("left");
 
   useEffect(() => {
-    if (width && width < 768) {
+    if (width && width <= 768) {
       setTabPosition("top");
     } else {
       setTabPosition("left");
@@ -55,7 +55,7 @@ const Menu = () => {
               height={40}
             />
           ),
-          label: tabPosition === "left" ? t(`${key}`) : "",
+          label: t(`${key}`),
           key: String(i + 1),
           children: (
             <div className="menu-list">
@@ -63,8 +63,9 @@ const Menu = () => {
               <div className="menu--info">
                 <div className="menu--info__img">
                   <Swiper
+                    slidesPerView={"auto"}
+                    spaceBetween={100}
                     loop={true}
-                    spaceBetween={10}
                     thumbs={{ swiper: thumbsSwiper[key] || null }}
                     modules={[FreeMode, Thumbs]}
                     className="swiper--item-info"
@@ -79,6 +80,10 @@ const Menu = () => {
                               alt="food"
                               width={450}
                               height={350}
+                              style={{
+                                objectFit: "cover",
+                                objectPosition: "50% 75%",
+                              }}
                             />
                             {item.bestSeller && (
                               <Image
@@ -128,6 +133,12 @@ const Menu = () => {
                         alt={item.name}
                         width={100}
                         height={83}
+                        objectFit="cover"
+                        objectPosition="50% 75%"
+                        style={{
+                          objectFit: "cover",
+                          objectPosition: "50% 75%",
+                        }}
                       />
                     </SwiperSlide>
                   ))}

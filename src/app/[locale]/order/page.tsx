@@ -13,7 +13,7 @@ const OrderPage = () => {
   return (
     <div className="order-page">
       <div className="order-content">
-        <div className="order-content__left--info">
+        <div className="order-content__left--info order-page--flex">
           <h1>{t("orderPage.orderNow")}</h1>
           <p id="order-description">{t("orderPage.howToOrder")}</p>
           <div className="column-container" style={{ gap: "1rem" }}>
@@ -34,7 +34,7 @@ const OrderPage = () => {
             </div>
           </div>
         </div>
-        <div className="order-content__right--form">
+        <div className="order-content__right--form order-page--flex">
           <OrderFormComponent />
         </div>
       </div>

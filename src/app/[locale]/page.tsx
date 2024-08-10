@@ -77,12 +77,10 @@ export default function Home() {
           className="home-slider-introduce"
           loop={true}
           modules={[Autoplay, Navigation, Pagination]}
-          spaceBetween={50}
+          spaceBetween={0}
           slidesPerView={1}
           autoplay={{ delay: 2500 }}
           pagination={{ clickable: true }}
-          onSwiper={() => { }}
-          onSlideChange={() => { }}
         >
           {swiperData.map((item, index) => {
             return (
@@ -91,8 +89,8 @@ export default function Home() {
                   loading="eager"
                   src={item.image}
                   alt={item.alt}
-                  width={1024}
-                  height={768}
+                  width={1440}
+                  height={786}
                 />
               </SwiperSlide>
             );

@@ -45,6 +45,7 @@ const Swiper3D = (props: Swiper3DProps) => {
               width={600}
               height={500}
               objectFit="cover"
+              style={{ objectFit: "cover" }}
             />
           </SwiperSlide>
         ))}
