@@ -81,6 +81,7 @@ export default function Home() {
           slidesPerView={1}
           autoplay={{ delay: 2500 }}
           pagination={{ clickable: true }}
+
         >
           {swiperData.map((item, index) => {
             return (
@@ -107,7 +108,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="welcome section">
+      <div className="welcome">
         <SectionImgText
           title={t("homePage.summary")}
           text={t("homePage.introduce")}
