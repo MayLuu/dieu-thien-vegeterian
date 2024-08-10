@@ -123,7 +123,7 @@ h4 {
   align-items: center;
   position: fixed;
   width: 100%;
-  max-width: var(--max-content-width);
+  max-width: 1200px;
   background-color: var(--background-cream);
 }
 header {
@@ -632,6 +632,10 @@ textarea.ant-input {
   }
 }
 @media (max-width: 1224px) {
+  .header__wrapper {
+    max-width: 90%;
+  }
+
   .section {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -683,7 +687,8 @@ textarea.ant-input {
       min-width: fit-content !important;
     }
     .header__nav {
-      visibility: hidden;
+      display: none !important;
+      /* visibility: hidden; */
     }
     .side_bar {
       position: fixed;
@@ -736,13 +741,23 @@ textarea.ant-input {
     }
     .header__wrapper {
       margin: 0 1rem;
+      width: 100%;
+      .section__container {
+        justify-content: space-between;
+      }
     }
     .header__language_order {
       margin-right: 1rem;
+      position: relative;
+      right: -35%;
     }
     .logo__wrapper {
       min-width: auto;
     }
+  }
+
+  .header__container {
+    padding: 0;
   }
   .section {
     min-height: fit-content;
@@ -797,7 +812,7 @@ textarea.ant-input {
   }
   header {
     .header__language_order {
-      margin-left: -3rem !important;
+      right: -25%;
     }
   }
   .about-us {
@@ -848,6 +863,14 @@ textarea.ant-input {
       img {
         border: 3px solid var(--background-dark-yellow);
       }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  header {
+    .header__language_order {
+      right: -20%;
     }
   }
 }
