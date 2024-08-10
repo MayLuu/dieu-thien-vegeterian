@@ -19,6 +19,7 @@
 }
 .contact-item {
   display: flex;
+  margin-top: 75px;
 }
 .content {
   display: flex !important;
@@ -30,6 +31,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    padding: 2rem 2rem;
 
     .column {
       width: 285px;
@@ -85,5 +87,33 @@
   .map {
     height: 300px;
     width: 100%;
+  }
+  .contact {
+    .content-info {
+      padding: 0;
+    }
+  }
+  .contactInfo {
+    height: 150vh;
+    min-height: fit-content;
+  }
+}
+
+.contact {
+  .contactInfo {
+    position: relative;
+    .leave1-bg {
+      left: -10%;
+      top: -1%;
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    .leave2-bg {
+      right: -10%;
+      top: 50%;
+      transform: scale(0.8) rotate(-120deg);
+      opacity: 0;
+      z-index: 0;
+    }
   }
 }

@@ -89,6 +89,36 @@ const AboutUs = () => {
         className="about-us__content"
         style={{ backgroundColor: `#255442`, color: `#fffec` }}
       >
+
+        <Image
+          src={"/images/leave2-green.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave1-bg"
+        />
+
+        <Image
+          src={"/images/leave-green.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave2-bg"
+        />
+        <Image
+          src={"/images/leave1-green.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave-bg"
+        />
+        <Image
+          src={"/images/leave3-green.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave-group-bg"
+        />
         {aboutUsData.map(
           (item, idx) =>
             item && (
@@ -112,6 +142,22 @@ const AboutUs = () => {
         <h1 className="heading1 green-text">{about("feedbackCustomer")}</h1>
         <p className="green-text">{about("feedbackDesc")}</p>
         <div className="column-container">
+
+          <Image
+            src={"/images/leave1.svg"}
+            width={500}
+            height={500}
+            alt="leave-background"
+            className="leave1-bg"
+          />
+
+          <Image
+            src={"/images/leave1.svg"}
+            width={500}
+            height={500}
+            alt="leave-background"
+            className="leave2-bg"
+          />
           {feedbackData.map((item, idx) => {
             return (
               <div key={idx} className="feedback__content">

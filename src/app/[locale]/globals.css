@@ -126,6 +126,12 @@ h4 {
   max-width: 1200px;
   background-color: var(--background-cream);
 }
+.leave1-bg,
+.leave2-bg,
+.leave-bg,
+.leave-group-bg {
+  position: absolute;
+}
 header {
   margin: 0 auto;
   width: 100vw;
@@ -415,6 +421,7 @@ header {
 }
 
 .feedback {
+  position: relative;
   .column-container {
     gap: 1.5rem;
   }
@@ -911,5 +918,94 @@ textarea.ant-input {
     .header__language_order {
       right: -20%;
     }
+  }
+}
+.section {
+  position: relative;
+  .leave1-bg {
+    left: -11%;
+    top: -3%;
+    opacity: 0.6;
+    transform: scale(0.7);
+    animation: moveInLTR 2s;
+  }
+
+  .leave2-bg {
+    right: -11%;
+    top: 45%;
+  }
+}
+
+.welcome {
+  position: relative;
+  .leave1-bg {
+    left: -11%;
+    top: -3%;
+    opacity: 0.6;
+    transform: scale(0.7);
+    animation: moveInLTR 2s;
+  }
+
+  .leave2-bg {
+    right: -6%;
+    top: 45%;
+  }
+}
+
+.about-us .column-container {
+  position: relative;
+  .leave1-bg {
+    left: -36%;
+    top: -120%;
+  }
+  .leave2-bg {
+    right: -45%;
+    top: -9%;
+    transform: rotate(-120deg);
+  }
+}
+
+.special-menu {
+  position: relative;
+
+  .leave1-bg {
+    left: 10%;
+    top: -4%;
+  }
+  .leave2-bg {
+    left: 10%;
+    top: 50%;
+  }
+  .leave-bg {
+    right: 0%;
+    top: 50%;
+  }
+}
+.about-us__content {
+  position: relative;
+  .leave2-bg {
+    right: 0%;
+    top: 15%;
+  }
+  .leave-bg {
+    left: -5%;
+    top: 45%;
+  }
+  .leave-group-bg {
+    right: -5%;
+    top: 85%;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading1 {
+    font-size: 1.6rem;
+    line-height: 1.75rem;
+  }
+  .leave1-bg,
+  .leave2-bg,
+  .leave-bg,
+  .leave-group-bg {
+    display: none;
   }
 }

@@ -11,6 +11,7 @@ const ContactPage = () => {
 
   return (
     <div className="contact">
+
       <Image
         loading="eager"
         src={"/images/contact.png"}
@@ -20,12 +21,34 @@ const ContactPage = () => {
         style={{ width: "100%", height: "auto" }}
       />
       <div className="contactInfo">
+        <Image
+          src={"/images/leave1.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave1-bg"
+        />
+
+        <Image
+          src={"/images/leave1.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave2-bg"
+        />
         <h1 className="heading1" style={{ marginBottom: `4rem ` }}>
           {t("general.contactUs")}
         </h1>
 
         <div className="content">
-          <div className="content-info">
+          <div className="content-info"
+            style={{
+              display: 'flex',
+              flexWrap: 'wrap'
+
+            }}
+          >
+
             <a
               className="column"
               href="https://maps.app.goo.gl/qy7BD4LF6tcTuQHi6"
