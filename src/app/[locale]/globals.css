@@ -155,7 +155,7 @@ header {
 
   .header__nav {
     flex: auto;
-    display: flex !important;
+    display: flex;
     gap: 24px;
     color: var(--text-color-dark);
     font-size: 1.125rem;
