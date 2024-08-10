@@ -30,6 +30,7 @@ const LocalSwitcher = () => {
         height={20}
         width={30}
         alt="lang"
+        style={{ borderRadius: '3px' }}
       />
       <div className="custom-select-wrapper">
         <select

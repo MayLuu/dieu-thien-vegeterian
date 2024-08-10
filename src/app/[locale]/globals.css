@@ -473,6 +473,13 @@ header {
         left: 0%;
       }
     }
+
+    @media (max-width: 576px) {
+      .section__images {
+        height: 200px;
+        min-height: fit-content;
+      }
+    }
   }
 }
 
@@ -492,6 +499,13 @@ header {
       width: 100%;
       background-color: var(--background-cream);
       color: var(--text-color-green);
+    }
+    @media (max-width: 576px) {
+      .banner__text {
+        p {
+          font-size: 1rem;
+        }
+      }
     }
   }
 
@@ -551,20 +565,22 @@ header {
     }
   }
   @media screen and (max-width: 640px) {
-    .ant-tabs-tab {
-      border: none !important;
-      background: rgb(0 0 0 / 0%) !important;
+    .menu--content {
+      .ant-tabs-tab {
+        border: none;
+        background: rgb(0 0 0 / 0%);
 
-      .ant-tabs-tab-btn {
-        display: flex;
-        align-items: center;
-      }
+        .ant-tabs-tab-btn {
+          display: flex;
+          align-items: center;
+        }
 
-      &.ant-tabs-tab-active {
-        background-color: var(--background-cream) !important;
-        border-right-width: 1rem !important;
-        border-right-color: var(--background-cream) !important;
-        border-bottom: 6px solid var(--background-dark-yellow) !important;
+        &.ant-tabs-tab-active {
+          background-color: var(--background-cream);
+          border-right-width: 1rem;
+          border-right-color: var(--background-cream);
+          border-bottom: 6px solid var(--background-dark-yellow);
+        }
       }
     }
   }
@@ -816,11 +832,14 @@ textarea.ant-input {
     }
   }
   .about-us {
+    .text--border-tlbr {
+      padding: 40px 45px;
+    }
     .feedback {
       .feedback__content {
         width: 80% !important;
-        height: 100px !important;
-        margin: 1rem 2rem;
+        height: 200px !important;
+        margin: 2rem 2rem;
       }
     }
   }
