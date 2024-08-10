@@ -40,7 +40,7 @@
     "special": "Đặc biệt",
     "appetizer": "Khai vị",
     "roll": "Món cuốn",
-    "salad": "Xà lách",
+    "salad": "Salad",
     "mainDish": "Món chính",
     "hotPot": "Món lẩu",
     "ricePortion": "Cơm phần",
@@ -76,7 +76,7 @@
   "metadata": {
     "template": "Nhà hàng Diệu Thiện",
     "title": "Hương vị chay độc đáo | Nhà hàng Diệu Thiện",
-    "desc": "Trải nghiệm những món chay độc đáo và phong phú tại nhà hàng chúng tôi, hòa quyện giữa hương vị truyền thống và hiện đại. Tận hưởng bầu không khí yên bình, phục vụ chu đáo và không gian được thiết kế đẹp mắt, mang đến trải nghiệm ăn uống đáng nhớ, làm say mê cả vị giác lẫn tâm hồn." ,
+    "desc": "Trải nghiệm những món chay độc đáo và phong phú tại nhà hàng chúng tôi, hòa quyện giữa hương vị truyền thống và hiện đại. Tận hưởng bầu không khí yên bình, phục vụ chu đáo và không gian được thiết kế đẹp mắt, mang đến trải nghiệm ăn uống đáng nhớ, làm say mê cả vị giác lẫn tâm hồn.",
     "locale": "vi-VN"
   }
 }

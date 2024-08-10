@@ -43,7 +43,8 @@ const Menu = () => {
           (value: any): void;
           (value: any): void;
           (arg0: (prev: any) => any): void;
-        }
+        },
+        isDrinkMenu: boolean
       ) => {
         return Object.keys(menu).map((key, i) => ({
           icon: (
@@ -51,8 +52,8 @@ const Menu = () => {
               src={menu[key].icon}
               alt={key}
               className="svg-icon"
-              width={40}
-              height={40}
+              width={30}
+              height={30}
             />
           ),
           label: t(`${key}`),
@@ -75,11 +76,11 @@ const Menu = () => {
                         <div className="item-info">
                           <div className="item-info__img">
                             <Image
-                              className="swiper--item-img"
+                              className={`swiper--item-img ${isDrinkMenu ? 'drink' : ''}`}
                               src={item.img}
                               alt="food"
-                              width={450}
-                              height={350}
+                              width={isDrinkMenu ? 400 : 450}
+                              height={isDrinkMenu ? 400 : 350}
                               style={{
                                 objectFit: "cover",
                                 objectPosition: "50% 75%",
@@ -124,7 +125,7 @@ const Menu = () => {
                   watchSlidesProgress={true}
                   navigation={true}
                   modules={[FreeMode, Navigation, Thumbs]}
-                  className="swiper--list-item"
+                  className={`swiper--list-item ${isDrinkMenu ? 'drink' : ''}`}
                 >
                   {menu[key].items?.map((item: any, index: number) => (
                     <SwiperSlide key={index}>
@@ -132,7 +133,7 @@ const Menu = () => {
                         src={item.img}
                         alt={item.name}
                         width={100}
-                        height={83}
+                        height={isDrinkMenu ? 100 : 83}
                         objectFit="cover"
                         objectPosition="50% 75%"
                         style={{
@@ -154,12 +155,14 @@ const Menu = () => {
   const foodMenuItems = renderMenuItems(
     menu.food,
     foodThumbsSwiper,
-    setFoodThumbsSwiper
+    setFoodThumbsSwiper,
+    false
   );
   const drinkMenuItems = renderMenuItems(
     menu.drink,
     drinkThumbsSwiper,
-    setDrinkThumbsSwiper
+    setDrinkThumbsSwiper,
+    true
   );
 
   return (
@@ -182,7 +185,7 @@ const Menu = () => {
       <div className="menu--title">
         <h1 className="menu--title">{t("beverage")}</h1>
       </div>
-      <div className="menu--content">
+      <div className="menu--content drink">
         <Tabs tabPosition={tabPosition} type="card" items={drinkMenuItems} />
       </div>
     </div>

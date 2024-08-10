@@ -52,9 +52,10 @@
   justify-content: center;
 }
 
-.swiper3d-controler .swiper-button-next {
-  left: 58% !important;
-  transform: translateX(-58%) !important;
+.menu--content .swiper3d-controler .swiper-button-next {
+  left: 58%;
+  transform: translateX(-58%);
+  color: #ffffec !important;
 }
 
 @media (max-width: 990px) {

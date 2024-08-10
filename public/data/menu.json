@@ -7,7 +7,7 @@
           "name": {
             "vi": "PAD thái",
             "en": "korean kimchi hot pot",
-            "zh": "泰式炒河粉"
+            "zh": "泰语PAD"
           },
           "price": 55000,
           "desc": {
@@ -94,7 +94,7 @@
             "en": "abalone mushrooms, tofu, assorted herbs, spicy and sour salad sauce",
             "zh": "鲍鱼菇、豆腐、什锦香草、酸辣沙拉酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20na%CC%82%CC%81m%20ba%CC%80o%20ngu%CC%9B%20xe%CC%81%20tro%CC%A3%CC%82n_%20khaivi.jpg?alt=media&token=ad85f3fa-c32c-4d96-8404-9275edd7cbb3",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20na%CC%82%CC%81m%20ba%CC%80o%20ngu%CC%9B%20xe%CC%81%20tro%CC%A3%CC%82n_%20khaivi.jpg?alt=media&token=afb1b5fc-4db0-4562-88cd-75c1ddc67200",
           "bestSeller": false
         },
         {
@@ -103,7 +103,7 @@
             "en": "Thailand Somtum Salad ",
             "zh": "泰式沙拉"
           },
-          "price": 55001,
+          "price": 59000,
           "desc": {
             "vi": "xoài, cà rốt, đu dủ, cà chua, cà pháo, đậu đũa, tắc, lá chanh, ngò gai, xốt Thái",
             "en": "mango, carrot, papaya, tomato, eggplant, cowpea, kumquat, lime leaves, coriander, Thai sauce",
@@ -118,13 +118,13 @@
             "en": "Lotus Delight Salad ",
             "zh": "莲花沙拉"
           },
-          "price": 55002,
+          "price": 55000,
           "desc": {
             "vi": "ngó sen, dưa leo, cà rốt, tàu hũ ki, rau thơm các loại, xốt gỏi chua cay",
             "en": "lotus root, cucumber, carrot, tofu, assorted herbs, spicy and sour salad dressing",
             "zh": "莲藕、黄瓜、胡萝卜、豆腐、什锦香草、酸辣沙拉酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20ngo%CC%81%20sen_khaivi.jpg?alt=media&token=20ceda2b-3410-4a1e-be24-41204e4bd339",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20ngo%CC%81%20sen_khaivi.jpg?alt=media&token=5e637b3c-4647-440e-9a9b-7c7a3a9c72b3",
           "bestSeller": false
         },
         {
@@ -133,7 +133,7 @@
             "en": "Cartilage Algae Salad",
             "zh": "软骨沙拉"
           },
-          "price": 55003,
+          "price": 55000,
           "desc": {
             "vi": "rong sụn, dưa leo, cà rốt, rau thơm các loại, xốt gỏi chua cay",
             "en": "seaweed, cucumber, carrots, assorted herbs, spicy and sour salad dressing",
@@ -186,8 +186,8 @@
           "price": 50000,
           "desc": {
             "vi": "nhân khoai các loại, cà rốt, mộc nhĩ, bắp, đậu xanh, dùng kèm nước mắm chua ngọt",
-            "en": "Stuffed with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
-            "zh": "塞满什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
+            "en": "Filled with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
+            "zh": "馅料为什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2Fcha%CC%89%20gio%CC%80_moncuon.jpg?alt=media&token=a75f9867-69e2-437b-a14d-74b3f08f7161",
           "bestSeller": false
@@ -202,16 +202,16 @@
           "desc": {
             "vi": "nhân bún tươi, rau thơm các loại, nấm xào thập cẩm dùng kèm xốt đậu phộng",
             "en": "Fresh vermicelli filling, assorted herbs, mixed stir-fried mushrooms served with peanut sauce",
-            "zh": "新鲜粉丝馅，什锦香草，拌炒蘑菇，配花生酱"
+            "zh": "新鲜粉丝馅，什锦香草，炒蘑菇配花生酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FGo%CC%89i%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=cfd5053e-4dd9-460b-b0be-e5e4588f89f3",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FGo%CC%89i%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=07605767-b35d-4d6e-99b0-62f8fb4edd53",
           "bestSeller": true
         },
         {
           "name": {
             "vi": "bì cuốn",
             "en": "Crystal Autumn Roll",
-            "zh": "包装卷"
+            "zh": "卷信封"
           },
           "price": 50000,
           "desc": {
@@ -219,7 +219,7 @@
             "en": "Filled with assorted potatoes, taro, vermicelli, assorted herbs, served with sweet and sour fish sauce",
             "zh": "内馅为什锦土豆、芋头、粉条、什锦香草，配糖醋鱼露"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBi%CC%80%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=90e99629-1a1e-4868-9854-3af4e4cf4b0a",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBi%CC%80%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=eb987c96-df54-461d-a485-5125061ea01f",
           "bestSeller": false
         },
         {
@@ -234,14 +234,14 @@
             "en": "Rice paper rolls with fresh vermicelli, assorted raw vegetables, mushrooms in oyster sauce, and peanut sauce",
             "zh": "鲜粉米纸卷、什锦生菜、蚝油蘑菇、花生酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FGo%CC%89i%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=cfd5053e-4dd9-460b-b0be-e5e4588f89f3",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FMe%CC%A3t%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=5f2bbf4c-bc70-4803-b68e-776a513ffdd6",
           "bestSeller": false
         },
         {
           "name": {
             "vi": "bánh xèo",
             "en": "Vietnamese Pancake",
-            "zh": "薄煎饼"
+            "zh": "班赫西奥"
           },
           "price": 55000,
           "desc": {
@@ -249,7 +249,7 @@
             "en": "stuffed with bean sprouts, carrots, mixed stir-fried mushrooms, green beans, rolled with assorted raw vegetables, served with sweet and sour fish sauce.",
             "zh": "里面塞满了豆芽、胡萝卜、炒蘑菇、青豆，卷上什锦生蔬菜，配上糖醋鱼露。"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBa%CC%81nh%20xe%CC%80o_moncuon.jpg?alt=media&token=da8f0b06-3cd9-4b20-9fed-5542759ac1c2",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBa%CC%81nh%20xe%CC%80o_moncuon.jpg?alt=media&token=7425fff4-9c1c-4105-95c2-379f5bce4f53",
           "bestSeller": false
         },
         {
@@ -281,8 +281,8 @@
           "price": 150000,
           "desc": {
             "vi": "nước lẩu tiêu xanh ; rau mồng tơi ; rau cải thảo ; rau cải bẹ xanh ; nấm đùi gà ; nấm bào ngư ; nấm kim châm ; đậu hủ non ; dùng kèm nước mắm chay ăn kèm và bún tươi",
-            "en": "green pepper hotpot ; vegetable spinach ; vegetables cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; enokitake ; Young tofu ; Served with vegetarian fish sauce and fresh vermicelli",
-            "zh": "青椒火锅；蔬菜菠菜；蔬菜 卷心菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；金针菇；嫩豆腐；配素食鱼露和新鲜粉丝"
+            "en": "green pepper hotpot ; spinach ; Chinese cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; Enoki mushrooms ; soft tofu ; Served with vegetarian fish sauce and fresh vermicelli",
+            "zh": "青椒火锅；菠菜 ;大白菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；金针菇；软豆腐；配素食鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20na%CC%82%CC%81m%20ha%CC%82%CC%80m%20tie%CC%82u%20xanh_monlau(1).jpg?alt=media&token=13d58f72-87f2-4df3-8f81-f27674d48ad8",
           "bestSeller": false
@@ -296,8 +296,8 @@
           "price": 150000,
           "desc": {
             "vi": "nước lẩu thái ; rau bắp chuối ; rau cải thảo ; rau muống ; rau cần nước ; nấm đùi gà ; nấm kim châm ; nấm bào ngư ; đậu hủ non dùng kèm với nước mắm chay và bún tươi",
-            "en": "Thai hotpot ; banana vegetables ; vegetables cabbage ; spinach ; Vegetables need water; chicken drumstick mushrooms ; enokitake ; abalone mushrooms ; Soft tofu served with vegetarian fish sauce and fresh vermicelli",
-            "zh": "泰式火锅；香蕉蔬菜；蔬菜 卷心菜；菠菜 ;蔬菜需要水；鸡腿蘑菇；金针菇；鲍鱼蘑菇；软豆腐配素鱼露和新鲜粉丝"
+            "en": "Thai hotpot ; banana vegetables ; Chinese cabbage ; spinach ; Vegetables need water; chicken drumstick mushrooms ; Enoki mushrooms ; abalone mushrooms ; Soft tofu served with vegetarian fish sauce and fresh vermicelli",
+            "zh": "泰式火锅；香蕉蔬菜；大白菜；菠菜 ;蔬菜需要水；鸡腿蘑菇；金针菇；鲍鱼蘑菇；软豆腐配素鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20Tha%CC%81i_monlau.jpg?alt=media&token=04fe5c75-aaec-4c57-9504-085f7618e640",
           "bestSeller": false
@@ -311,8 +311,8 @@
           "price": 150000,
           "desc": {
             "vi": "nước lẩu sa tế ; rau mồng tơi ; rau cải thảo ; nấm bào ngư ; nấm đùi gà ; nấm kim châm đen ; đậu hủ ; tàu hủ ki dùng kèm với nước mắm sa tế và bún tươi",
-            "en": "satay hotpot ; vegetable spinach ; vegetables cabbage ; abalone mushrooms ; chicken drumstick mushrooms ; black enoki mushroom ; Tofu ; Tofu ki served with satay fish sauce and fresh vermicelli",
-            "zh": "沙爹火锅；蔬菜菠菜；蔬菜 卷心菜；鲍鱼蘑菇；鸡腿蘑菇；黑金针菇；豆腐 ;豆腐记配沙爹鱼露和新鲜粉丝"
+            "en": "satay hotpot ; spinach ; Chinese cabbage ; abalone mushrooms ; chicken drumstick mushrooms ; black enoki mushroom ; tofu ; Tofu ki served with satay fish sauce and fresh vermicelli",
+            "zh": "沙爹火锅；菠菜 ;大白菜；鲍鱼蘑菇；鸡腿蘑菇；黑金针菇；豆腐；豆腐记配沙爹鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20sa%20te%CC%82%CC%81%20Die%CC%A3%CC%82u%20Thie%CC%A3%CC%82n_monlau.jpg?alt=media&token=d4903c65-c5ad-435b-8d62-3a3f02331e1a",
           "bestSeller": false
@@ -326,8 +326,8 @@
           "price": 150000,
           "desc": {
             "vi": "nước lẩu chao ; rau mồng tơi ; rau cải thảo ; rau cải bẹ xanh ; nấm đùi gà ; nấm bào ngư ; tàu hủ ki dùng kèm với nước chấm chao chay và bún tươi",
-            "en": "chao hotpot ; vegetable spinach ; vegetables cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; Tofu ki served with vegetarian dipping sauce and fresh vermicelli",
-            "zh": "潮火锅;蔬菜菠菜；蔬菜 卷心菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；豆腐木配素食蘸酱和新鲜粉丝"
+            "en": "chao hotpot ; spinach ; Chinese cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; Tofu ki served with vegetarian dipping sauce and fresh vermicelli",
+            "zh": "潮火锅;菠菜 ;大白菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；豆腐木配素食蘸酱和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20chao_monlau(1).jpg?alt=media&token=eca3ce0d-c42b-4927-a669-a7ca9f84cd03",
           "bestSeller": false
@@ -376,7 +376,7 @@
           "desc": {
             "vi": "cơm, cá mặn chay, chà bông chay, rong biển chay, hành lá (có điều chỉnh)",
             "en": "rice, vegetarian salted fish, vegetarian floss, vegetarian seaweed, green onions (adjustable)",
-            "zh": "白饭、素咸鱼、素肉松、素紫菜、葱（适量）"
+            "zh": "米饭、素咸鱼、素肉松、素紫菜、葱（适量）"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20chao_monlau(1).jpg?alt=media&token=eca3ce0d-c42b-4927-a669-a7ca9f84cd03",
           "bestSeller": false
@@ -393,7 +393,7 @@
             "en": "Rice, pineapple, green beans, carrots, American corn, green onions (adjustable)",
             "zh": "大米、菠萝、青豆、胡萝卜、美国玉米、大葱（可调）"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20chie%CC%82n%20tho%CC%9Bm%20kie%CC%82%CC%89u%20Tha%CC%81i_monchinh.jpg?alt=media&token=6215990f-7a2b-4cdf-a2a3-60c87c6f0f1a",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20chie%CC%82n%20tho%CC%9Bm%20kie%CC%82%CC%89u%20Tha%CC%81i_monchinh.jpg?alt=media&token=045f1bc7-ed11-48c2-8675-54a91eb22fae",
           "bestSeller": false
         },
         {
@@ -408,7 +408,7 @@
             "en": "Duong Chau fried rice: Rice, green beans, carrots, American corn, green onions (adjustable)",
             "zh": "阳州炒饭：米饭、青豆、胡萝卜、美国玉米、大葱（可调节）"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20chie%CC%82n%20tho%CC%9Bm%20kie%CC%82%CC%89u%20Tha%CC%81i_monchinh.jpg?alt=media&token=6215990f-7a2b-4cdf-a2a3-60c87c6f0f1a",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20chie%CC%82n%20du%CC%9Bo%CC%9Bng%20cha%CC%82u_monchinh.jpg?alt=media&token=e4003164-d386-4f50-b8ab-47f3b9f24699",
           "bestSeller": false
         },
         {
@@ -423,7 +423,7 @@
             "en": "Rice, bean sprouts, purple cabbage, bell pepper, American corn, sesame peanuts, fried mushrooms, served with Korean mixed rice sauce",
             "zh": "米饭、豆芽、紫甘蓝、彩椒、美国玉米、芝麻花生、炒蘑菇，配韩式拌饭酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20tro%CC%A3%CC%82n%20Ha%CC%80n%20Quo%CC%82%CC%81c_monchinh.jpg?alt=media&token=a4271614-8131-4539-9616-ecadd73a9091",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20tro%CC%A3%CC%82n%20Ha%CC%80n%20Quo%CC%82%CC%81c_monchinh.jpg?alt=media&token=37e45fe4-94e0-48e9-a3c8-28a441007484",
           "bestSeller": false
         },
         {
@@ -460,7 +460,7 @@
           "name": {
             "vi": "MIẾN TRỘN",
             "en": "korean kimchi hot pot",
-            "zh": "拌面"
+            "zh": "混合诗句"
           },
           "price": 55000,
           "desc": {
@@ -627,13 +627,13 @@
           "name": {
             "vi": "SÚP TÓC TIÊN",
             "en": "Fat Choy Soup",
-            "zh": "TOC天汤"
+            "zh": "东天汤"
           },
           "price": 39000,
           "desc": {
             "vi": "tóc tiên ; bắp mĩ ; cà rốt ; nấm ; đậu que ; hành phi ; tiêu ; ngò rí",
-            "en": "fairy's hair ; American corn ; carrot ; mushroom ; string bean ; fried onion ; pepper ; coriander",
-            "zh": "仙女的头发；美国玉米；胡萝卜 ;蘑菇 ;四季豆；炒洋葱；胡椒 ;香菜"
+            "en": "fairy hair ; American corn ; carrot ; mushroom ; string beans ; onions ; pepper ; coriander",
+            "zh": "仙女的头发；美国玉米；胡萝卜 ;蘑菇;四季豆；洋葱；胡椒;香菜"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20to%CC%81c%20tie%CC%82n_moncanh.jpg?alt=media&token=3078a31b-51f1-4ce8-a399-075cedf7e44b",
           "bestSeller": false
@@ -647,8 +647,8 @@
           "price": 39000,
           "desc": {
             "vi": "nấm tuyết ; hạt sen ; nấm cà rốt ; đậu que ; hành phi ; tiêu; ngò rí .",
-            "en": "White wood-ear mushroom ; Lotus seeds ; carrot mushrooms ; string bean ; fried onion ; pepper; Coriander.",
-            "zh": "白木耳；莲子；胡萝卜蘑菇；四季豆；炒洋葱；胡椒;香菜。"
+            "en": "snow mushroom ; lotus seeds ; carrot mushrooms ; string beans ; onions ; pepper; Coriander.",
+            "zh": "雪蘑菇；莲子；胡萝卜蘑菇；四季豆；洋葱；胡椒;香菜。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20na%CC%82%CC%81m%20tuye%CC%82%CC%81t%20he%CC%A3t%20sen_moncanh.jpg?alt=media&token=c1843967-442e-44f4-aa0d-8a1d7a8f0c15",
           "bestSeller": false
@@ -662,7 +662,7 @@
           "name": {
             "vi": "RAU MUỐNG XÀO TỎI",
             "en": "Stir-fried Water Spinach with Garlic",
-            "zh": "蒜炒菠菜"
+            "zh": "蒜炒米纳赫"
           },
           "price": 45000,
           "desc": {
@@ -692,7 +692,7 @@
           "name": {
             "vi": "RAU XÀO THẬP CẨM",
             "en": "Mixed Stir-fried Veggies",
-            "zh": "什锦炒蔬菜"
+            "zh": "什锦蔬菜"
           },
           "price": 55000,
           "desc": {
@@ -760,7 +760,7 @@
             "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20non%20so%CC%82%CC%81t%20tu%CC%9B%CC%81%20xuye%CC%82n_monman.jpg?alt=media&token=cb5318e9-1e5d-44dd-b18f-5cf9e92634dc",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20non%20so%CC%82%CC%81t%20tu%CC%9B%CC%81%20xuye%CC%82n_monman.jpg?alt=media&token=127fdafd-749c-4f24-82bf-c0a0f086f3f7",
           "bestSeller": false
         },
         {
@@ -775,7 +775,7 @@
             "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20chu%CC%9Bng%20tu%CC%9Bo%CC%9Bng_monman.jpg?alt=media&token=0702e508-980a-4a53-9deb-0c0a3330b705",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20chu%CC%9Bng%20tu%CC%9Bo%CC%9Bng_monman.jpg?alt=media&token=75a7c087-59c9-4ee6-a01e-8f6f4f85a9da",
           "bestSeller": false
         },
         {
@@ -790,7 +790,7 @@
             "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20xo%CC%82%CC%81c%20sa%20te%CC%82%CC%81_monman.jpg?alt=media&token=969ae59d-1ca5-4f11-b928-ec655b170c36",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20xo%CC%82%CC%81c%20sa%20te%CC%82%CC%81_monman.jpg?alt=media&token=65951195-23c9-48f6-b738-618a4cbaf70a",
           "bestSeller": false
         },
         {
@@ -837,8 +837,8 @@
           "price": 35000,
           "desc": {
             "vi": "Tuyết yếu ; tuyết liên tử ; nhựa đào ; kỷ tử ; táo đỏ ; long nhãn",
-            "en": "Weak snow; snow lotus ; peach resin ; Goji berries ; Red Apple ; Longan",
-            "zh": "雪弱；雪莲花；桃胶；枸杞子；红苹果 ;龙眼"
+            "en": "Weak snow; snow lotus ; peach resin ; Goji berries ; red apple ; Longan",
+            "zh": "雪弱；雪莲花；桃胶；枸杞子；红苹果;龙眼"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FChe%CC%80%20tuye%CC%82%CC%81t%20ye%CC%82%CC%81n%20du%CC%9Bo%CC%9B%CC%83ng%20nhan_trangmieng.jpg?alt=media&token=e63ccd1d-751b-452b-9398-076fbe08a19b",
           "bestSeller": false
@@ -852,8 +852,8 @@
           "price": 35000,
           "desc": {
             "vi": "hạt sen; kỷ tử ; táo đỏ ; đông trùng hạ thảo",
-            "en": "Lotus seeds; Goji berries ; Red Apple ; Cordyceps",
-            "zh": "莲子；枸杞子；红苹果 ;虫草"
+            "en": "lotus seeds; Goji berries ; red apple ; Cordyceps",
+            "zh": "莲子；枸杞子；红苹果;虫草"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FChe%CC%80%20ha%CC%A3t%20sen%20%C4%91o%CC%82ng%20tru%CC%80ng%20ha%CC%A3%20tha%CC%89o_trangmieng.jpg?alt=media&token=e55222b8-7b14-41d1-9d32-69b53b8ce267",
           "bestSeller": false
@@ -867,8 +867,8 @@
           "price": 35000,
           "desc": {
             "vi": "sữa chua ; mức dâu tằm ; mức tắc rim ; đá bào",
-            "en": "yogurt ; mulberry level ; rim occlusion level; grinded ice",
-            "zh": "酸奶 ;桑葚级；边缘咬合程度；碎冰"
+            "en": "yogurt ; mulberry level ; rim occlusion level; shaved ice",
+            "zh": "酸奶 ;桑葚级；边缘咬合程度；刨冰"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FSu%CC%9B%CC%83a%20chua%20da%CC%82u%20ta%CC%86%CC%80m_trangmieng.JPG?alt=media&token=b1ed9b2a-09df-46e7-80e1-d43ac675c35d",
           "bestSeller": false

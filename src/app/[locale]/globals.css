@@ -411,7 +411,7 @@ header {
 }
 .column-container .column .responsiveImage {
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 .feedback {
@@ -530,7 +530,7 @@ header {
 
   .ant-tabs-tab {
     border: none !important;
-    padding: 7% 5rem 7% 10% !important;
+    padding: 7% 5rem 7% 10%;
     background: rgb(0 0 0 / 0%) !important;
 
     .ant-tabs-tab-btn {
@@ -545,11 +545,14 @@ header {
       border-left: 6px solid var(--background-dark-yellow) !important;
     }
   }
-
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 640px) {
+    .ant-tabs-tab {
+      padding: 3%;
+    }
+  }
+  @media screen and (max-width: 640px) {
     .ant-tabs-tab {
       border: none !important;
-      padding: 1% !important;
       background: rgb(0 0 0 / 0%) !important;
 
       .ant-tabs-tab-btn {
@@ -579,7 +582,22 @@ header {
     }
 
     .ant-tabs-tabpane {
-      padding: 2rem !important;
+      padding: 2rem;
+    }
+    @media (max-width: 768px) {
+      .ant-tabs-tabpane {
+        padding: 1rem 10%;
+      }
+    }
+    @media (max-width: 520px) {
+      .ant-tabs-tabpane {
+        padding: 1rem 1.2rem;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .ant-tabs-content-holder {
+      left: 0px;
     }
   }
 }
@@ -633,7 +651,7 @@ textarea.ant-input {
     padding: 0 2rem;
   }
   .order-page {
-    height: 100vh !important;
+    height: 160vh !important;
   }
   a.header__button--order {
     display: none;
@@ -699,7 +717,7 @@ textarea.ant-input {
     }
   }
   .order-page {
-    height: 120vh !important  ;
+    height: 150vh !important  ;
   }
   .order-content {
     justify-content: center;
@@ -807,4 +825,29 @@ textarea.ant-input {
   align-items: center;
   justify-content: center;
   transition: all 200ms linear;
+}
+
+.menu--content {
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: var(--background-cream);
+    background-color: var(--background-dark-yellow);
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    &:after {
+      font-size: 1.2rem;
+    }
+  }
+
+  .swiper--list-item {
+    .swiper-wrapper {
+      align-items: center;
+    }
+    .swiper-slide-thumb-active {
+      img {
+        border: 3px solid var(--background-dark-yellow);
+      }
+    }
+  }
 }
