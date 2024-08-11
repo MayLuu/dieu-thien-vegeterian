@@ -76,30 +76,6 @@ const Menu = () => {
                     {menu[key].items?.map((item: any, index: number) => (
                       <div key={index}>
                         <div className="item-info">
-                          <div className="item-info__img">
-                            <Image
-                              className={`swiper--item-img ${
-                                isDrinkMenu ? "drink" : ""
-                              }`}
-                              src={item.img}
-                              alt="food"
-                              width={isDrinkMenu ? 400 : 450}
-                              height={isDrinkMenu ? 400 : 350}
-                              style={{
-                                objectFit: "cover",
-                                objectPosition: "50% 75%",
-                              }}
-                            />
-                            {item.bestSeller && (
-                              <Image
-                                className="item-favorite"
-                                src="/images/bestSeller.svg"
-                                alt="favorite"
-                                width={65}
-                                height={65}
-                              />
-                            )}
-                          </div>
                           <div className="item-info__text">
                             <h2 id="menu-item--title">
                               {item.name[localActive]}
