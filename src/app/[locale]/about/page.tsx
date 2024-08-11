@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import SectionImgText from "@/components/SectionImgText";
@@ -33,6 +33,15 @@ const feedbackData = [
 
 const AboutUs = () => {
   const about = useTranslations("aboutUsPage");
+  const [isHighResLoaded, setHighResLoaded] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setHighResLoaded(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const aboutUsData = [
     {
@@ -72,7 +81,11 @@ const AboutUs = () => {
         <Image
           loading="eager"
           className="banner"
-          src={"/images/bg-aboutUs.png"}
+          src={
+            isHighResLoaded
+              ? "/images/bg-aboutUs.svg"
+              : "/images/bg-aboutUs.png"
+          }
           alt={"banner"}
           width={1024}
           height={768}
@@ -89,7 +102,6 @@ const AboutUs = () => {
         className="about-us__content"
         style={{ backgroundColor: `#255442`, color: `#fffec` }}
       >
-
         <Image
           src={"/images/leave2-green.svg"}
           width={500}
@@ -142,7 +154,6 @@ const AboutUs = () => {
         <h1 className="heading1 green-text">{about("feedbackCustomer")}</h1>
         <p className="green-text">{about("feedbackDesc")}</p>
         <div className="column-container">
-
           <Image
             src={"/images/leave1.svg"}
             width={500}

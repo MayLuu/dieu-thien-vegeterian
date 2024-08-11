@@ -186,8 +186,8 @@
           "price": 50000,
           "desc": {
             "vi": "nhân khoai các loại, cà rốt, mộc nhĩ, bắp, đậu xanh, dùng kèm nước mắm chua ngọt",
-            "en": "Filled with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
-            "zh": "馅料为什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
+            "en": "Stuffed with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
+            "zh": "塞满什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2Fcha%CC%89%20gio%CC%80_moncuon.jpg?alt=media&token=a75f9867-69e2-437b-a14d-74b3f08f7161",
           "bestSeller": false
@@ -256,7 +256,7 @@
           "name": {
             "vi": "Nấm nướng lá lốt",
             "en": "Grilled mushrooms rolled in piper lolot",
-            "zh": "洛洛叶烤蘑菇"
+            "zh": "槟榔叶烤蘑菇"
           },
           "price": 55000,
           "desc": {
@@ -281,7 +281,7 @@
           "price": 150000,
           "desc": {
             "vi": "nước lẩu tiêu xanh ; rau mồng tơi ; rau cải thảo ; rau cải bẹ xanh ; nấm đùi gà ; nấm bào ngư ; nấm kim châm ; đậu hủ non ; dùng kèm nước mắm chay ăn kèm và bún tươi",
-            "en": "green pepper hotpot ; spinach ; Chinese cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; Enoki mushrooms ; soft tofu ; Served with vegetarian fish sauce and fresh vermicelli",
+            "en": "green pepper hotpot ; spinach ; Chinese cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; Enoki mushroom ; soft tofu ; Served with vegetarian fish sauce and fresh vermicelli",
             "zh": "青椒火锅；菠菜 ;大白菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；金针菇；软豆腐；配素食鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20na%CC%82%CC%81m%20ha%CC%82%CC%80m%20tie%CC%82u%20xanh_monlau(1).jpg?alt=media&token=13d58f72-87f2-4df3-8f81-f27674d48ad8",
@@ -296,7 +296,7 @@
           "price": 150000,
           "desc": {
             "vi": "nước lẩu thái ; rau bắp chuối ; rau cải thảo ; rau muống ; rau cần nước ; nấm đùi gà ; nấm kim châm ; nấm bào ngư ; đậu hủ non dùng kèm với nước mắm chay và bún tươi",
-            "en": "Thai hotpot ; banana vegetables ; Chinese cabbage ; spinach ; Vegetables need water; chicken drumstick mushrooms ; Enoki mushrooms ; abalone mushrooms ; Soft tofu served with vegetarian fish sauce and fresh vermicelli",
+            "en": "Thai hotpot ; banana vegetables ; Chinese cabbage ; spinach ; Vegetables need water; chicken drumstick mushrooms ; Enoki mushroom ; abalone mushrooms ; Soft tofu served with vegetarian fish sauce and fresh vermicelli",
             "zh": "泰式火锅；香蕉蔬菜；大白菜；菠菜 ;蔬菜需要水；鸡腿蘑菇；金针菇；鲍鱼蘑菇；软豆腐配素鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20Tha%CC%81i_monlau.jpg?alt=media&token=04fe5c75-aaec-4c57-9504-085f7618e640",
@@ -627,7 +627,7 @@
           "name": {
             "vi": "SÚP TÓC TIÊN",
             "en": "Fat Choy Soup",
-            "zh": "东天汤"
+            "zh": "TOC天汤"
           },
           "price": 39000,
           "desc": {
@@ -722,7 +722,7 @@
           "name": {
             "vi": "CẢI THÌA SỐT NẤM ĐÔNG CÔ",
             "en": "Bok-choy with Shiitake Sauce",
-            "zh": "肚肚配辣椒蘑菇酱"
+            "zh": "肚腩配辣椒蘑菇酱"
           },
           "price": 55000,
           "desc": {

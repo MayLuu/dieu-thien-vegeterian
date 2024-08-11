@@ -1,6 +1,5 @@
 "use client";
 import SectionImgText from "@/components/SectionImgText";
-import Swiper3D from "@/components/Swiper3D";
 import { Dancing_Script } from "@next/font/google";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -10,21 +9,26 @@ import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "@/styles/home.css";
+import { Swiper3D } from "@/components/swiper";
 import { Link } from "@/navigation";
+import "@/styles/home.css";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 const dancingScript = Dancing_Script({ subsets: ["latin"] });
 const swiperData = [
   {
-    image: "/images/home-intro_1.png",
+    imageHighRes: "/images/home-intro_1.svg",
+    imageLowRes: "/images/home-intro_1.png",
     alt: "home slider 1",
   },
   {
-    image: "/images/home-intro_2.png",
+    imageHighRes: "/images/home-intro_2.svg",
+    imageLowRes: "/images/home-intro_2.png",
     alt: "home slider 2",
   },
   {
-    image: "/images/home-intro_3.png",
+    imageHighRes: "/images/home-intro_3.svg",
+    imageLowRes: "/images/home-intro_3.png",
     alt: "home slider 3",
   },
 ];
@@ -69,6 +73,15 @@ const orderData = [
 
 export default function Home() {
   const t = useTranslations();
+  const [isHighResLoaded, setHighResLoaded] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setHighResLoaded(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="main">
@@ -88,10 +101,11 @@ export default function Home() {
               <SwiperSlide key={index}>
                 <Image
                   loading="eager"
-                  src={item.image}
+                  src={isHighResLoaded ? item.imageHighRes : item.imageLowRes}
                   alt={item.alt}
                   width={1440}
                   height={786}
+                  style={{ objectFit: "cover" }}
                 />
               </SwiperSlide>
             );

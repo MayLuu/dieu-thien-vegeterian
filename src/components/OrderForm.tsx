@@ -81,15 +81,43 @@ const OrderFormComponent = () => {
       formData.append(key, value as string)
     );
 
-    if (isValidLocale(localActive)) {
-      const result = await send(formData, localActive);
-      if (result.success) {
-        setOpen(true);
+    try {
+      const response = await fetch(`http://localhost:3001/order`);
+
+      let ordersForDate = [];
+      if (response.ok) {
+        ordersForDate = await response.json();
       }
-    } else {
-      console.error("Invalid locale:", localActive);
+
+      const newOrdersForDate = [...ordersForDate, formattedData];
+
+      const updateResponse = await fetch(`http://localhost:3001/order`, {
+        method: response.ok ? "PATCH" : "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(newOrdersForDate),
+      });
+
+      if (!updateResponse.ok) {
+        throw new Error("Network response was not ok");
+      }
+
+      const result = await updateResponse.json();
+
+      // if (isValidLocale(localActive)) {
+      //   const emailResult = await send(formData, localActive);
+      //   if (emailResult.success) {
+      //     setOpen(true);
+      //   }
+      // } else {
+      //   console.error("Invalid locale:", localActive);
+      // }
+    } catch (error) {
+      console.error("Error saving data:", error);
+    } finally {
+      setLoading(false);
     }
-    setLoading(false);
   };
 
   const orderDate = watch("orderDate");

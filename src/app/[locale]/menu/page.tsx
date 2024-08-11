@@ -25,6 +25,15 @@ const Menu = () => {
   const [foodThumbsSwiper, setFoodThumbsSwiper] = useState<any>({});
   const [drinkThumbsSwiper, setDrinkThumbsSwiper] = useState<any>({});
   const [tabPosition, setTabPosition] = useState<TabPosition>("left");
+  const [isHighResLoaded, setHighResLoaded] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setHighResLoaded(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   useEffect(() => {
     if (width && width <= 768) {
@@ -76,7 +85,9 @@ const Menu = () => {
                         <div className="item-info">
                           <div className="item-info__img">
                             <Image
-                              className={`swiper--item-img ${isDrinkMenu ? 'drink' : ''}`}
+                              className={`swiper--item-img ${
+                                isDrinkMenu ? "drink" : ""
+                              }`}
                               src={item.img}
                               alt="food"
                               width={isDrinkMenu ? 400 : 450}
@@ -125,7 +136,7 @@ const Menu = () => {
                   watchSlidesProgress={true}
                   navigation={true}
                   modules={[FreeMode, Navigation, Thumbs]}
-                  className={`swiper--list-item ${isDrinkMenu ? 'drink' : ''}`}
+                  className={`swiper--list-item ${isDrinkMenu ? "drink" : ""}`}
                 >
                   {menu[key].items?.map((item: any, index: number) => (
                     <SwiperSlide key={index}>
@@ -169,7 +180,7 @@ const Menu = () => {
     <div className="menu">
       <Image
         loading="eager"
-        src={"/images/menu.png"}
+        src={isHighResLoaded ? "/images/menu-banner.svg" : "/images/menu.png"}
         alt="menu"
         width={1024}
         height={768}
