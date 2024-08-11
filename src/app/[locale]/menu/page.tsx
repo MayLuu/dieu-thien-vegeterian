@@ -69,8 +69,31 @@ const Menu = () => {
           key: String(i + 1),
           children: (
             <div className="menu-list">
+              <Image
+                src={"/images/leave4.svg"}
+                width={500}
+                height={500}
+                alt="leave-background"
+                className="leave1-bg"
+              />
+
+              <Image
+                src={"/images/leave5.svg"}
+                width={500}
+                height={500}
+                alt="leave-background"
+                className="leave2-bg"
+              />
+              <Image
+                src={"/images/leave2.svg"}
+                width={500}
+                height={500}
+                alt="leave-background"
+                className="leave3-bg"
+              />
               <h2 className="menu-category">{t(`${key}`)}</h2>
               <div className="menu--info">
+
                 {
                   key == 'coffee' || key == 'softdrink' ?
                     <div>

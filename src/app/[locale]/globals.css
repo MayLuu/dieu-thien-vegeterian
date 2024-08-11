@@ -997,6 +997,29 @@ textarea.ant-input {
   }
 }
 
+.menu-list {
+  position: relative;
+  .leave1-bg {
+    left: -25%;
+    top: -32%;
+    opacity: 0.6;
+    transform: scale(0.7);
+    animation: moveInLTR 2s;
+  }
+
+  .leave2-bg {
+    right: -25%;
+    top: -36%;
+    transform: scale(0.5);
+  }
+  .leave3-bg {
+    position: absolute;
+    right: -14%;
+    top: 50%;
+    transform: scale(0.8);
+  }
+}
+
 @media (max-width: 600px) {
   .heading1 {
     font-size: 1.6rem;
@@ -1007,5 +1030,26 @@ textarea.ant-input {
   .leave-bg,
   .leave-group-bg {
     display: none;
+  }
+
+  .menu-list {
+    .leave1-bg,
+    .leave2-bg,
+    .leave3-bg {
+      display: block;
+      transform: scale(0.35);
+    }
+    .leave1-bg {
+      top: -36%;
+      left: -70%;
+    }
+
+    .leave2-bg {
+      right: -86%;
+    }
+    .leave3-bg {
+      transform: scale(0.6);
+      right: -40%;
+    }
   }
 }
