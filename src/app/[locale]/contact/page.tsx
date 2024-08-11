@@ -10,7 +10,10 @@ const ContactPage = () => {
   const t = useTranslations();
 
   return (
-    <div className="contact">
+    <div className="contact"
+      style={{
+        marginTop: '75px'
+      }}>
 
       <Image
         loading="eager"

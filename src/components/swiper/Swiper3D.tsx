@@ -35,7 +35,7 @@ const Swiper3D = (props: Swiper3DProps) => {
         pagination={{ el: ".swiper3d-pagination", clickable: true }}
         modules={[Autoplay, EffectCoverflow]}
         slidesPerGroup={1}
-        spaceBetween={100}
+        spaceBetween={-300}
       >
         {data.map((item, index) => (
           <SwiperSlide key={index}>

@@ -66,6 +66,9 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
+    .heading1 {
+      color: var(--background-green);
+    }
   }
 
   .special-menu {
