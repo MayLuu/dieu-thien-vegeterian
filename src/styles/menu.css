@@ -46,7 +46,7 @@ h1.menu--title {
   .ant-tabs-content-holder {
     background-image: url("/images/leave-gr.svg");
     background-repeat: no-repeat, repeat;
-    background-size: cover;
+    background-size: contain;
   }
 }
 

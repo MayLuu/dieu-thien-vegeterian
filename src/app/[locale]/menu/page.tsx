@@ -69,28 +69,7 @@ const Menu = () => {
           key: String(i + 1),
           children: (
             <div className="menu-list">
-              {/* <Image
-                src={"/images/leave4.svg"}
-                width={500}
-                height={500}
-                alt="leave-background"
-                className="leave1-bg"
-              />
 
-              <Image
-                src={"/images/leave5.svg"}
-                width={500}
-                height={500}
-                alt="leave-background"
-                className="leave2-bg"
-              />
-              <Image
-                src={"/images/leave2.svg"}
-                width={500}
-                height={500}
-                alt="leave-background"
-                className="leave3-bg"
-              /> */}
               <h2 className="menu-category">{t(`${key}`)}</h2>
               <div className="menu--info">
 
@@ -148,11 +127,10 @@ const Menu = () => {
                                 <h2 id="menu-item--title">
                                   {item.name[localActive]}
                                 </h2>
-                                {
-                                  isDrinkMenu ? '' : <p id="menu-item--desc">
-                                    {t("ingredient")}: {item.desc[localActive]}
-                                  </p>
-                                }
+                                <p id="menu-item--desc">
+                                  {t("ingredient")}: {item.desc[localActive]}
+                                </p>
+
                                 <p id="menu-item--price">
                                   {Validate.unit(Number(item.price))}₫
                                 </p>
