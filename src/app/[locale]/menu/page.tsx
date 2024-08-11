@@ -69,7 +69,7 @@ const Menu = () => {
           key: String(i + 1),
           children: (
             <div className="menu-list">
-              <Image
+              {/* <Image
                 src={"/images/leave4.svg"}
                 width={500}
                 height={500}
@@ -90,7 +90,7 @@ const Menu = () => {
                 height={500}
                 alt="leave-background"
                 className="leave3-bg"
-              />
+              /> */}
               <h2 className="menu-category">{t(`${key}`)}</h2>
               <div className="menu--info">
 
@@ -98,7 +98,7 @@ const Menu = () => {
                   key == 'coffee' || key == 'softdrink' ?
                     <div>
                       {menu[key].items?.map((item: any, index: number) => (
-                        <div key={index} className="drink-text-menu"
+                        <div key={index * 100} className="drink-text-menu"
 
                           style={{
                             display: 'flex',
