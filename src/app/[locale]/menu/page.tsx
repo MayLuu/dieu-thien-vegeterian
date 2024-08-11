@@ -67,21 +67,14 @@ const Menu = () => {
           ),
           label: t(`${key}`),
           key: String(i + 1),
-          children: (
-            <div className="menu-list">
-              <h2>{t(`${key}`)}</h2>
-              <div className="menu--info">
-                <div className="menu--info__img">
-                  <Swiper
-                    slidesPerView={"auto"}
-                    spaceBetween={100}
-                    loop={true}
-                    thumbs={{ swiper: thumbsSwiper[key] || null }}
-                    modules={[FreeMode, Thumbs]}
-                    className="swiper--item-info"
-                  >
+          children:
+            key == "coffee" || key == "softdrink" ? (
+              <div className="menu-list">
+                <h2>{t(`${key}`)}</h2>
+                <div className="menu--info">
+                  <div className="menu--info__img">
                     {menu[key].items?.map((item: any, index: number) => (
-                      <SwiperSlide key={index}>
+                      <div key={index}>
                         <div className="item-info">
                           <div className="item-info__img">
                             <Image
@@ -119,45 +112,104 @@ const Menu = () => {
                             </p>
                           </div>
                         </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <div className="menu-list">
+                <h2>{t(`${key}`)}</h2>
+                <div className="menu--info">
+                  <div className="menu--info__img">
+                    <Swiper
+                      slidesPerView={"auto"}
+                      spaceBetween={100}
+                      loop={true}
+                      thumbs={{ swiper: thumbsSwiper[key] || null }}
+                      modules={[FreeMode, Thumbs]}
+                      className="swiper--item-info"
+                    >
+                      {menu[key].items?.map((item: any, index: number) => (
+                        <SwiperSlide key={index}>
+                          <div className="item-info">
+                            <div className="item-info__img">
+                              <Image
+                                className={`swiper--item-img ${
+                                  isDrinkMenu ? "drink" : ""
+                                }`}
+                                src={item.img}
+                                alt="food"
+                                width={isDrinkMenu ? 400 : 450}
+                                height={isDrinkMenu ? 400 : 350}
+                                style={{
+                                  objectFit: "cover",
+                                  objectPosition: "50% 75%",
+                                }}
+                              />
+                              {item.bestSeller && (
+                                <Image
+                                  className="item-favorite"
+                                  src="/images/bestSeller.svg"
+                                  alt="favorite"
+                                  width={65}
+                                  height={65}
+                                />
+                              )}
+                            </div>
+                            <div className="item-info__text">
+                              <h2 id="menu-item--title">
+                                {item.name[localActive]}
+                              </h2>
+                              <p id="menu-item--desc">
+                                {t("ingredient")}: {item.desc[localActive]}
+                              </p>
+                              <p id="menu-item--price">
+                                {Validate.unit(Number(item.price))}₫
+                              </p>
+                            </div>
+                          </div>
+                        </SwiperSlide>
+                      ))}
+                    </Swiper>
+                  </div>
+                  <Swiper
+                    onSwiper={(swiper) =>
+                      setThumbsSwiper((prev: any) => ({
+                        ...prev,
+                        [key]: swiper,
+                      }))
+                    }
+                    spaceBetween={10}
+                    slidesPerView="auto"
+                    freeMode={true}
+                    watchSlidesProgress={true}
+                    navigation={true}
+                    modules={[FreeMode, Navigation, Thumbs]}
+                    className={`swiper--list-item ${
+                      isDrinkMenu ? "drink" : ""
+                    }`}
+                  >
+                    {menu[key].items?.map((item: any, index: number) => (
+                      <SwiperSlide key={index}>
+                        <Image
+                          src={item.img}
+                          alt={item.name}
+                          width={100}
+                          height={isDrinkMenu ? 100 : 83}
+                          objectFit="cover"
+                          objectPosition="50% 75%"
+                          style={{
+                            objectFit: "cover",
+                            objectPosition: "50% 75%",
+                          }}
+                        />
                       </SwiperSlide>
                     ))}
                   </Swiper>
                 </div>
-                <Swiper
-                  onSwiper={(swiper) =>
-                    setThumbsSwiper((prev: any) => ({
-                      ...prev,
-                      [key]: swiper,
-                    }))
-                  }
-                  spaceBetween={10}
-                  slidesPerView="auto"
-                  freeMode={true}
-                  watchSlidesProgress={true}
-                  navigation={true}
-                  modules={[FreeMode, Navigation, Thumbs]}
-                  className={`swiper--list-item ${isDrinkMenu ? "drink" : ""}`}
-                >
-                  {menu[key].items?.map((item: any, index: number) => (
-                    <SwiperSlide key={index}>
-                      <Image
-                        src={item.img}
-                        alt={item.name}
-                        width={100}
-                        height={isDrinkMenu ? 100 : 83}
-                        objectFit="cover"
-                        objectPosition="50% 75%"
-                        style={{
-                          objectFit: "cover",
-                          objectPosition: "50% 75%",
-                        }}
-                      />
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
               </div>
-            </div>
-          ),
+            ),
         }));
       },
     [t, localActive]
