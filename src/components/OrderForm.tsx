@@ -105,14 +105,14 @@ const OrderFormComponent = () => {
 
       const result = await updateResponse.json();
 
-      // if (isValidLocale(localActive)) {
-      //   const emailResult = await send(formData, localActive);
-      //   if (emailResult.success) {
-      //     setOpen(true);
-      //   }
-      // } else {
-      //   console.error("Invalid locale:", localActive);
-      // }
+      if (isValidLocale(localActive)) {
+        const emailResult = await send(formData, localActive);
+        if (emailResult.success) {
+          setOpen(true);
+        }
+      } else {
+        console.error("Invalid locale:", localActive);
+      }
     } catch (error) {
       console.error("Error saving data:", error);
     } finally {
