@@ -94,7 +94,6 @@ export default function Home() {
           slidesPerView={1}
           autoplay={{ delay: 2500 }}
           pagination={{ clickable: true }}
-
         >
           {swiperData.map((item, index) => {
             return (
@@ -105,7 +104,7 @@ export default function Home() {
                   alt={item.alt}
                   width={1440}
                   height={786}
-                  style={{ objectFit: "cover" }}
+                  style={{ objectFit: "cover", width: "100vw", height: "auto" }}
                 />
               </SwiperSlide>
             );
@@ -115,7 +114,10 @@ export default function Home() {
           <h1 id="title" className={dancingScript.className}>
             Diệu Thiện
           </h1>
-          <p dangerouslySetInnerHTML={{ __html: t("homePage.slogan") }} />
+          <p
+            className="slogan"
+            dangerouslySetInnerHTML={{ __html: t("homePage.slogan") }}
+          />
           <Link className="menu-button" href="/menu">
             {t("general.viewMenu")}
           </Link>

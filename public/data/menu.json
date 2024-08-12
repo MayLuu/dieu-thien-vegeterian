@@ -16,7 +16,8 @@
             "zh": "面条，豆芽，韭菜，炸豆腐，炸蘑菇，罗望子酱，配烤花生，辣椒和柠檬。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2FPad%20Tha%CC%81i_dacbiet.jpg?alt=media&token=3792ee20-4dcc-4281-a66a-1d17e489ab13",
-          "bestSeller": true
+          "bestSeller": true,
+          "isSpicy": false
         },
         {
           "name": {
@@ -31,7 +32,8 @@
             "zh": "软豆腐、素肉松、海藻、洋葱油配蛋黄酱和辣椒酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20non%20chie%CC%82n%20gio%CC%80n%20cha%CC%80%20bo%CC%82ng_dacbiet.jpg?alt=media&token=645ab2ed-c398-4342-bd28-3c41ce7c2e0c",
-          "bestSeller": true
+          "bestSeller": true,
+          "isSpicy": false
         },
         {
           "name": {
@@ -46,7 +48,8 @@
             "zh": "脆皮炸海苔卷豆腐，照烧酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20non%20rong%20bie%CC%82%CC%89n%20so%CC%82%CC%81t%20Teriyaki_dacbiet.jpg?alt=media&token=0e241623-8b85-4ba3-85ad-3d8b61a3b173",
-          "bestSeller": true
+          "bestSeller": true,
+          "isSpicy": false
         },
         {
           "name": {
@@ -61,7 +64,8 @@
             "zh": "土豆 ;素食牙线；海藻配蛋黄酱和辣椒酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FKhoai%20ta%CC%82y%20bo%CC%A3t%20bie%CC%82%CC%89n_khaivi.jpg?alt=media&token=36f0a7a6-db84-4900-a69c-34cc66617d56",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -80,7 +84,8 @@
             "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FNa%CC%82%CC%81m%20xu%CC%81c%20ba%CC%81nh%20%C4%91a_monkhaivi.jpg?alt=media&token=efc9ec85-3da1-42b0-a0f6-c8c1d5147086",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -95,7 +100,8 @@
             "zh": "鲍鱼菇、豆腐、什锦香草、酸辣沙拉酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20na%CC%82%CC%81m%20ba%CC%80o%20ngu%CC%9B%20xe%CC%81%20tro%CC%A3%CC%82n_%20khaivi.jpg?alt=media&token=afb1b5fc-4db0-4562-88cd-75c1ddc67200",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -110,7 +116,8 @@
             "zh": "芒果、胡萝卜、木瓜、番茄、茄子、豇豆、金橘、酸橙叶、香菜、泰式酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20Somtum%20Tha%CC%81i%20Lan_khaivi.jpg?alt=media&token=1be1b1ea-7c94-466f-b67b-194d9f9b13ac",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": true
         },
         {
           "name": {
@@ -125,7 +132,8 @@
             "zh": "莲藕、黄瓜、胡萝卜、豆腐、什锦香草、酸辣沙拉酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20ngo%CC%81%20sen_khaivi.jpg?alt=media&token=5e637b3c-4647-440e-9a9b-7c7a3a9c72b3",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -140,7 +148,8 @@
             "zh": "海藻、黄瓜、胡萝卜、什锦香草、酸辣沙拉酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20rong%20su%CC%A3n_khaivi.jpg?alt=media&token=5b7e2fcb-8602-40ec-85c0-22c4942a48ef",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -155,7 +164,8 @@
             "zh": "生菜、番茄、火龙果、菠萝、美国玉米、橙子、葡萄干、百香果酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20rong%20su%CC%A3n_khaivi.jpg?alt=media&token=5b7e2fcb-8602-40ec-85c0-22c4942a48ef",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -170,7 +180,8 @@
             "zh": "日本紫菜、彩椒、生菜、烤芝麻酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FSalad%20rong%20bie%CC%82%CC%89n%20Nha%CC%A3%CC%82t_khaivi.jpg?alt=media&token=1228fe8a-ff61-4009-968d-e5a09d34ca98",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -186,11 +197,12 @@
           "price": 50000,
           "desc": {
             "vi": "nhân khoai các loại, cà rốt, mộc nhĩ, bắp, đậu xanh, dùng kèm nước mắm chua ngọt",
-            "en": "Stuffed with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
-            "zh": "塞满什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
+            "en": "Filled with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
+            "zh": "馅料为什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2Fcha%CC%89%20gio%CC%80_moncuon.jpg?alt=media&token=a75f9867-69e2-437b-a14d-74b3f08f7161",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -205,7 +217,8 @@
             "zh": "新鲜粉丝馅，什锦香草，炒蘑菇配花生酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FGo%CC%89i%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=07605767-b35d-4d6e-99b0-62f8fb4edd53",
-          "bestSeller": true
+          "bestSeller": true,
+          "isSpicy": false
         },
         {
           "name": {
@@ -220,7 +233,8 @@
             "zh": "内馅为什锦土豆、芋头、粉条、什锦香草，配糖醋鱼露"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBi%CC%80%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=eb987c96-df54-461d-a485-5125061ea01f",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -235,7 +249,8 @@
             "zh": "鲜粉米纸卷、什锦生菜、蚝油蘑菇、花生酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FMe%CC%A3t%20cuo%CC%82%CC%81n_moncuon.jpg?alt=media&token=5f2bbf4c-bc70-4803-b68e-776a513ffdd6",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -246,11 +261,12 @@
           "price": 55000,
           "desc": {
             "vi": "nhân giá đỗ, cà rốt, nấm xào thập cẩm, đậu xanh, cuốn bành tráng với rau sống các loại, dùng kèm nước mắm chua ngọt.",
-            "en": "stuffed with bean sprouts, carrots, mixed stir-fried mushrooms, green beans, rolled with assorted raw vegetables, served with sweet and sour fish sauce.",
-            "zh": "里面塞满了豆芽、胡萝卜、炒蘑菇、青豆，卷上什锦生蔬菜，配上糖醋鱼露。"
+            "en": "stuffed with bean sprouts, carrots, mixed stir-fried mushrooms, green beans, rolled into rice paper with assorted raw vegetables, served with sweet and sour fish sauce.",
+            "zh": "里面塞满了豆芽、胡萝卜、炒蘑菇、青豆，卷成米纸，配上什锦生菜，配上糖醋鱼露。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBa%CC%81nh%20xe%CC%80o_moncuon.jpg?alt=media&token=7425fff4-9c1c-4105-95c2-379f5bce4f53",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -265,7 +281,8 @@
             "zh": "罗勒叶卷炒什锦蘑菇，卷上米纸，配上新鲜粉丝，什锦生菜，配上素食调味酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FNa%CC%82%CC%81m%20nu%CC%9Bo%CC%9B%CC%81ng%20la%CC%81%20lo%CC%82%CC%81t_moncuon.jpg?alt=media&token=ca047dfa-9e00-4c09-8c95-7577d2a1cbcc",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -285,7 +302,8 @@
             "zh": "青椒火锅；菠菜 ;大白菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；金针菇；软豆腐；配素食鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20na%CC%82%CC%81m%20ha%CC%82%CC%80m%20tie%CC%82u%20xanh_monlau(1).jpg?alt=media&token=13d58f72-87f2-4df3-8f81-f27674d48ad8",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -300,7 +318,8 @@
             "zh": "泰式火锅；香蕉蔬菜；大白菜；菠菜 ;蔬菜需要水；鸡腿蘑菇；金针菇；鲍鱼蘑菇；软豆腐配素鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20Tha%CC%81i_monlau.jpg?alt=media&token=04fe5c75-aaec-4c57-9504-085f7618e640",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -315,7 +334,8 @@
             "zh": "沙爹火锅；菠菜 ;大白菜；鲍鱼蘑菇；鸡腿蘑菇；黑金针菇；豆腐；豆腐记配沙爹鱼露和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20sa%20te%CC%82%CC%81%20Die%CC%A3%CC%82u%20Thie%CC%A3%CC%82n_monlau.jpg?alt=media&token=d4903c65-c5ad-435b-8d62-3a3f02331e1a",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": true
         },
         {
           "name": {
@@ -330,7 +350,8 @@
             "zh": "潮火锅;菠菜 ;大白菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；豆腐木配素食蘸酱和新鲜粉丝"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20chao_monlau(1).jpg?alt=media&token=eca3ce0d-c42b-4927-a669-a7ca9f84cd03",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -345,7 +366,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2Fla%CC%82%CC%89u%20kim%20chi-monlau.jpg?alt=media&token=f8045917-53be-4d54-8783-9471cc306036",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -359,7 +381,8 @@
             "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20uye%CC%82n%20u%CC%9Bo%CC%9Bng_monlau.jpg?alt=media&token=11819106-1900-4f9f-95eb-00406bc6f65d",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -376,10 +399,11 @@
           "desc": {
             "vi": "cơm, cá mặn chay, chà bông chay, rong biển chay, hành lá (có điều chỉnh)",
             "en": "rice, vegetarian salted fish, vegetarian floss, vegetarian seaweed, green onions (adjustable)",
-            "zh": "米饭、素咸鱼、素肉松、素紫菜、葱（适量）"
+            "zh": "白饭、素咸鱼、素肉松、素紫菜、葱（适量）"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20chao_monlau(1).jpg?alt=media&token=eca3ce0d-c42b-4927-a669-a7ca9f84cd03",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -394,7 +418,8 @@
             "zh": "大米、菠萝、青豆、胡萝卜、美国玉米、大葱（可调）"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20chie%CC%82n%20tho%CC%9Bm%20kie%CC%82%CC%89u%20Tha%CC%81i_monchinh.jpg?alt=media&token=045f1bc7-ed11-48c2-8675-54a91eb22fae",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -409,7 +434,8 @@
             "zh": "阳州炒饭：米饭、青豆、胡萝卜、美国玉米、大葱（可调节）"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20chie%CC%82n%20du%CC%9Bo%CC%9Bng%20cha%CC%82u_monchinh.jpg?alt=media&token=e4003164-d386-4f50-b8ab-47f3b9f24699",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -424,7 +450,8 @@
             "zh": "米饭、豆芽、紫甘蓝、彩椒、美国玉米、芝麻花生、炒蘑菇，配韩式拌饭酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20tro%CC%A3%CC%82n%20Ha%CC%80n%20Quo%CC%82%CC%81c_monchinh.jpg?alt=media&token=37e45fe4-94e0-48e9-a3c8-28a441007484",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -439,7 +466,8 @@
             "zh": "米饭、鸡腿菇、青椒、洋葱、炒蒜、奶昔配蔬菜汤"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20na%CC%82%CC%81m%20lu%CC%81c%20la%CC%86%CC%81c_comphan.jpg?alt=media&token=336c0854-6398-46f5-bda4-68b4d7b9f264",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -454,13 +482,14 @@
             "zh": "米饭、鸡腿菇、红薯、胡萝卜、芋头、椰奶、咖喱香料，配蔬菜汤"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20ca%CC%80%20ri_comphan.jpg?alt=media&token=97a3cb45-96b9-413c-aa89-da669665f288",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
             "vi": "MIẾN TRỘN",
             "en": "korean kimchi hot pot",
-            "zh": "混合诗句"
+            "zh": "混合九人"
           },
           "price": 55000,
           "desc": {
@@ -469,7 +498,8 @@
             "zh": "韩国粉丝，白菜，紫甘蓝，胡萝卜，炒鲍鱼菇，混合粉丝酱。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMie%CC%82%CC%81n%20tro%CC%A3%CC%82n_monchinh.jpg?alt=media&token=393756ca-c3e1-4280-b271-92e3143fd814",
-          "bestSeller": true
+          "bestSeller": true,
+          "isSpicy": false
         },
         {
           "name": {
@@ -484,7 +514,8 @@
             "zh": "米粉，青椒，大白菜，洋葱，大白菜，炒豆腐，炒蘑菇，炒蒜。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FHu%CC%89%20tie%CC%82%CC%81u%20a%CC%81p%20cha%CC%89o_monchinh.jpg?alt=media&token=58f6d55b-9338-47d8-9020-aefd670886e2",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -499,7 +530,8 @@
             "zh": "黄面，青椒，大白菜，洋葱，大白菜，炒豆腐，炒蘑菇，炒洋葱。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMi%CC%80%20va%CC%80ng%20xa%CC%80o%20tha%CC%A3%CC%82p%20ca%CC%82%CC%89m_monchinh.jpg?alt=media&token=80fe2512-f39c-4a72-ade1-5c84dea2f3dc",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -514,7 +546,8 @@
             "zh": "意大利面、鸡腿蘑菇、番茄酱、"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMi%CC%80%20ramen_monchinh.jpg?alt=media&token=7ba6bcf4-515a-484e-acd6-ab22bc55b5f3",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -528,7 +561,8 @@
             "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCa%CC%80%20ri%20ba%CC%81nh%20mi%CC%80_monchinh.jpg?alt=media&token=a3c8c9ed-fbab-438a-b731-bb0ddc048e50",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -542,7 +576,8 @@
             "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FNa%CC%82%CC%81m%20lu%CC%81c%20la%CC%86%CC%81c-khoai%20ta%CC%82y_monchinh.JPG?alt=media&token=f7791b30-7bfa-4b02-860c-528b01a2a6b8",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -556,7 +591,8 @@
             "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMi%CC%80%20ramen_monchinh.jpg?alt=media&token=7ba6bcf4-515a-484e-acd6-ab22bc55b5f3",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -571,7 +607,8 @@
             "zh": "鲍鱼菇、港盐 配蛋黄酱和辣椒酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2FNa%CC%82%CC%81m%20ba%CC%80o%20ngu%CC%9B%20xo%CC%82%CC%81c%20muo%CC%82%CC%81i%20HongKong_dacbiet.jpg?alt=media&token=7158a1fe-cd82-4452-a322-31ac284da192",
-          "bestSeller": true
+          "bestSeller": true,
+          "isSpicy": false
         }
       ]
     },
@@ -591,7 +628,8 @@
             "zh": "海藻;豆腐、鲍鱼菇、胡萝卜、炸洋葱；胡椒、生姜"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20na%CC%82%CC%81m%20tuye%CC%82%CC%81t%20he%CC%A3t%20sen_moncanh.jpg?alt=media&token=c1843967-442e-44f4-aa0d-8a1d7a8f0c15",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -606,7 +644,8 @@
             "zh": "薄荷、秋葵、豆芽、西红柿、菠萝、香草、炒大蒜"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FCanh%20chua%20Nam%20Bo%CC%A3%CC%82_moncanh.jpg?alt=media&token=cb5f1c84-5c58-4665-8265-7a9d2270a86e",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -621,7 +660,8 @@
             "zh": "青芥菜、鲍鱼菇、生姜、胡椒"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FCanh%20ca%CC%89i%20xanh%20na%CC%82%CC%81u%20na%CC%82%CC%81m_moncanh.jpg?alt=media&token=4ac81c66-d1b3-407a-ac11-6d029edee3e3",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -636,7 +676,8 @@
             "zh": "仙女的头发；美国玉米；胡萝卜 ;蘑菇;四季豆；洋葱；胡椒;香菜"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20to%CC%81c%20tie%CC%82n_moncanh.jpg?alt=media&token=3078a31b-51f1-4ce8-a399-075cedf7e44b",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -651,7 +692,8 @@
             "zh": "雪蘑菇；莲子；胡萝卜蘑菇；四季豆；洋葱；胡椒;香菜。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20na%CC%82%CC%81m%20tuye%CC%82%CC%81t%20he%CC%A3t%20sen_moncanh.jpg?alt=media&token=c1843967-442e-44f4-aa0d-8a1d7a8f0c15",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -671,7 +713,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2Frau%20muo%CC%82%CC%81ng%20xa%CC%80o%20to%CC%89i_monxao.jpg?alt=media&token=2da8f0f4-0282-4ae1-ba5f-1c7fb0c1c4d3",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -686,7 +729,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FRau%20muo%CC%82%CC%81ng%20xa%CC%80o%20na%CC%82%CC%81m_monman.jpg?alt=media&token=31da0d7b-f1b6-480a-9f9b-3829e365d284",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -701,7 +745,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FRau%20xa%CC%80o%20tha%CC%A3%CC%82p%20ca%CC%82%CC%89m_monman_.jpg?alt=media&token=ef486948-d904-45a8-8b53-07cefead04f6",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -716,13 +761,14 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FRau%20luo%CC%A3%CC%82c-kho%20que%CC%A3t_monman.jpg?alt=media&token=3886a8a4-402d-4df7-a8c4-4d96b2e8af02",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
             "vi": "CẢI THÌA SỐT NẤM ĐÔNG CÔ",
             "en": "Bok-choy with Shiitake Sauce",
-            "zh": "肚腩配辣椒蘑菇酱"
+            "zh": "肚肚配辣椒蘑菇酱"
           },
           "price": 55000,
           "desc": {
@@ -731,7 +777,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FCa%CC%89i%20thi%CC%80a%20so%CC%82%CC%81t%20na%CC%82%CC%81m%20%C4%91o%CC%82ng%20co%CC%82_monman.JPG?alt=media&token=b3e282e4-4ca1-4029-ba19-b514d3c6840e",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -746,7 +793,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FNa%CC%82%CC%81m%20so%CC%82%CC%81t%20tie%CC%82u%20%C4%91en_monman.jpg?alt=media&token=c51fc7f0-559e-439d-bc5f-9a498a039977",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -761,7 +809,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20non%20so%CC%82%CC%81t%20tu%CC%9B%CC%81%20xuye%CC%82n_monman.jpg?alt=media&token=127fdafd-749c-4f24-82bf-c0a0f086f3f7",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": true
         },
         {
           "name": {
@@ -776,7 +825,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20chu%CC%9Bng%20tu%CC%9Bo%CC%9Bng_monman.jpg?alt=media&token=75a7c087-59c9-4ee6-a01e-8f6f4f85a9da",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -791,7 +841,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20xo%CC%82%CC%81c%20sa%20te%CC%82%CC%81_monman.jpg?alt=media&token=65951195-23c9-48f6-b738-618a4cbaf70a",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -806,7 +857,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FNa%CC%82%CC%81m%20ro%CC%9Bm%20kho%20tie%CC%82u_monman.jpg?alt=media&token=e4de3db4-c10b-4ba6-b15b-b73c0eb94761",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -821,7 +873,8 @@
             "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FCha%CC%82n%20na%CC%82%CC%81m%20kho%20gu%CC%9B%CC%80ng_monman3871.JPG?alt=media&token=0a3650e7-4c60-43ce-a4f4-5ea5326743f0",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -837,11 +890,12 @@
           "price": 35000,
           "desc": {
             "vi": "Tuyết yếu ; tuyết liên tử ; nhựa đào ; kỷ tử ; táo đỏ ; long nhãn",
-            "en": "Weak snow; snow lotus ; peach resin ; Goji berries ; red apple ; Longan",
+            "en": "Weak snow ; snow lotus ; peach resin ; Goji berries ; red apple ; Longan",
             "zh": "雪弱；雪莲花；桃胶；枸杞子；红苹果;龙眼"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FChe%CC%80%20tuye%CC%82%CC%81t%20ye%CC%82%CC%81n%20du%CC%9Bo%CC%9B%CC%83ng%20nhan_trangmieng.jpg?alt=media&token=e63ccd1d-751b-452b-9398-076fbe08a19b",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -856,7 +910,8 @@
             "zh": "莲子；枸杞子；红苹果;虫草"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FChe%CC%80%20ha%CC%A3t%20sen%20%C4%91o%CC%82ng%20tru%CC%80ng%20ha%CC%A3%20tha%CC%89o_trangmieng.jpg?alt=media&token=e55222b8-7b14-41d1-9d32-69b53b8ce267",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -871,7 +926,8 @@
             "zh": "酸奶 ;桑葚级；边缘咬合程度；刨冰"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FSu%CC%9B%CC%83a%20chua%20da%CC%82u%20ta%CC%86%CC%80m_trangmieng.JPG?alt=media&token=b1ed9b2a-09df-46e7-80e1-d43ac675c35d",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -886,7 +942,8 @@
             "zh": "由纯豆浆制成；明胶配水果酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2Fpannacotta-trangmieng.jpg?alt=media&token=a3dae487-b05d-49fb-a751-1458e12c0eff",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     }
@@ -908,7 +965,8 @@
             "zh": "daisies ; rose; Goji berries ; Apple ; sugar ; Cordyceps (can be used hot or cold)"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20tha%CC%89o%20mo%CC%A3%CC%82c_trasangtao.JPG?alt=media&token=5c3c14e0-f95d-4fe6-9512-dd21a30073aa",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -923,7 +981,8 @@
             "zh": "crushed lemongrass; peach tea ; peach syrup ; peach jam ; kumquat juice ;sliced peach"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20%C4%91a%CC%80o%20cam%20sa%CC%89_trasangtao.JPG?alt=media&token=304c914f-9aaf-4be4-b833-40e5a5ec5bd1",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -938,7 +997,8 @@
             "zh": "Lychee syrup ; fresh lychee"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20la%CC%80i%20le%CC%A3%CC%82%20chi_trasangtao.JPG?alt=media&token=7e11fc08-31b8-4190-a6d0-d4b30f58a687",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -953,7 +1013,8 @@
             "zh": "kumquat juice ; guava jam ; guava syrup; fresh guava"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20o%CC%82%CC%89i%20ho%CC%82%CC%80ng_trasangtao.JPG?alt=media&token=3333eb63-9ab5-43dc-8fae-8fa27f4ce823",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -968,7 +1029,8 @@
             "zh": "ginger tea ; honey ; sliced ginger"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20gu%CC%9B%CC%80ng%20ma%CC%A3%CC%82t%20ong_trasangtao.JPG?alt=media&token=0390f4aa-02a4-4d1a-9cc0-70b2f648bb41",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -983,7 +1045,8 @@
             "zh": "soot ; lipton tea ; kumquat juice ; Kumquat Marmalade"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20ta%CC%86%CC%81c%20xi%CC%81%20muo%CC%A3%CC%82i_trasangtao.JPG?alt=media&token=08ed6df7-0383-4921-9140-b0cda52c14f5",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -998,7 +1061,8 @@
             "zh": "pineapple juice added with arenga pinnata"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20la%CC%80i%20ha%CC%A3t%20%C4%91a%CC%81c_trasangtao.JPG?alt=media&token=9307f7d8-e258-4105-be6e-ff60a7174fb1",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -1018,7 +1082,8 @@
             "zh": "pineapple juice"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fthomep_nuocep.jpg?alt=media&token=6de3e059-83e3-40f2-9290-f74289212e99",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1033,7 +1098,8 @@
             "zh": "orange juice"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fnuoc-ep-cam-tuoi-thom-ngon-tai-nha.jpg?alt=media&token=67b7bf76-20fa-4a61-942b-8597afbeb776",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1048,7 +1114,8 @@
             "zh": "watermelon juice"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fduahau_nuocep%202.jpg?alt=media&token=366c2c11-53dd-4b3c-a7a0-5fd9f4ece395",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1063,11 +1130,12 @@
             "zh": "Passion fruit juice; passion fruit syrup; passion fruit jam"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fchanhday_nuocep.jpg?alt=media&token=39578f10-f292-45e2-9ea1-9b9a60a9e554",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
-            "vi": "thơm cà rốt",
+            "vi": "Thơm cà rốt",
             "en": "Pineapple Carrot",
             "zh": "Pineapple Carrot"
           },
@@ -1077,8 +1145,9 @@
             "en": "mix pineapple juice and carrot juice",
             "zh": "mix pineapple juice and carrot juice"
           },
-          "img": "/logo.svg",
-          "bestSeller": false
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2FIMG_5212.jpeg?alt=media&token=040bbd7b-6c31-4397-add7-292d127bbcce",
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -1094,7 +1163,8 @@
           "price": 30000,
           "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Bie%CC%82%CC%89n%20xanh_soda.jpg?alt=media&token=cfa0b542-efbd-459d-8bc4-1c6c43447b2f",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1105,7 +1175,8 @@
           "price": 30000,
           "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Chanh%20da%CC%82y_soda.jpg?alt=media&token=6d80ab54-7a51-4f08-be6f-884605b1b178",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1116,7 +1187,8 @@
           "price": 30000,
           "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Chanh%20tu%CC%9Bo%CC%9Bi_soda.jpg?alt=media&token=df5eccd2-5139-4157-90ac-ebc1f669cdff",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1127,7 +1199,8 @@
           "price": 30000,
           "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Vie%CC%A3%CC%82t%20qua%CC%82%CC%81t_Soda.jpg?alt=media&token=8e6507ad-71a2-42fb-92a6-ab76677c9f5e",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -1143,7 +1216,8 @@
           "price": 35000,
           "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trathai%2FTra%CC%80%20su%CC%9B%CC%83a%20Tha%CC%81i%20xanh_trathai.JPG?alt=media&token=f3e3584a-9151-4d09-99e4-bf7c24295e76",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1154,7 +1228,8 @@
           "price": 35000,
           "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trathai%2FTra%CC%80%20Tha%CC%81i%20xanh%20chanh%20ma%CC%A3%CC%82t%20ong_trathai.JPG?alt=media&token=1a479f2b-2d4d-4076-a70f-45e8bdc00714",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -1174,7 +1249,8 @@
             "zh": "pure coffee with a little granulated sugar"
           },
           "img": "/logo.svg",
-          "bestSeller": true
+          "bestSeller": true,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1189,7 +1265,8 @@
             "zh": "pure coffee ; condensed milk"
           },
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1204,7 +1281,8 @@
             "zh": "pure coffee ; Fresh milk ; condensed milk"
           },
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1219,7 +1297,8 @@
             "zh": "pure coffee ; condensed milk ; salt cream"
           },
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     },
@@ -1228,25 +1307,27 @@
       "items": [
         {
           "name": {
-            "vi": "cocacola",
+            "vi": "Cocacola",
             "en": "cocacola",
             "zh": "cocacola"
           },
           "price": 18000,
           "desc": {},
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
-            "vi": "pepsi",
+            "vi": "Pepsi",
             "en": "pepsi",
             "zh": "pepsi"
           },
           "price": 18000,
           "desc": {},
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
@@ -1257,29 +1338,32 @@
           "price": 18000,
           "desc": {},
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
-            "vi": "sting",
+            "vi": "Sting",
             "en": "sting",
             "zh": "sting"
           },
           "price": 18000,
           "desc": {},
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         },
         {
           "name": {
-            "vi": "nước suối",
+            "vi": "Nước suối",
             "en": "mineral water",
             "zh": "mineral water"
           },
           "price": 12000,
           "desc": {},
           "img": "/logo.svg",
-          "bestSeller": false
+          "bestSeller": false,
+          "isSpicy": false
         }
       ]
     }

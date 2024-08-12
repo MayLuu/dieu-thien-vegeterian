@@ -417,7 +417,7 @@ header {
 }
 .column-container .column .responsiveImage {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .feedback {
@@ -814,7 +814,6 @@ textarea.ant-input {
     line-height: 2.2rem;
   }
 }
-
 @media (max-width: 576px) {
   .section {
     margin: 3rem 0;
@@ -880,7 +879,13 @@ textarea.ant-input {
     }
   }
 }
-
+@media (max-width: 320px) {
+  header {
+    .header__language_order {
+      right: -20%;
+    }
+  }
+}
 .swiper-slide {
   display: flex;
   align-items: center;
@@ -913,13 +918,6 @@ textarea.ant-input {
   }
 }
 
-@media (max-width: 320px) {
-  header {
-    .header__language_order {
-      right: -20%;
-    }
-  }
-}
 .section {
   position: relative;
   .leave1-bg {
