@@ -59,6 +59,17 @@
     }
   }
 
+  @media screen and (max-width: 425px) {
+    .slogan {
+      display: none;
+    }
+
+    .menu-button {
+      margin-top: 0.5rem;
+      padding: 10px 18px;
+    }
+  }
+
   .welcome {
     display: flex;
     min-height: fit-content;

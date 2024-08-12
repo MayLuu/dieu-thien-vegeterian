@@ -44,7 +44,7 @@ h1.menu--title {
   max-width: var(--max-menu-width);
   margin: 0 auto;
   .ant-tabs-content-holder {
-    background-image: url("/images/leave-gr.svg");
+    background-image: url("/images/bg-menuItem.png");
     background-repeat: no-repeat, repeat;
     background-size: contain;
   }

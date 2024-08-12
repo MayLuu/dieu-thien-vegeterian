@@ -1,4 +1,4 @@
-// src/lib/generateMenuJson.ts
+
 const fs = require('fs');
 const path = require('path');
 const XLSX = require('xlsx');
@@ -24,6 +24,7 @@ type MenuItem = {
   },
   img: string;
   bestSeller: boolean;
+  isSpicy: boolean;
 };
 
 type Category = {
@@ -101,15 +102,17 @@ const parseXlsx = () => {
         return;
       }
 
-      const { Category, Name, Price, Desc, Image, Favorite, Name_en, Desc_en, Name_zh, Desc_zh } = row;
+      const { Category, Name, Price, Desc, Image, Favorite, Name_en, Desc_en, Name_zh, Desc_zh, Spicy } = row;
       const bestSeller = String(Favorite).toLowerCase() === 'true';
+      const isSpicy = String(Spicy).toLowerCase() === 'true';
 
       const item: MenuItem = {
         name: { vi: Name, en: Name_en, zh: Name_zh },
         price: Price || 0,
         desc: { vi: Desc, en: Desc_en, zh: Desc_zh },
         img: Image || '/logo.svg',
-        bestSeller
+        bestSeller,
+        isSpicy
       };
 
       if (lowerSheetName === 'food' || lowerSheetName === 'drink') {

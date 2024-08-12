@@ -1,4 +1,5 @@
 "use client";
+import { database } from "@/config/firebaseConfig";
 import { send } from "@/lib/sendEmailAction";
 import { Validate } from "@/utils/validate";
 import {
@@ -15,6 +16,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { TimePicker } from "@mui/x-date-pickers/TimePicker";
 import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
+import { ref, set } from "firebase/database";
 import { useLocale, useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
 import { Controller, SubmitHandler, useForm } from "react-hook-form";
@@ -70,51 +72,27 @@ const OrderFormComponent = () => {
 
   const onSubmit: SubmitHandler<OrderForm> = async (data) => {
     setLoading(true);
-    const formData = new FormData();
-    const formattedData = {
-      ...data,
-      orderDate: dayjs(data.orderDate).format("DD-MM-YYYY"),
-      orderTime: dayjs(data.orderTime).format("HH:mm"),
-    };
-
-    Object.entries(formattedData).forEach(([key, value]) =>
-      formData.append(key, value as string)
-    );
-
     try {
-      const response = await fetch(`http://localhost:3001/order`);
+      const formattedData = {
+        ...data,
+        orderDate: dayjs(data.orderDate).format("DD-MM-YYYY"),
+        orderTime: dayjs(data.orderTime).format("HH:mm"),
+      };
 
-      let ordersForDate = [];
-      if (response.ok) {
-        ordersForDate = await response.json();
+      const newOrderId = Date.now().toString();
+      const orderRef = ref(database, `orders/${newOrderId}`);
+      await set(orderRef, formattedData);
+
+      setOpen(true);
+      if (isValidLocale(localActive)) {
+        const formData = new FormData();
+        Object.entries(formattedData).forEach(([key, value]) =>
+          formData.append(key, value as string)
+        );
+        await send(formData, localActive);
       }
-
-      const newOrdersForDate = [...ordersForDate, formattedData];
-
-      const updateResponse = await fetch(`http://localhost:3001/order`, {
-        method: response.ok ? "PATCH" : "PUT",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(newOrdersForDate),
-      });
-
-      if (!updateResponse.ok) {
-        throw new Error("Network response was not ok");
-      }
-
-      const result = await updateResponse.json();
-
-      // if (isValidLocale(localActive)) {
-      //   const emailResult = await send(formData, localActive);
-      //   if (emailResult.success) {
-      //     setOpen(true);
-      //   }
-      // } else {
-      //   console.error("Invalid locale:", localActive);
-      // }
     } catch (error) {
-      console.error("Error saving data:", error);
+      console.error("Error saving data to Firebase:", error);
     } finally {
       setLoading(false);
     }
