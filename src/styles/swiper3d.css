@@ -124,10 +124,10 @@
   }
   .swiper3d-container .swiper-slide {
     width: 100%;
-    height: 280px;
+    height: auto;
   }
   .swiper3d-container .swiper-slide img {
     width: 100%;
-    height: 240px;
+    height: auto;
   }
 }

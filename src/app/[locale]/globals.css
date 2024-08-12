@@ -345,6 +345,12 @@ header {
     }
   }
 }
+
+.header__nav a {
+  font-weight: 700;
+  color: var(--text-color-dark);
+  text-decoration: none;
+}
 .image--border-tlbr {
   border-radius: 6.25rem 1.25rem;
   object-fit: cover;
