@@ -4,73 +4,66 @@ footer {
   color: var(--text-color-cream);
   align-content: center;
   padding: 2.75rem 2rem;
-  .section__container {
-    max-width: var(--max-content-width);
-    margin: 0 auto;
+}
+footer .section__container {
+  max-width: var(--max-content-width);
+  margin: 0 auto;
+}
+footer .column {
+  display: grid;
+  justify-content: center;
+  justify-items: start;
+  align-content: center;
+}
+footer .column img {
+  width: 80px;
+  height: 80px;
+  align-self: start;
+  margin-bottom: 1rem;
+}
+footer .column p,
+footer .column a {
+  color: var(--text-color-cream);
+  text-decoration: none;
+  align-self: start;
+  display: flex;
+  align-items: center;
+}
+footer .column p svg,
+footer .column a svg {
+  margin-right: 1rem;
+}
+footer .column a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+footer .column p {
+  margin-bottom: 0;
+}
+footer .column p#directional {
+  font-size: 1.5rem;
+  text-align: center;
+}
+footer .column .footer-nav-title {
+  margin-bottom: 10px;
+}
+footer #copyright {
+  text-align: center;
+  padding: 1rem;
+}
+footer .video-responsive iframe {
+  border-radius: 0.5rem;
+}
+@media (max-width: 520px) {
+  footer .video-responsive iframe {
+    width: 100%;
+    margin-top: 2rem;
   }
-  .column {
-    display: grid;
+}
+@media (max-width: 520px) {
+  footer .column-container {
+    padding: 0;
     justify-content: center;
-    justify-items: start;
-    align-content: center;
-
-    img {
-      width: 80px;
-      height: 80px;
-      align-self: start;
-      margin-bottom: 1rem;
-    }
-
-    p,
-    a {
-      color: var(--text-color-cream);
-      text-decoration: none;
-      align-self: start;
-      display: flex;
-      align-items: center;
-
-      svg {
-        margin-right: 1rem;
-      }
-    }
-    a {
-      display: flex;
-      align-items: center;
-      margin-bottom: 0.625rem;
-    }
-    p {
-      margin-bottom: 0;
-    }
-
-    p#directional {
-      font-size: 1.5rem;
-      text-align: center;
-    }
-
-    .footer-nav-title {
-      margin-bottom: 10px;
-    }
-  }
-
-  #copyright {
-    text-align: center;
-    padding: 1rem;
-  }
-  .video-responsive {
-    iframe {
-      border-radius: 0.5rem;
-    }
-    @media (max-width: 520px) {
-      iframe {
-        width: 100%;
-        margin-top: 2rem;
-      }
-    }
-  }
-  @media (max-width: 520px) {
-    .column-container {
-      padding: 0;
-      justify-content: center;
-    }
   }
 }
