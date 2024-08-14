@@ -199,7 +199,6 @@ header .header__language_order .header__button--language {
 }
 header .header__language_order .header__button--language select {
   border: none;
-  font-size: 18px;
   font-weight: 700;
   color: var(--text-color-dark);
   background-color: transparent;

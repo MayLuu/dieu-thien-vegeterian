@@ -105,9 +105,8 @@ const Menu = () => {
                           <div className="item-info">
                             <div className="item-info__img">
                               <Image
-                                className={`swiper--item-img ${
-                                  isDrinkMenu ? "drink" : ""
-                                }`}
+                                className={`swiper--item-img ${isDrinkMenu ? "drink" : ""
+                                  }`}
                                 src={item.img}
                                 alt="food"
                                 width={isDrinkMenu ? 400 : 450}
@@ -117,18 +116,7 @@ const Menu = () => {
                                   objectPosition: "50% 75%",
                                 }}
                               />
-                              {item.isSpicy && (
-                                <p className="spicy-element">
-                                  <Image
-                                    className="item-spicy"
-                                    src="/images/spicy.svg"
-                                    alt="spicy"
-                                    width={40}
-                                    height={40}
-                                  />
-                                  <span>({t("spicy")})</span>
-                                </p>
-                              )}
+
                             </div>
                             <div className="item-info__text">
                               <h2 id="menu-item--title">
@@ -166,9 +154,8 @@ const Menu = () => {
                       watchSlidesProgress={true}
                       navigation={true}
                       modules={[FreeMode, Navigation, Thumbs]}
-                      className={`swiper--list-item ${
-                        isDrinkMenu ? "drink" : ""
-                      }`}
+                      className={`swiper--list-item ${isDrinkMenu ? "drink" : ""
+                        }`}
                     >
                       {menu[key].items?.map((item: any, index: number) => (
                         <SwiperSlide key={index}>
