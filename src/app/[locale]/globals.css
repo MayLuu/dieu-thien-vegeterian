@@ -663,6 +663,14 @@ header
   border-right-color: var(--background-cream) !important;
   border-left: 6px solid var(--background-dark-yellow) !important;
 }
+.ant-tabs
+  .ant-tabs-tab
+  .ant-tabs-tab-btn
+  span.ant-tabs-tab-icon
+  > img.svg-icon {
+  width: 30px;
+  height: 30px;
+}
 
 @media screen and (max-width: 640px) {
   .ant-tabs .ant-tabs-tab {

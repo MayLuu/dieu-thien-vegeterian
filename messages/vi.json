@@ -53,7 +53,8 @@
     "coffee": "Cafe",
     "thaiTea": "Trà Thái",
     "softdrink": "Nước ngọt",
-    "soda": "Soda"
+    "soda": "Soda",
+    "adjustable": "(Có thể điều chỉnh)"
   },
   "orderPage": {
     "orderNow": "Đặt bàn ngay!",

@@ -53,7 +53,8 @@
     "coffee": "咖啡",
     "thaiTea": "泰式茶",
     "softdrink": "软饮",
-    "soda": "苏打水"
+    "soda": "苏打水",
+    "adjustable": "(可调节的)"
   },
   "orderPage": {
     "orderNow": "立即订位！",

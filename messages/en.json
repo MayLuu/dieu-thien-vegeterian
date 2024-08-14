@@ -53,7 +53,8 @@
     "coffee": "Cafe",
     "thaiTea": "Thai Tea",
     "softdrink": "Soft drinks",
-    "soda": "Soda"
+    "soda": "Soda",
+    "adjustable": "(Adjustable)"
   },
   "orderPage": {
     "orderNow": "Book a table now!",

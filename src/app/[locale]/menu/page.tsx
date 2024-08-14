@@ -55,15 +55,14 @@ const Menu = () => {
         },
         isDrinkMenu: boolean
       ) => {
-
         return Object.keys(menu).map((key, i) => ({
           icon: (
             <Image
               src={menu[key].icon}
               alt={key}
               className="svg-icon"
-              width={30}
-              height={30}
+              width={80}
+              height={80}
             />
           ),
           label: t(`${key}`),
@@ -105,8 +104,9 @@ const Menu = () => {
                           <div className="item-info">
                             <div className="item-info__img">
                               <Image
-                                className={`swiper--item-img ${isDrinkMenu ? "drink" : ""
-                                  }`}
+                                className={`swiper--item-img ${
+                                  isDrinkMenu ? "drink" : ""
+                                }`}
                                 src={item.img}
                                 alt="food"
                                 width={isDrinkMenu ? 400 : 450}
@@ -116,7 +116,6 @@ const Menu = () => {
                                   objectPosition: "50% 75%",
                                 }}
                               />
-
                             </div>
                             <div className="item-info__text">
                               <h2 id="menu-item--title">
@@ -132,9 +131,36 @@ const Menu = () => {
                                 </p>
                               )}
 
-                              <p id="menu-item--price">
-                                {Validate.unit(Number(item.price))}₫
-                              </p>
+                              <div
+                                className="row"
+                                style={{
+                                  display: "flex",
+                                  justifyContent: "space-between",
+                                }}
+                              >
+                                <div id="menu-item--isSpicy">
+                                  {item.isSpicy && (
+                                    <div
+                                      className=""
+                                      style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                      }}
+                                    >
+                                      <Image
+                                        src="/images/isSpicy.svg"
+                                        alt="isSpicy"
+                                        width={50}
+                                        height={30}
+                                      />
+                                      <p>{t("adjustable")}</p>
+                                    </div>
+                                  )}
+                                </div>
+                                <p id="menu-item--price">
+                                  {Validate.unit(Number(item.price))}₫
+                                </p>
+                              </div>
                             </div>
                           </div>
                         </SwiperSlide>
@@ -154,8 +180,9 @@ const Menu = () => {
                       watchSlidesProgress={true}
                       navigation={true}
                       modules={[FreeMode, Navigation, Thumbs]}
-                      className={`swiper--list-item ${isDrinkMenu ? "drink" : ""
-                        }`}
+                      className={`swiper--list-item ${
+                        isDrinkMenu ? "drink" : ""
+                      }`}
                     >
                       {menu[key].items?.map((item: any, index: number) => (
                         <SwiperSlide key={index}>
