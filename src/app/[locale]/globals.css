@@ -765,9 +765,7 @@ textarea.ant-input {
   .order-content {
     padding: 0 2rem;
   }
-  .order-page {
-    height: 170vh !important;
-  }
+
   a.header__button--order {
     display: none;
   }
@@ -831,9 +829,7 @@ textarea.ant-input {
     height: auto;
     min-height: 130vh;
   }
-  .order-page {
-    height: 150vh !important;
-  }
+
   .order-content {
     justify-content: center;
     width: 100%;
@@ -845,7 +841,7 @@ textarea.ant-input {
 }
 @media (max-width: 768px) {
   header .navbar_menu-icon {
-    display: block;
+    display: flex;
     align-items: center;
   }
   header .header__wrapper {
