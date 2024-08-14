@@ -50,13 +50,15 @@ const SectionImgText = (props: SectionProps) => {
       );
     } else {
       return (
-        <Image
-          className="image--border-tlbr"
-          src={src}
-          alt={alt}
-          width={width}
-          height={height}
-        />
+        <div className="section__images">
+          <Image
+            className="image--border-tlbr"
+            src={src}
+            alt={alt}
+            width={width}
+            height={height}
+          />
+        </div>
       );
     }
   };
@@ -66,7 +68,7 @@ const SectionImgText = (props: SectionProps) => {
       <div
         className="section__content"
         style={{
-          flexDirection: reverse ? "row-reverse" : "row",
+          direction: reverse ? "rtl" : "ltr",
         }}
       >
         <div className="section__text" style={stylesText}>
@@ -79,7 +81,7 @@ const SectionImgText = (props: SectionProps) => {
             transition={{ duration: 1, delay: 0.25, ease: "easeOut" }}
           ></motion.h1>
           <motion.p
-            style={{ textAlign: reverse ? "start" : "justify" }}
+            style={{ direction: reverse ? "ltr" : "ltr" }}
             dangerouslySetInnerHTML={{ __html: text }}
             initial={{ opacity: 0, y: 70 }}
             whileInView={{ opacity: 1, y: 0 }}
