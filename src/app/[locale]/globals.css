@@ -837,7 +837,7 @@ textarea.ant-input {
   }
   .column-container .column .responsiveImage {
     width: 100%;
-    height: 200px;
+    height: 160px;
   }
 }
 @media (max-width: 768px) {
@@ -865,7 +865,8 @@ textarea.ant-input {
   }
   .section {
     min-height: fit-content;
-    height: 100vh !important;
+    height: 100vh;
+    padding: 3rem auto;
   }
   .section .section__content {
     row-gap: 1rem;
@@ -898,9 +899,7 @@ textarea.ant-input {
   .header__wrapper {
     width: 0;
   }
-  .column-container .column .responsiveImage {
-    height: 200px;
-  }
+
   .main.order h1 {
     font-size: 2rem !important;
   }

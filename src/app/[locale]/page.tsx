@@ -196,6 +196,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.25, ease: "easeOut" }}
           id="order"
+          className="heading1"
         >
           {t("general.order")}
         </motion.h1>
