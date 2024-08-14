@@ -178,6 +178,10 @@ h2#menu-item--title {
   .menu-list .menu--info .item-info__img {
     width: 100%;
   }
+  .menu--content .item-favorite {
+    height: 35px;
+    width: 35px;
+  }
 }
 @media (max-width: 520px) {
   .menu-list .menu--info .drink-text-menu {
@@ -191,6 +195,10 @@ h2#menu-item--title {
   }
   .menu--content.drink .swiper--list-item .swiper-slide .tabs-image {
     height: 80px;
+  }
+  .menu--content .item-favorite {
+    height: 24px;
+    width: 24px;
   }
 }
 .menu-list .menu--info img {
@@ -249,6 +257,6 @@ h2#menu-item--title {
     font-size: 1rem;
   }
   .menu-list .menu--info .item-info .item-info__text #menu-item--desc {
-    font: 0.75rem;
+    font-size: 0.75rem;
   }
 }
