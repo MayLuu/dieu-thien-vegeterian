@@ -105,7 +105,6 @@ h4 {
 }
 .header__wrapper {
   z-index: 10;
-  height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -526,6 +525,7 @@ header
     display: grid;
     justify-items: start;
     align-items: center;
+    justify-content: center;
   }
 }
 .column-container .column .responsiveImage {
@@ -562,6 +562,13 @@ header
 @media screen and (max-width: 576px) {
   .section .section__content .section__text {
     margin-top: 50% !important;
+  }
+  header {
+    height: 60px;
+  }
+  header .logo__wrapper img#Logo {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 .section .section__content .section__text > h1 {
@@ -644,10 +651,8 @@ header
   color: var(--text-color-cream);
   border: none;
 }
-.ant-tabs .ant-tabs-tab {
-  border: none !important;
-  padding: 7% 5rem 7% 10%;
-  background: #000 !important;
+.menu .ant-tabs .ant-tabs-tab {
+  border: none;
 }
 .ant-tabs .ant-tabs-tab .ant-tabs-tab-btn {
   display: flex;
@@ -811,9 +816,7 @@ textarea.ant-input {
   header .menu-icon {
     display: inline;
   }
-  h1.menu--title {
-    font-size: 1.75rem !important;
-  }
+
   .section {
     margin: 0;
     height: fit-content;
@@ -930,6 +933,9 @@ textarea.ant-input {
 @media (max-width: 320px) {
   header .header__language_order {
     right: -20%;
+  }
+  header .header__overlay .header__mobile .header__mobile-menu ul {
+    padding: 0 1rem;
   }
 }
 .swiper-slide {

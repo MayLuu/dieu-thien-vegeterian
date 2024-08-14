@@ -54,7 +54,6 @@ const Header = ({ scrollTop }: HeaderProps) => {
         alignItems: "center",
         display: "flex",
         gap: " 1.5rem",
-        height: "75px",
         boxShadow: '2px 4px 12px rgba(206, 145, 44,0.2)'
       }}
     >

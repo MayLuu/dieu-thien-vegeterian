@@ -173,6 +173,7 @@ const Menu = () => {
                               objectFit: "cover",
                               objectPosition: "50% 75%",
                             }}
+                            className="tabs-image"
                           />
                         </SwiperSlide>
                       ))}

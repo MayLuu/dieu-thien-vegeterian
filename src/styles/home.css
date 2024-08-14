@@ -1,6 +1,6 @@
 .main .slider {
   position: relative;
-  margin-top: 75px;
+  margin-top: 60px;
 }
 .main .slider span.swiper-pagination-bullet {
   background: var(--swiper-bullet-cream);
@@ -57,6 +57,12 @@
   .main .menu-button {
     margin-top: 0.5rem;
     padding: 10px 18px;
+  }
+  .main .slider .banner__text {
+    top: 10%;
+  }
+  .main .slider .banner__text .menu-button {
+    margin-top: 0.5rem;
   }
 }
 .main .welcome {

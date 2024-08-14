@@ -1,6 +1,6 @@
 .menu {
   font-family: "Noto Serif", serif;
-  margin-top: 75px;
+  margin-top: 60px;
   background-color: var(--background-green);
 }
 img {
@@ -132,6 +132,8 @@ h2#menu-item--title {
 }
 .menu-list {
   height: 100%;
+}
+.menu--content.drink .menu-list {
   min-height: 640px;
 }
 .menu-list .menu-category {
@@ -177,9 +179,18 @@ h2#menu-item--title {
     width: 100%;
   }
 }
-@media (max-width: 520) {
+@media (max-width: 520px) {
   .menu-list .menu--info .drink-text-menu {
     max-width: 100%;
+  }
+  .menu--content .swiper--list-item .swiper-slide .tabs-image {
+    max-width: 60px;
+    width: 80px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  .menu--content.drink .swiper--list-item .swiper-slide .tabs-image {
+    height: 80px;
   }
 }
 .menu-list .menu--info img {
@@ -208,7 +219,7 @@ h2#menu-item--title {
     height: 50px;
   }
   h1.menu--title {
-    font-size: 1.6rem !important;
+    font-size: 1.6rem;
     width: 30%;
     height: 25px;
     padding: 1rem 2rem;
@@ -224,5 +235,20 @@ h2#menu-item--title {
   }
   .section__text {
     text-align: justify;
+  }
+}
+@media (max-width: 520px) {
+  .menu--title {
+    height: 36px;
+  }
+  h1.menu--title {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+  }
+  .menu-list .menu--info .item-info .item-info__text #menu-item--title {
+    font-size: 1rem;
+  }
+  .menu-list .menu--info .item-info .item-info__text #menu-item--desc {
+    font: 0.75rem;
   }
 }
