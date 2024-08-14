@@ -35,7 +35,7 @@ h1.menu--title {
   color: var(--text-color-green);
 }
 .menu--content {
-  padding: 10%;
+  padding: 5%;
   background-color: var(--background-green);
   max-width: var(--max-menu-width);
   margin: 0 auto;
@@ -234,7 +234,7 @@ h2#menu-item--title {
   text-align: end;
 }
 .menu .ant-tabs-left > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab {
-  margin: 16px 0 0 0;
+  padding: 16px 2rem 16px 1rem !important;
 }
 .menu-list
   .menu--info
@@ -245,8 +245,8 @@ h2#menu-item--title {
   font-weight: 600;
   font-size: 1.1rem;
 }
-.menu .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
-  padding: 8px 24px;
+.ant-tabs-tab.ant-tabs-tab-active {
+  padding-right: 28px !important;
 }
 @media (max-width: 1650px) {
   .menu--content {
