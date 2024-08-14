@@ -36,7 +36,7 @@ const Menu = () => {
   }, []);
 
   useEffect(() => {
-    if (width && width <= 768) {
+    if (width && width <= 950) {
       setTabPosition("top");
     } else {
       setTabPosition("left");
@@ -83,9 +83,8 @@ const Menu = () => {
                           justifyContent: "space-between",
                         }}
                       >
-                        <p className="drink-text"> {item.name[localActive]}</p>
+                        <p className="drink-text">{item.name[localActive]}</p>
                         <p className="drink-price">
-                          {" "}
                           {Validate.unit(Number(item.price))}₫
                         </p>
                       </div>
@@ -106,8 +105,9 @@ const Menu = () => {
                           <div className="item-info">
                             <div className="item-info__img">
                               <Image
-                                className={`swiper--item-img ${isDrinkMenu ? "drink" : ""
-                                  }`}
+                                className={`swiper--item-img ${
+                                  isDrinkMenu ? "drink" : ""
+                                }`}
                                 src={item.img}
                                 alt="food"
                                 width={isDrinkMenu ? 400 : 450}
@@ -135,11 +135,14 @@ const Menu = () => {
                                 {item.name[localActive]}
                               </h2>
 
-                              {
-                                key == 'thaiTea' ? '' : <p id="menu-item--desc">
-                                  <span className="ingredient-title"> {t("ingredient") + ' '}</span>: {item.desc[localActive]}
+                              {key !== "thaiTea" && (
+                                <p id="menu-item--desc">
+                                  <span className="ingredient-title">
+                                    {t("ingredient") + " "}
+                                  </span>
+                                  : {item.desc[localActive]}
                                 </p>
-                              }
+                              )}
 
                               <p id="menu-item--price">
                                 {Validate.unit(Number(item.price))}₫
@@ -163,8 +166,9 @@ const Menu = () => {
                       watchSlidesProgress={true}
                       navigation={true}
                       modules={[FreeMode, Navigation, Thumbs]}
-                      className={`swiper--list-item ${isDrinkMenu ? "drink" : ""
-                        }`}
+                      className={`swiper--list-item ${
+                        isDrinkMenu ? "drink" : ""
+                      }`}
                     >
                       {menu[key].items?.map((item: any, index: number) => (
                         <SwiperSlide key={index}>
