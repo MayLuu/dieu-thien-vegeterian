@@ -203,8 +203,9 @@ h2#menu-item--title {
   .menu--content .swiper--list-item .swiper-slide .tabs-image {
     max-width: 80px;
     width: 80px;
-    height: 100%;
-    border-radius: 4px;
+    max-height: 80px;
+    height: 60px;
+    border-radius: 8px;
   }
   .menu--content.drink .swiper--list-item .swiper-slide .tabs-image {
     width: 65px;

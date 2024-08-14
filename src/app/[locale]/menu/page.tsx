@@ -55,6 +55,7 @@ const Menu = () => {
         },
         isDrinkMenu: boolean
       ) => {
+
         return Object.keys(menu).map((key, i) => ({
           icon: (
             <Image
@@ -116,14 +117,17 @@ const Menu = () => {
                                   objectPosition: "50% 75%",
                                 }}
                               />
-                              {item.bestSeller && (
-                                <Image
-                                  className="item-favorite"
-                                  src="/images/bestSeller.svg"
-                                  alt="favorite"
-                                  width={65}
-                                  height={65}
-                                />
+                              {item.isSpicy && (
+                                <p className="spicy-element">
+                                  <Image
+                                    className="item-spicy"
+                                    src="/images/spicy.svg"
+                                    alt="spicy"
+                                    width={40}
+                                    height={40}
+                                  />
+                                  <span>({t("spicy")})</span>
+                                </p>
                               )}
                             </div>
                             <div className="item-info__text">

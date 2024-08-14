@@ -888,6 +888,12 @@ textarea.ant-input {
   }
 }
 @media (max-width: 576px) {
+  .heading1 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
   .section {
     margin: 0 0;
     padding: 0 2rem;
