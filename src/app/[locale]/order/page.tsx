@@ -34,7 +34,7 @@ const OrderPage = () => {
             </div>
           </div>
         </div>
-        <div className="order-content__right--form order-page--flex">
+        <div className="order-content__right--form ">
           <OrderFormComponent />
         </div>
       </div>

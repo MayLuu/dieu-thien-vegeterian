@@ -50,16 +50,19 @@
   cursor: pointer;
   text-decoration: none;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
+  .main .slider .banner__text h1#title {
+    font-size: 2.8rem;
+  }
+
   .main .slogan {
     display: none;
   }
+}
+@media screen and (max-width: 425px) {
   .main .menu-button {
     margin-top: 0.5rem;
     padding: 10px 18px;
-  }
-  .main .slider .banner__text {
-    top: 10%;
   }
   .main .slider .banner__text .menu-button {
     margin-top: 0.5rem;
@@ -77,7 +80,7 @@
   color: var(--background-green);
 }
 .main .special-menu {
-  height: 52rem;
+  height: 80vh;
   background-color: var(--background-green);
   align-content: center;
 }
@@ -93,7 +96,6 @@
 }
 .main .order h1 {
   font-weight: 700;
-  font-size: 46px;
   text-align: center;
   margin-top: 2rem;
   color: var(--text-color-green);

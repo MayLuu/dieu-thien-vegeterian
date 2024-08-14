@@ -168,7 +168,6 @@ header .header__nav a:after {
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: var(--background-dark-yellow);
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 }
@@ -179,6 +178,11 @@ header .header__nav a:hover:after {
 }
 header .header__nav a .active {
   color: var(--text-color-yellow);
+}
+header .header__nav a:hover {
+  color: var(--text-color-yellow);
+  text-decoration: underline;
+  transition: opacity 300ms, transform 300ms;
 }
 header .header__language_order {
   display: flex;
@@ -327,7 +331,6 @@ header .header__nav a::after {
   left: 0;
   width: 100%;
   height: 0.1em;
-  background-color: var(--background-dark-yellow);
   opacity: 0;
   transition: opacity 300ms, transform 300ms;
 }
@@ -336,7 +339,7 @@ header .header__nav a:hover::after {
   transform: translate3d(0, 0.2em, 0);
 }
 header .header__nav a.active {
-  color: var(--text-color-yellow);
+  /* color: var(--text-color-yellow); */
 }
 header .header__language_order {
   display: flex;
@@ -560,9 +563,6 @@ header
   align-content: center;
 }
 @media screen and (max-width: 576px) {
-  .section .section__content .section__text {
-    margin-top: 50% !important;
-  }
   header {
     height: 60px;
   }
@@ -744,6 +744,9 @@ textarea.ant-input {
   }
 }
 @media (max-width: 1224px) {
+  .heading1 {
+    font-size: 2.4rem;
+  }
   .header__wrapper {
     max-width: 90%;
   }
@@ -827,7 +830,6 @@ textarea.ant-input {
   .welcome .section {
     padding: 0 1rem;
     height: auto;
-    min-height: 130vh;
   }
 
   .order-content {
@@ -887,7 +889,7 @@ textarea.ant-input {
 }
 @media (max-width: 576px) {
   .section {
-    margin: 3rem 0;
+    margin: 0 0;
     padding: 0 2rem;
   }
   .section .section__content {
@@ -925,6 +927,9 @@ textarea.ant-input {
     top: -50px;
     height: auto;
   }
+  .main .order p {
+    text-align: justify;
+  }
 }
 @media (max-width: 320px) {
   header .header__language_order {
@@ -932,6 +937,10 @@ textarea.ant-input {
   }
   header .header__overlay .header__mobile .header__mobile-menu ul {
     padding: 0 1rem;
+  }
+  header .header__overlay .header__mobile .header__mobile-menu ul li {
+    padding: 12px 0;
+    font-size: 1.1rem;
   }
 }
 .swiper-slide {
