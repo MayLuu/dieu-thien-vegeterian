@@ -74,14 +74,7 @@ const Menu = () => {
                 {key == "coffee" || key == "softdrink" ? (
                   <div>
                     {menu[key].items?.map((item: any, index: number) => (
-                      <div
-                        key={index * 100}
-                        className="drink-text-menu"
-                        style={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                        }}
-                      >
+                      <div key={index * 100} className="drink-text-menu">
                         <p className="drink-text">{item.name[localActive]}</p>
                         <p className="drink-price">
                           {Validate.unit(Number(item.price))}₫
@@ -111,10 +104,6 @@ const Menu = () => {
                                 alt="food"
                                 width={isDrinkMenu ? 400 : 450}
                                 height={isDrinkMenu ? 400 : 350}
-                                style={{
-                                  objectFit: "cover",
-                                  objectPosition: "50% 75%",
-                                }}
                               />
                             </div>
                             <div className="item-info__text">
@@ -134,29 +123,24 @@ const Menu = () => {
                               <div
                                 className="row"
                                 style={{
-                                  display: "flex",
-                                  justifyContent: "space-between",
+                                  justifyContent: item.isSpicy
+                                    ? "space-between"
+                                    : "flex-end",
                                 }}
                               >
-                                <div id="menu-item--isSpicy">
-                                  {item.isSpicy && (
-                                    <div
-                                      className=""
-                                      style={{
-                                        display: "flex",
-                                        alignItems: "center",
-                                      }}
-                                    >
-                                      <Image
-                                        src="/images/isSpicy.svg"
-                                        alt="isSpicy"
-                                        width={50}
-                                        height={30}
-                                      />
-                                      <p>{t("adjustable")}</p>
-                                    </div>
-                                  )}
-                                </div>
+                                {item.isSpicy && (
+                                  <div className="menu-item--isSpicy">
+                                    <Image
+                                      src="/images/isSpicy.svg"
+                                      alt="isSpicy"
+                                      width={50}
+                                      height={30}
+                                    />
+                                    <p id="menu-item--isSpicy-note">
+                                      {t("adjustable")}
+                                    </p>
+                                  </div>
+                                )}
                                 <p id="menu-item--price">
                                   {Validate.unit(Number(item.price))}₫
                                 </p>
@@ -191,8 +175,6 @@ const Menu = () => {
                             alt={item.name}
                             width={100}
                             height={isDrinkMenu ? 100 : 83}
-                            objectFit="cover"
-                            objectPosition="50% 75%"
                             style={{
                               objectFit: "cover",
                               objectPosition: "50% 75%",
@@ -228,6 +210,7 @@ const Menu = () => {
   return (
     <div className="menu">
       <Image
+        className="banner"
         loading="eager"
         src={isHighResLoaded ? "/images/menu-banner.svg" : "/images/menu.png"}
         alt="menu"
