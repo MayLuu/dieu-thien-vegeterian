@@ -132,11 +132,11 @@ h2#menu-item--title {
   float: right;
   border-radius: 0.2rem;
 }
-.swiper--list-item.swiper-horizontal {
-  padding-left: 4rem !important;
+.menu .swiper--list-item.swiper-horizontal {
+  padding-left: 4rem;
 }
-.swiper--list-item .swiper-slide {
-  width: auto !important;
+.menu .swiper--list-item .swiper-slide {
+  width: auto;
 }
 .swiper--list-item .swiper-slide-thumb-active {
   opacity: 1 !important;
@@ -168,6 +168,8 @@ h2#menu-item--title {
 .menu-list .menu--info .swiper-wrapper {
   max-width: 850px;
   margin: 0 auto;
+  max-height: 80vh;
+  min-height: fit-content;
 }
 .menu-list .menu--info .item-info__img {
   position: relative;
@@ -199,17 +201,21 @@ h2#menu-item--title {
     max-width: 100%;
   }
   .menu--content .swiper--list-item .swiper-slide .tabs-image {
-    max-width: 60px;
+    max-width: 80px;
     width: 80px;
-    height: 50px;
+    height: 100%;
     border-radius: 4px;
   }
   .menu--content.drink .swiper--list-item .swiper-slide .tabs-image {
-    height: 60px;
+    width: 65px;
+    height: 65px;
   }
   .menu--content .item-favorite {
     height: 28px;
     width: 28px;
+  }
+  .menu .swiper--list-item.swiper-horizontal {
+    padding-left: 0px;
   }
 }
 .menu-list .menu--info img {
@@ -226,6 +232,21 @@ h2#menu-item--title {
 .menu-list .menu--info p#menu-item--price {
   font-size: 1.5rem;
   text-align: end;
+}
+.menu .ant-tabs-left > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab {
+  margin: 16px 0 0 0;
+}
+.menu-list
+  .menu--info
+  .item-info
+  .item-info__text
+  #menu-item--desc
+  .ingredient-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.menu .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+  padding: 8px 24px;
 }
 @media (max-width: 1650px) {
   .menu--content {
@@ -274,6 +295,15 @@ h2#menu-item--title {
   .menu-list .menu--info .item-info .item-info__text #menu-item--desc {
     font-size: 0.85rem;
     line-height: 1rem;
+    opacity: 0.9;
+  }
+  .menu-list
+    .menu--info
+    .item-info
+    .item-info__text
+    #menu-item--desc
+    .ingredient-title {
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 400px) {
@@ -298,5 +328,11 @@ h2#menu-item--title {
   .menu .ant-tabs-tab-icon img {
     width: 1.5rem;
     height: 1.5rem;
+  }
+  .menu--content .menu-list {
+    min-height: 500px;
+  }
+  .menu--content.drink .menu-list {
+    min-height: 500px;
   }
 }

@@ -67,6 +67,13 @@
   .main .slider .banner__text .menu-button {
     margin-top: 0.5rem;
   }
+  .main .slider .banner__text {
+    top: 20%;
+  }
+  .main .slider .banner__text .menu-button {
+    padding: 6px 16px;
+    font-size: 0.8rem;
+  }
 }
 .main .welcome {
   display: flex;
@@ -80,9 +87,10 @@
   color: var(--background-green);
 }
 .main .special-menu {
-  height: 80vh;
+  height: 100vh;
   background-color: var(--background-green);
   align-content: center;
+  max-width: 1600px;
 }
 .main .special-menu h1 {
   text-align: center;

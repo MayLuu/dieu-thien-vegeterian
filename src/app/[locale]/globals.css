@@ -664,12 +664,11 @@ header
   border-right-color: var(--background-cream) !important;
   border-left: 6px solid var(--background-dark-yellow) !important;
 }
+
 @media screen and (max-width: 640px) {
   .ant-tabs .ant-tabs-tab {
     padding: 3%;
   }
-}
-@media screen and (max-width: 640px) {
   .ant-tabs .menu--content .ant-tabs-tab {
     border: none;
     background: #000;
@@ -929,6 +928,13 @@ textarea.ant-input {
   }
   .main .order p {
     text-align: justify;
+  }
+  .menu--content.drink .menu-list {
+    min-height: 500px;
+  }
+  .menu--content .swiper-button-prev,
+  .menu--content .swiper-button-next {
+    top: 67%;
   }
 }
 @media (max-width: 320px) {

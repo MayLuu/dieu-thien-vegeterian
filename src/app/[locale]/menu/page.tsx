@@ -131,9 +131,11 @@ const Menu = () => {
                                 {item.name[localActive]}
                               </h2>
 
-                              <p id="menu-item--desc">
-                                {t("ingredient")}: {item.desc[localActive]}
-                              </p>
+                              {
+                                key == 'thaiTea' ? '' : <p id="menu-item--desc">
+                                  <span className="ingredient-title"> {t("ingredient") + ' '}</span>: {item.desc[localActive]}
+                                </p>
+                              }
 
                               <p id="menu-item--price">
                                 {Validate.unit(Number(item.price))}₫

@@ -60,10 +60,15 @@ footer .video-responsive iframe {
     width: 100%;
     margin-top: 2rem;
   }
-}
-@media (max-width: 520px) {
   footer .column-container {
     padding: 0;
     justify-content: center;
+  }
+  footer .column a {
+    font-size: 0.8rem;
+  }
+  footer .column img {
+    width: 45px;
+    height: 45px;
   }
 }

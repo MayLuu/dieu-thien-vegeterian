@@ -11,9 +11,7 @@ const ContactPage = () => {
 
   return (
     <div className="contact"
-      style={{
-        marginTop: '75px'
-      }}>
+    >
 
       <Image
         loading="eager"
