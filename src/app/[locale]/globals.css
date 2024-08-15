@@ -280,6 +280,7 @@ header .header__overlay .header__mobile .header__mobile-menu ul li {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: bold;
+  font-family: "Noto Serif", serif;
 }
 header {
   margin: 0 auto;
