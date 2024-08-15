@@ -96,6 +96,7 @@
   text-align: center;
 }
 .main .order {
+  position: relative;
   min-height: 52rem;
   background-color: var(--background-cream);
   text-align: center;

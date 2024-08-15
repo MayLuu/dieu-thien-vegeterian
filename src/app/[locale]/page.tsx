@@ -192,6 +192,21 @@ export default function Home() {
       </div>
 
       <div className="order section__container column-layout">
+        <Image
+          src={"/images/leave1.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave1-bg"
+        />
+
+        <Image
+          src={"/images/leave2.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave2-bg"
+        />
         <motion.h1
           initial={{ opacity: 0, y: -70 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -227,7 +242,7 @@ export default function Home() {
                   alt={item.alt}
                   width={500}
                   height={300}
-                  className={"responsiveImage"}
+                  className={index == 1 ? 'responsiveImage right' : 'responsiveImage left'}
                 />
               </motion.div>
             );

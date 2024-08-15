@@ -533,7 +533,7 @@ header
 }
 .column-container .column .responsiveImage {
   width: 100%;
-  height: 300px;
+  height: 240px;
 }
 .feedback {
   position: relative;
@@ -599,7 +599,6 @@ header
 @media (max-width: 576px) {
   .section .section__content .section__images {
     height: 200px;
-    min-height: fit-content;
   }
 }
 .about-us img.banner {
@@ -844,11 +843,9 @@ textarea.ant-input {
     width: 100%;
   }
   .column-container .column .responsiveImage {
-    width: 100%;
-    height: 160px;
+    width: 60%;
+    height: auto;
   }
-}
-@media (max-width: 768px) {
   header .navbar_menu-icon {
     display: flex;
     align-items: center;
@@ -895,6 +892,7 @@ textarea.ant-input {
     line-height: 2.2rem;
   }
 }
+
 @media (max-width: 576px) {
   .heading1 {
     font-size: 1.4rem;
@@ -949,6 +947,16 @@ textarea.ant-input {
   .menu--content .swiper-button-next {
     top: 67%;
   }
+  .column-container .column .responsiveImage {
+    width: 80%;
+    position: relative;
+  }
+  .column-container .column .responsiveImage.left {
+    left: -25%;
+  }
+  .column-container .column .responsiveImage.right {
+    right: -25%;
+  }
 }
 @media (max-width: 320px) {
   header .header__language_order {
@@ -960,6 +968,12 @@ textarea.ant-input {
   header .header__overlay .header__mobile .header__mobile-menu ul li {
     padding: 12px 0;
     font-size: 1.1rem;
+  }
+  .column-container .column .responsiveImage.left {
+    left: -13%;
+  }
+  .column-container .column .responsiveImage.right {
+    right: -13%;
   }
 }
 .swiper-slide {
@@ -1003,14 +1017,16 @@ textarea.ant-input {
 .welcome {
   position: relative;
 }
-.welcome .leave1-bg {
+.welcome .leave1-bg,
+.order .leave1-bg {
   left: -11%;
   top: -3%;
   opacity: 0.6;
   transform: scale(0.7);
   animation: moveInLTR 2s;
 }
-.welcome .leave2-bg {
+.welcome .leave2-bg,
+.order .leave2-bg {
   right: -6%;
   top: 45%;
 }
@@ -1085,8 +1101,31 @@ textarea.ant-input {
   .leave1-bg,
   .leave2-bg,
   .leave-bg,
-  .leave-group-bg {
-    display: none;
+  .leave-group-bg,
+  .welcome .leave1-bg,
+  .welcome .leaves2-bg,
+  .order .leave1-bg,
+  .order .leave2-bg,
+  .contact .contactInfo .leave1-bg {
+    transform: scale(0.5);
+    opacity: 0.6;
+  }
+  .welcome .leave1-bg,
+  .order .leave1-bg {
+    left: -40%;
+    opacity: 0.2;
+  }
+  .welcome .leave2-bg,
+  .order .leave2-bg {
+    right: -33%;
+  }
+  .special-menu .leave1-bg {
+    left: -15%;
+  }
+
+  .about-us .column-container .leave2-bg {
+    transform: scale(0.5);
+    opacity: 0.3;
   }
   .menu-list .leave1-bg,
   .menu-list .leave2-bg,
@@ -1104,5 +1143,16 @@ textarea.ant-input {
   .menu-list .leave3-bg {
     transform: scale(0.6);
     right: -40%;
+  }
+}
+@media (max-width: 380px) {
+  .welcome .leave1-bg,
+  .order .leave1-bg {
+    left: -60%;
+    opacity: 0.2;
+  }
+  .welcome .leave2-bg,
+  .order .leave2-bg {
+    right: -55%;
   }
 }
