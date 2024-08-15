@@ -843,7 +843,7 @@ textarea.ant-input {
     width: 100%;
   }
   .column-container .column .responsiveImage {
-    width: 60%;
+    width: 100%;
     height: auto;
   }
   header .navbar_menu-icon {
@@ -952,7 +952,7 @@ textarea.ant-input {
     position: relative;
   }
   .column-container .column .responsiveImage.left {
-    left: -25%;
+    left: -5%;
   }
   .column-container .column .responsiveImage.right {
     right: -25%;
@@ -970,10 +970,10 @@ textarea.ant-input {
     font-size: 1.1rem;
   }
   .column-container .column .responsiveImage.left {
-    left: -13%;
+    left: -5%;
   }
   .column-container .column .responsiveImage.right {
-    right: -13%;
+    right: -10%;
   }
 }
 .swiper-slide {
