@@ -31,7 +31,7 @@ export async function sendMail({
   try {
     const sendResult = await transport.sendMail({
       from: EMAIL_SENDER,
-      to: [to, "amthucchaydieuthien@gmail.com"],
+      to: [to],
       subject,
       html: body,
     });

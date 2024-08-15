@@ -84,7 +84,8 @@ export const send = async (formData: FormData, locale: Locale) => {
       `,
     };
     const userData = {
-      to: 'amthucchaydieuthien@gmail.com',
+      // to: 'amthucchaydieuthien@gmail.com',
+      to: 'myluu4444@gmail.com',
       name: formData.get('userName') as string,
       subject: userTemplate.subject,
       body: `
@@ -108,7 +109,7 @@ export const send = async (formData: FormData, locale: Locale) => {
     };
 
     await sendMail(data);
-    await sendMail(userData);
+    await sendMail(userData)
 
     return { success: true };
   } catch (error) {
