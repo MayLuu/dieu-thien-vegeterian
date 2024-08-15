@@ -16,11 +16,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 const dancingScript = Dancing_Script({ subsets: ["latin"] });
 const swiperData = [
-  {
-    imageHighRes: "/images/home-intro_1.svg",
-    imageLowRes: "/images/home-intro_1.png",
-    alt: "home slider 1",
-  },
+
   {
     imageHighRes: "/images/home-intro_2.svg",
     imageLowRes: "/images/home-intro_2.png",
@@ -31,6 +27,11 @@ const swiperData = [
     imageLowRes: "/images/home-intro_3.png",
     alt: "home slider 3",
   },
+  {
+    imageHighRes: "/images/home-intro_1.svg",
+    imageLowRes: "/images/home-intro_1.png",
+    alt: "home slider 1",
+  }
 ];
 
 const swiper3Ddata = [

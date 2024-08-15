@@ -35,32 +35,6 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* <div className="column">
-          <p className="body-md footer-nav-title" id="directional">
-            {t("general.directional")}
-          </p>
-
-          <p>
-            {" "}
-            <Link href="/">{t("general.home")}</Link>
-          </p>
-          <p>
-            {" "}
-            <Link href="/about">{t("general.aboutUs")}</Link>
-          </p>
-          <p>
-            {" "}
-            <Link href="/menu">{t("general.menu")}</Link>
-          </p>
-          <p>
-            {" "}
-            <Link href="/order">{t("general.order")}</Link>
-          </p>
-          <p>
-            {" "}
-            <Link href="/contact">{t("general.contact")}</Link>
-          </p>
-        </div> */}
         <div className="column">
           <div className="video-responsive">
             <iframe

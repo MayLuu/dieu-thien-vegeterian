@@ -57,7 +57,6 @@ const ContactPage = () => {
               target="_blank"
             >
               <PlaceIcon sx={{ fontSize: 48 }} />
-              {/* <h5 className="heading3">{t("general.address")}</h5> */}
               <p>8 DA1-2, Mỹ Phước, Bến Cát, Bình Dương</p>
             </a>
             <a
@@ -67,18 +66,16 @@ const ContactPage = () => {
               target="_blank"
             >
               <SmartphoneIcon sx={{ fontSize: 48 }} />
-              {/* <h5 className="heading3"> {t("general.phoneNumber")}</h5> */}
               <p>085-677-9886</p>
             </a>
             <a
               className="column"
-              href="mailto:dieuthien@gmail.com"
+              href="mailto:amthucchaydieuthien@gmail.com"
               rel="noopener noreferrer"
               target="_blank"
             >
               <EmailIcon sx={{ fontSize: 48 }} />
-              {/* <h5 className="heading3">{t("general.email")}</h5> */}
-              <p>dieuthien@gmail.com</p>
+              <p>amthucchaydieuthien@gmail.com</p>
             </a>
           </div>
           <iframe
