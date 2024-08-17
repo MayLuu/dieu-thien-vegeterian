@@ -212,7 +212,7 @@ const Menu = () => {
       <Image
         className="banner"
         loading="eager"
-        src={isHighResLoaded ? "/images/menu-banner.svg" : "/images/menu.png"}
+        src={isHighResLoaded == false ? "/images/menu-banner.svg" : "/images/menu.png"}
         alt="menu"
         width={1024}
         height={768}
