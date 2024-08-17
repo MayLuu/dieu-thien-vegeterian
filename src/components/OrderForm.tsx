@@ -106,7 +106,13 @@ const OrderFormComponent = () => {
       const selectedDateTime = dayjs(orderDate)
         .set("hour", dayjs(orderTime).hour())
         .set("minute", dayjs(orderTime).minute());
-      setIsTimeValid(selectedDateTime.isAfter(dayjs()));
+
+      const isWithinAllowedTime =
+        (selectedDateTime.hour() >= 10 && selectedDateTime.hour() < 13) ||
+        (selectedDateTime.hour() >= 17 && selectedDateTime.hour() < 20);
+      const isInFuture = selectedDateTime.isAfter(dayjs());
+
+      setIsTimeValid(isWithinAllowedTime && isInFuture);
     }
   }, [orderDate, orderTime]);
 
@@ -205,7 +211,7 @@ const OrderFormComponent = () => {
                 return true;
               },
             }}
-            render={({ field: { onChange, onBlur, value } }) => (
+            render={({ field: { onChange, value } }) => (
               <LocalizationProvider
                 dateAdapter={AdapterDayjs}
                 adapterLocale={localActive}
@@ -215,8 +221,17 @@ const OrderFormComponent = () => {
                   ampm={false}
                   onChange={(time) => onChange(time ? time.toDate() : null)}
                   value={value ? dayjs(value) : dayjs().add(30, "m")}
-                  minTime={dayjs().add(30, "m")}
-                  disablePast
+                  minTime={
+                    dayjs(orderDate).isSame(dayjs(), "day")
+                      ? dayjs().add(30, "m")
+                      : dayjs(orderDate).hour(10).minute(0)
+                  }
+                  maxTime={dayjs().set("hour", 20).minute(0)}
+                  disablePast={
+                    orderDate && dayjs(orderDate).isSame(dayjs(), "day")
+                      ? true
+                      : false
+                  }
                 />
               </LocalizationProvider>
             )}
