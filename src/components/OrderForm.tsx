@@ -217,8 +217,18 @@ const OrderFormComponent = () => {
                   ampm={false}
                   onChange={(time) => onChange(time ? time.toDate() : null)}
                   value={value ? dayjs(value) : dayjs().add(30, "m")}
-                  minTime={dayjs().add(30, "m")}
-                  disablePast
+                  minTime={
+                    dayjs(orderDate).isSame(dayjs(), "day")
+                      ? dayjs().add(30, "m")
+                      : dayjs(orderDate).hour(10).minute(0)
+                  }
+                  maxTime={dayjs().set("hour", 19).minute(0)}
+                  disablePast={
+                    orderDate && dayjs(orderDate).isSame(dayjs(), "day")
+                      ? true
+                      : false
+                  }
+
                 />
               </LocalizationProvider>
             )}
