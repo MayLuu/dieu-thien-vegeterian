@@ -4,8 +4,8 @@ import { sendMail } from "@/lib/sendMail";
 const loadLocale = {
   "vi": {
     "subject": "[ĐẶT BÀN] XÁC NHẬN ĐẶT BÀN",
-    "greeting": "Kính gửi {userName},",
-    "body": "Cảm ơn bạn đã chọn Nhà hàng Diệu Thiện. Chúng tôi xin vui mừng xác nhận đặt bàn của bạn với các chi tiết sau:",
+    "greeting": "Thân gửi {userName},",
+    "body": "Cảm ơn bạn đã chọn Nhà hàng Diệu Thiện. Chúng tôi xin vui mừng xác nhận đặt bàn của bạn với thông tin như sau:",
     "nameLabel": "Tên",
     "phoneLabel": "Điện thoại",
     "reservationLabel": "Ngày đặt bàn",
@@ -37,7 +37,20 @@ const loadLocale = {
     "notesLabel": "备注",
     "footer": "我们期待在我们的餐厅为您服务。如果您有任何问题或需要进一步的帮助，请随时与我们联系。",
     "regards": "此致,<br/>Diệu Thiện 餐厅"
-  }
+  },
+  "user": {
+    "subject": "[THÔNG BÁO ĐẶT BÀN] KHÁCH HÀNG {userName} VỪA ĐẶT BÀN",
+    "greeting": "Chào nhà hàng Diệu Thiện, vừa có một khách hàng tin tưởng đặt hàng dịch vụ của bạn.",
+    "body": "Thông tin đặt hàng của khách hàng bao gồm: ",
+    "nameLabel": "Tên",
+    "phoneLabel": "Điện thoại",
+    "reservationLabel": "Ngày đặt bàn",
+    "participantNumber": "Số khách tham dự",
+    "notesLabel": "Ghi chú",
+    "footer": "Hãy phản hồi ngay với khách hàng nếu có sự thay đổi trong việc đặt bàn.",
+    "regards": "Trân trọng,<br/>Nhà hàng Diệu Thiện"
+  },
+
 } as const;
 
 type Locale = keyof typeof loadLocale;
@@ -45,6 +58,7 @@ type Locale = keyof typeof loadLocale;
 export const send = async (formData: FormData, locale: Locale) => {
   try {
     const template = loadLocale[locale];
+    const userTemplate = loadLocale['user']
 
     const data = {
       to: formData.get('email') as string,
@@ -54,7 +68,7 @@ export const send = async (formData: FormData, locale: Locale) => {
         <html>
         <body>
           <h1 style="text-align: center;">${template.subject}</h1>
-          <p>${template.greeting.replace("{userName}", formData.get('userName') as string)}</p>
+          <p style="text-transform: uppercase;">${template.greeting.replace("{userName}", formData.get('userName') as string)}</p>
           <p>${template.body}</p>
           <ul>
             <li><strong>${template.nameLabel}:</strong> ${formData.get('userName')}</li>
@@ -69,8 +83,33 @@ export const send = async (formData: FormData, locale: Locale) => {
         </html>
       `,
     };
+    const userData = {
+      to: 'amthucchaydieuthien@gmail.com',
+      name: formData.get('userName') as string,
+      subject: userTemplate.subject,
+      body: `
+        <html>
+        <body>
+          <h4 style="text-align: center;">${userTemplate.subject}</h4>
+          <p>${userTemplate.greeting.replace("{userName}", formData.get('userName') as string)}</p>
+          <p>${userTemplate.body}</p>
+          <ul>
+            <li><strong>${userTemplate.nameLabel}:</strong> ${formData.get('userName')}</li>
+            <li><strong>${userTemplate.phoneLabel}:</strong> ${formData.get('phone')}</li>
+            <li><strong>${userTemplate.reservationLabel}:</strong> ${formData.get('orderDate')} ${formData.get('orderTime')}</li>
+            <li><strong>${userTemplate.participantNumber}:</strong> ${formData.get('participantNumber')}</li>
+            <li><strong>${userTemplate.notesLabel}:</strong> ${formData.get('notes')}</li>
+          </ul>
+          <p>${userTemplate.footer}</p>
+          <p>${userTemplate.regards}</p>
+        </body>
+        </html>
+      `,
+    };
 
     await sendMail(data);
+    await sendMail(userData)
+
     return { success: true };
   } catch (error) {
     console.error("Error in sendEmailAction:", error);

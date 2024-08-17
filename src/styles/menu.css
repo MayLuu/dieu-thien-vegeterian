@@ -54,7 +54,8 @@ h1.menu--title {
 h2,
 span,
 p {
-  font-family: "Noto Serif", serif;
+  font-family: "Noto Serif", BlinkMacSystemFont, "Noto Serif", Roboto,
+    "Noto Serif", "Noto Serif", serif;
 }
 h2 {
   text-align: center;

@@ -16,11 +16,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 const dancingScript = Dancing_Script({ subsets: ["latin"] });
 const swiperData = [
-  {
-    imageHighRes: "/images/home-intro_1.svg",
-    imageLowRes: "/images/home-intro_1.png",
-    alt: "home slider 1",
-  },
+
   {
     imageHighRes: "/images/home-intro_2.svg",
     imageLowRes: "/images/home-intro_2.png",
@@ -31,6 +27,11 @@ const swiperData = [
     imageLowRes: "/images/home-intro_3.png",
     alt: "home slider 3",
   },
+  {
+    imageHighRes: "/images/home-intro_1.svg",
+    imageLowRes: "/images/home-intro_1.png",
+    alt: "home slider 1",
+  }
 ];
 
 const swiper3Ddata = [
@@ -53,6 +54,14 @@ const swiper3Ddata = [
   {
     image: "/images/special_5.png",
     alt: "special food 5",
+  },
+  {
+    image: "/images/special_1.png",
+    alt: "special food 6",
+  },
+  {
+    image: "/images/special_2.png",
+    alt: "special food 6",
   },
 ];
 
@@ -143,7 +152,7 @@ export default function Home() {
         <SectionImgText
           title={t("homePage.summary")}
           text={t("homePage.introduce")}
-          src={"/images/introduce.svg"}
+          src={["/images/introduce.svg", "/images/aboutUs_2.svg",]}
           alt={"welcome"}
           width={555}
           height={415}
@@ -191,6 +200,21 @@ export default function Home() {
       </div>
 
       <div className="order section__container column-layout">
+        <Image
+          src={"/images/leave1.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave1-bg"
+        />
+
+        <Image
+          src={"/images/leave2.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave2-bg"
+        />
         <motion.h1
           initial={{ opacity: 0, y: -70 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -226,7 +250,7 @@ export default function Home() {
                   alt={item.alt}
                   width={500}
                   height={300}
-                  className={"responsiveImage"}
+                  className={index == 1 ? 'responsiveImage right' : 'responsiveImage left'}
                 />
               </motion.div>
             );
