@@ -4,8 +4,8 @@ import { sendMail } from "@/lib/sendMail";
 const loadLocale = {
   "vi": {
     "subject": "[ĐẶT BÀN] XÁC NHẬN ĐẶT BÀN",
-    "greeting": "Kính gửi {userName},",
-    "body": "Cảm ơn bạn đã chọn Nhà hàng Diệu Thiện. Chúng tôi xin vui mừng xác nhận đặt bàn của bạn với các chi tiết sau:",
+    "greeting": "Thân gửi {userName},",
+    "body": "Cảm ơn bạn đã chọn Nhà hàng Diệu Thiện. Chúng tôi xin vui mừng xác nhận đặt bàn của bạn với thông tin như sau:",
     "nameLabel": "Tên",
     "phoneLabel": "Điện thoại",
     "reservationLabel": "Ngày đặt bàn",
@@ -39,7 +39,7 @@ const loadLocale = {
     "regards": "此致,<br/>Diệu Thiện 餐厅"
   },
   "user": {
-    "subject": "[ĐẶT BÀN] KHÁCH HÀNG {userName} VỪA ĐẶT BÀN",
+    "subject": "[THÔNG BÁO ĐẶT BÀN] KHÁCH HÀNG {userName} VỪA ĐẶT BÀN",
     "greeting": "Chào nhà hàng Diệu Thiện, vừa có một khách hàng tin tưởng đặt hàng dịch vụ của bạn.",
     "body": "Thông tin đặt hàng của khách hàng bao gồm: ",
     "nameLabel": "Tên",
@@ -68,7 +68,7 @@ export const send = async (formData: FormData, locale: Locale) => {
         <html>
         <body>
           <h1 style="text-align: center;">${template.subject}</h1>
-          <p>${template.greeting.replace("{userName}", formData.get('userName') as string)}</p>
+          <p style="text-transform: uppercase;">${template.greeting.replace("{userName}", formData.get('userName') as string)}</p>
           <p>${template.body}</p>
           <ul>
             <li><strong>${template.nameLabel}:</strong> ${formData.get('userName')}</li>
@@ -91,7 +91,7 @@ export const send = async (formData: FormData, locale: Locale) => {
       body: `
         <html>
         <body>
-          <h1 style="text-align: center;">${userTemplate.subject}</h1>
+          <h4 style="text-align: center;">${userTemplate.subject}</h4>
           <p>${userTemplate.greeting.replace("{userName}", formData.get('userName') as string)}</p>
           <p>${userTemplate.body}</p>
           <ul>

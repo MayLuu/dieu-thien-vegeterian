@@ -55,6 +55,14 @@ const swiper3Ddata = [
     image: "/images/special_5.png",
     alt: "special food 5",
   },
+  {
+    image: "/images/special_1.png",
+    alt: "special food 6",
+  },
+  {
+    image: "/images/special_2.png",
+    alt: "special food 6",
+  },
 ];
 
 const orderData = [
@@ -144,7 +152,7 @@ export default function Home() {
         <SectionImgText
           title={t("homePage.summary")}
           text={t("homePage.introduce")}
-          src={"/images/introduce.svg"}
+          src={["/images/introduce.svg", "/images/aboutUs_2.svg",]}
           alt={"welcome"}
           width={555}
           height={415}
