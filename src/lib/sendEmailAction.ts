@@ -84,8 +84,7 @@ export const send = async (formData: FormData, locale: Locale) => {
       `,
     };
     const userData = {
-      // to: 'amthucchaydieuthien@gmail.com',
-      to: 'myluu4444@gmail.com',
+      to: 'amthucchaydieuthien@gmail.com',
       name: formData.get('userName') as string,
       subject: userTemplate.subject,
       body: `
