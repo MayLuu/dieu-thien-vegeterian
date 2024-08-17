@@ -14,6 +14,7 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+
 type TabPosition = "left" | "top";
 
 const Menu = () => {
@@ -97,9 +98,8 @@ const Menu = () => {
                           <div className="item-info">
                             <div className="item-info__img">
                               <Image
-                                className={`swiper--item-img ${
-                                  isDrinkMenu ? "drink" : ""
-                                }`}
+                                className={`swiper--item-img ${isDrinkMenu ? "drink" : ""
+                                  }`}
                                 src={item.img}
                                 alt="food"
                                 width={isDrinkMenu ? 400 : 450}
@@ -164,9 +164,8 @@ const Menu = () => {
                       watchSlidesProgress={true}
                       navigation={true}
                       modules={[FreeMode, Navigation, Thumbs]}
-                      className={`swiper--list-item ${
-                        isDrinkMenu ? "drink" : ""
-                      }`}
+                      className={`swiper--list-item ${isDrinkMenu ? "drink" : ""
+                        }`}
                     >
                       {menu[key].items?.map((item: any, index: number) => (
                         <SwiperSlide key={index}>
@@ -192,23 +191,24 @@ const Menu = () => {
         }));
       },
     [t, localActive]
-  );
+  )
 
   const foodMenuItems = renderMenuItems(
     menu.food,
     foodThumbsSwiper,
     setFoodThumbsSwiper,
     false
-  );
+  )
   const drinkMenuItems = renderMenuItems(
     menu.drink,
     drinkThumbsSwiper,
     setDrinkThumbsSwiper,
     true
-  );
+  )
 
   return (
-    <div className="menu">
+    <div className="menu"
+    >
       <Image
         className="banner"
         loading="eager"
@@ -216,8 +216,7 @@ const Menu = () => {
         alt="menu"
         width={1024}
         height={768}
-        style={{ width: "100%", height: "auto" }}
-      />
+        style={{ width: "100%", height: "auto" }} />
 
       <div className="menu--title">
         <h1 className="menu--title">{t("food")}</h1>
@@ -231,6 +230,7 @@ const Menu = () => {
       <div className="menu--content drink">
         <Tabs tabPosition={tabPosition} type="card" items={drinkMenuItems} />
       </div>
+
     </div>
   );
 };
