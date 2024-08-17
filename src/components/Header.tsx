@@ -77,8 +77,16 @@ const Header = ({ scrollTop }: HeaderProps) => {
                 id="Logo"
                 src="/logo.svg"
                 alt="logo"
-                width={20}
-                height={20}
+                width={60}
+                height={60}
+                className="website-logo"
+              />
+              <Image
+                src="/logo-sm.svg"
+                alt="logo"
+                width={30}
+                height={30}
+                className="mobile-logo"
               />
             </a>
           </div>
