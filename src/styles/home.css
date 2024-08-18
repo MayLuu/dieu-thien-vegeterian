@@ -90,7 +90,6 @@
   height: 100vh;
   background-color: var(--background-green);
   align-content: center;
-  max-width: 1600px;
 }
 .main .special-menu h1 {
   text-align: center;
