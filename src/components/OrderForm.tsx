@@ -226,7 +226,31 @@ const OrderFormComponent = () => {
                       ? dayjs().add(30, "m")
                       : dayjs(orderDate).hour(10).minute(0)
                   }
-                  maxTime={dayjs().set("hour", 20).minute(0)}
+                  maxTime={dayjs().set("hour", 20).minute(1)}
+                  shouldDisableTime={(timeValue, clockType) => {
+                    const hour =
+                      clockType === "hours" ? timeValue : dayjs(value).hour();
+                    const minute =
+                      clockType === "minutes"
+                        ? timeValue
+                        : dayjs(value).minute();
+
+                    if (typeof hour === "number") {
+                      if (hour === 13 || hour === 20) {
+                        return true;
+                      }
+
+                      return (
+                        hour < 10 || (hour >= 13 && hour < 17) || hour >= 20
+                      );
+                    }
+
+                    if (clockType === "minutes") {
+                      return false;
+                    }
+
+                    return false;
+                  }}
                   disablePast={
                     orderDate && dayjs(orderDate).isSame(dayjs(), "day")
                       ? true
