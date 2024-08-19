@@ -16,7 +16,6 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 const dancingScript = Dancing_Script({ subsets: ["latin"] });
 const swiperData = [
-
   {
     imageHighRes: "/images/home-intro_2.svg",
     imageLowRes: "/images/home-intro_2.png",
@@ -31,7 +30,7 @@ const swiperData = [
     imageHighRes: "/images/home-intro_1.svg",
     imageLowRes: "/images/home-intro_1.png",
     alt: "home slider 1",
-  }
+  },
 ];
 
 const swiper3Ddata = [
@@ -152,7 +151,7 @@ export default function Home() {
         <SectionImgText
           title={t("homePage.summary")}
           text={t("homePage.introduce")}
-          src={["/images/introduce.svg", "/images/aboutUs_2.svg",]}
+          src={["/images/introduce.svg", "/images/aboutUs_2.svg"]}
           alt={"welcome"}
           width={555}
           height={415}
@@ -250,7 +249,11 @@ export default function Home() {
                   alt={item.alt}
                   width={500}
                   height={300}
-                  className={index == 1 ? 'responsiveImage right' : 'responsiveImage left'}
+                  className={
+                    index == 1
+                      ? "responsiveImage right"
+                      : "responsiveImage left"
+                  }
                 />
               </motion.div>
             );

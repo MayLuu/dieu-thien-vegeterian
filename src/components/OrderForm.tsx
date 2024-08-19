@@ -106,7 +106,13 @@ const OrderFormComponent = () => {
       const selectedDateTime = dayjs(orderDate)
         .set("hour", dayjs(orderTime).hour())
         .set("minute", dayjs(orderTime).minute());
-      setIsTimeValid(selectedDateTime.isAfter(dayjs()));
+
+      const isWithinAllowedTime =
+        (selectedDateTime.hour() >= 10 && selectedDateTime.hour() < 13) ||
+        (selectedDateTime.hour() >= 17 && selectedDateTime.hour() < 20);
+      const isInFuture = selectedDateTime.isAfter(dayjs());
+
+      setIsTimeValid(isWithinAllowedTime && isInFuture);
     }
   }, [orderDate, orderTime]);
 
@@ -159,7 +165,6 @@ const OrderFormComponent = () => {
                   },
                 }}
                 fullWidth
-
               />
             )}
           />
@@ -206,8 +211,7 @@ const OrderFormComponent = () => {
                 return true;
               },
             }}
-            render={({ field: { onChange, onBlur, value } }) => (
-
+            render={({ field: { onChange, value } }) => (
               <LocalizationProvider
                 dateAdapter={AdapterDayjs}
                 adapterLocale={localActive}
@@ -222,13 +226,36 @@ const OrderFormComponent = () => {
                       ? dayjs().add(30, "m")
                       : dayjs(orderDate).hour(10).minute(0)
                   }
-                  maxTime={dayjs().set("hour", 19).minute(0)}
+                  maxTime={dayjs().set("hour", 20).minute(1)}
+                  shouldDisableTime={(timeValue, clockType) => {
+                    const hour =
+                      clockType === "hours" ? timeValue : dayjs(value).hour();
+                    const minute =
+                      clockType === "minutes"
+                        ? timeValue
+                        : dayjs(value).minute();
+
+                    if (typeof hour === "number") {
+                      if (hour === 13 || hour === 20) {
+                        return true;
+                      }
+
+                      return (
+                        hour < 10 || (hour >= 13 && hour < 17) || hour >= 20
+                      );
+                    }
+
+                    if (clockType === "minutes") {
+                      return false;
+                    }
+
+                    return false;
+                  }}
                   disablePast={
                     orderDate && dayjs(orderDate).isSame(dayjs(), "day")
                       ? true
                       : false
                   }
-
                 />
               </LocalizationProvider>
             )}
