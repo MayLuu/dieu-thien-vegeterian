@@ -205,7 +205,7 @@ const OrderFormComponent = () => {
             rules={{
               required: t("form.required"),
               validate: (value) => {
-                if (!value || !dayjs(value).isAfter(dayjs().add(30, "m"))) {
+                if (!value) {
                   return t("form.invalidTime");
                 }
                 return true;
