@@ -100,6 +100,7 @@ const Header = ({ scrollTop }: HeaderProps) => {
             <Link href="/menu">{t("general.menu")}</Link>
             <Link href="/order">{t("general.order")}</Link>
             <Link href="/contact">{t("general.contact")}</Link>
+            {/* <Link href="/events">{t("general.contact")}</Link> */}
           </div>
 
           {/* Language & Order */}

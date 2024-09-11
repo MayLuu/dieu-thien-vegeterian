@@ -13,7 +13,8 @@ import { Swiper3D } from "@/components/swiper";
 import { Link } from "@/navigation";
 import "@/styles/home.css";
 import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import FirstLoadBanner from "@/components/FirstLoadBanner";
 const dancingScript = Dancing_Script({ subsets: ["latin"] });
 const swiperData = [
   {
@@ -83,6 +84,9 @@ export default function Home() {
   const t = useTranslations();
   const [isHighResLoaded, setHighResLoaded] = useState(false);
 
+  const hasMounted = useRef(false);
+  const [showPopup, setShowPopup] = useState(false);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       setHighResLoaded(true);
@@ -91,8 +95,22 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, []);
 
+  useEffect(() => {
+    if (!hasMounted.current) {
+      hasMounted.current = true;
+      setShowPopup(true); // Show popup on first load
+
+    }
+  }, []);
+
+  const closePopup = () => {
+    setShowPopup(false);
+  };
+
   return (
     <div className="main">
+      <FirstLoadBanner showPopup={showPopup} closePopup={closePopup} />
+
       <div className="slider">
         <Swiper
           className="home-slider-introduce"
@@ -156,6 +174,23 @@ export default function Home() {
           width={555}
           height={415}
           stylesImg={{ width: "100%", height: "auto" }}
+        />
+      </div>
+      <div className="welcome">
+        <Image
+          src={"/images/leave1.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave1-bg"
+        />
+
+        <Image
+          src={"/images/leave2.svg"}
+          width={500}
+          height={500}
+          alt="leave-background"
+          className="leave2-bg"
         />
       </div>
       <div className="special-menu">
