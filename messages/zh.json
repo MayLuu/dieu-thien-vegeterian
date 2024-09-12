@@ -6,6 +6,8 @@
     "viewMenu": "查看菜单",
     "contact": "联系我们",
     "contactUs": "与我们联系",
+    "event": "事件",
+    "eventTitle": "Diệu Thiện 有什么新鲜事吗？",
     "order": "订位",
     "address": "地址",
     "phoneNumber": "电话号码",
@@ -80,5 +82,13 @@
     "title": "独特的素食风味 | Dieu Thien 餐厅",
     "desc": "在我们的餐厅品尝独特而丰富的素食，融合传统和现代风味。享受宁静的氛围、周到的服务和设计精美的空间，享受令人难忘的用餐体验，愉悦味蕾和心灵。",
     "locale": "zh-CN"
+  },
+  "eventPage": {
+    "midAutumn": {
+      "title": "中秋团圆",
+      "description": "又一个中秋佳节来临，Diệu Thiện 始终期待着在这个团圆的时刻迎接孩子和家人的到来。",
+      "startDate": "12/9/2024",
+      "endDate": "30/9/2024"
+    }
   }
 }

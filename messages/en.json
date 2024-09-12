@@ -6,6 +6,8 @@
     "viewMenu": "View menu",
     "contact": "Contact",
     "contactUs": "Contact us",
+    "event": "Event",
+    "eventTitle": "What's new at Dieu Thien?",
     "order": "Order",
     "address": "Address",
     "phoneNumber": "Phone number",
@@ -80,5 +82,13 @@
     "title": "Unique Vegetarian Flavors | Dieu Thien Restaurant",
     "desc": "Experience unique and rich vegetarian dishes at our restaurant, blending traditional and modern flavors. Enjoy a peaceful atmosphere, attentive service, and a beautifully designed space for a memorable dining experience that delights both the taste buds and the soul.",
     "locale": "en-US"
+  },
+  "eventPage": {
+    "midAutumn": {
+      "title": "Mid-Autumn Reunion",
+      "description": "Mid-Autumn Reunion",
+      "startDate": "12/9/2024",
+      "endDate": "30/9/2024"
+    }
   }
 }

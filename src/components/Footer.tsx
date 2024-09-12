@@ -33,12 +33,12 @@ const Footer = () => {
             085-677-9886
           </a>
           <a
-            href="https://facebook.com/chaydieuthien"
+            href="https://www.facebook.com/profile.php?id=100090392966682"
             rel="noopener noreferrer"
             target="_blank"
           >
             <FacebookIcon />
-            https://facebook.com/chaydieuthien
+            https://facebook.com/amthucchaydieuthien
           </a>
         </div>
 
