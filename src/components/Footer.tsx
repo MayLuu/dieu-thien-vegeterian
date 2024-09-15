@@ -101,7 +101,7 @@ const Footer = () => {
 
       <div className="floating-button-wrapper">
         <button onClick={openVideo} className="event-floating-button dancing-button">
-          <p className="text-button">Trung thu</p>
+          <p className="text-button">{t("eventPage.eventTitle")}</p>
           <img
             src={'/images/lantern.png'}
             width={"86px"}
@@ -112,8 +112,7 @@ const Footer = () => {
       </div>
 
       {
-        showVideo && <div className="video-overlay">
-
+        showVideo && isAutumn && <div className="video-overlay">
           <div className="video-container">
             <button className="close-button" onClick={closeVideo}>
               <CloseIcon />
