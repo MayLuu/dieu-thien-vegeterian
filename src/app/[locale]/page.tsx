@@ -137,9 +137,9 @@ export default function Home() {
           })}
         </Swiper>
         <div className="banner__text">
-          <h1 id="title" className={dancingScript.className}>
+          <h2 id="title" className={dancingScript.className}>
             Diệu Thiện
-          </h1>
+          </h2>
           <p
             className="slogan"
             dangerouslySetInnerHTML={{ __html: t("homePage.slogan") }}
@@ -168,6 +168,7 @@ export default function Home() {
         />
         <SectionImgText
           title={t("homePage.summary")}
+          isHeader={true}
           text={t("homePage.introduce")}
           src={["/images/introduce.svg", "/images/aboutUs_2.svg"]}
           alt={"welcome"}
@@ -216,14 +217,14 @@ export default function Home() {
           alt="leave-background"
           className="leave-bg"
         />
-        <motion.h1
+        <motion.p
           initial={{ opacity: 0, y: -70 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.25, ease: "easeOut" }}
           className="heading1 cream-text"
         >
           {t("homePage.specialFood")}
-        </motion.h1>
+        </motion.p>
         <motion.div
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -249,7 +250,7 @@ export default function Home() {
           alt="leave-background"
           className="leave2-bg"
         />
-        <motion.h1
+        <motion.p
           initial={{ opacity: 0, y: -70 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.25, ease: "easeOut" }}
@@ -257,7 +258,7 @@ export default function Home() {
           className="heading1"
         >
           {t("general.order")}
-        </motion.h1>
+        </motion.p>
         <motion.p
           initial={{ opacity: 0, y: -70 }}
           whileInView={{ opacity: 1, y: 0 }}
