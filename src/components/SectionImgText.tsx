@@ -59,6 +59,7 @@ const SectionImgText = (props: SectionProps) => {
             alt={alt}
             width={width}
             height={height}
+            title="Nhà hàng Diệu Thiện"
           />
         </div>
       );

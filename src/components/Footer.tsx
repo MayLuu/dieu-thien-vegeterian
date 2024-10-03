@@ -106,6 +106,7 @@ const Footer = () => {
             src={'/images/lantern.png'}
             width={"86px"}
             alt="latern-icon"
+            title="den-trung-thu"
           />
 
         </button>

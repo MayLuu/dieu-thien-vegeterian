@@ -128,6 +128,7 @@ export default function Home() {
                   loading="eager"
                   src={isHighResLoaded ? item.imageHighRes : item.imageLowRes}
                   alt={item.alt}
+                  title="dieu-thien-mon-chay"
                   width={1440}
                   height={786}
                   style={{ objectFit: "cover", width: "100vw", height: "auto" }}
@@ -157,6 +158,7 @@ export default function Home() {
           height={500}
           alt="leave-background"
           className="leave1-bg"
+          title="la-sen"
         />
 
         <Image
@@ -165,6 +167,7 @@ export default function Home() {
           height={500}
           alt="leave-background"
           className="leave2-bg"
+          title="la-sen"
         />
         <SectionImgText
           title={t("homePage.summary")}
