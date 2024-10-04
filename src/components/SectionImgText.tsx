@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 interface SectionProps {
   title: string;
   text: string;
+  isHeader?: boolean;
   src: string[] | string;
   alt: string;
   width: number;
@@ -18,6 +19,7 @@ const SectionImgText = (props: SectionProps) => {
   const {
     title,
     text,
+    isHeader,
     src,
     alt,
     width,
@@ -57,6 +59,7 @@ const SectionImgText = (props: SectionProps) => {
             alt={alt}
             width={width}
             height={height}
+            title="Nhà hàng Diệu Thiện"
           />
         </div>
       );
@@ -72,14 +75,28 @@ const SectionImgText = (props: SectionProps) => {
         }}
       >
         <div className="section__text" style={stylesText}>
-          <motion.h1
-            style={stylesText}
-            className="heading1"
-            dangerouslySetInnerHTML={{ __html: title }}
-            initial={{ opacity: 0, y: -70 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.25, ease: "easeOut" }}
-          ></motion.h1>
+
+          {
+            isHeader == true ?
+              <motion.h1
+                style={stylesText}
+                className="heading1"
+                dangerouslySetInnerHTML={{ __html: title }}
+                initial={{ opacity: 0, y: -70 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: 0.25, ease: "easeOut" }}
+              ></motion.h1>
+              :
+              <motion.p
+                style={stylesText}
+                className="heading1"
+                dangerouslySetInnerHTML={{ __html: title }}
+                initial={{ opacity: 0, y: -70 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1, delay: 0.25, ease: "easeOut" }}
+              ></motion.p>
+          }
+
           <motion.p
             style={{ direction: reverse ? "ltr" : "ltr" }}
             dangerouslySetInnerHTML={{ __html: text }}

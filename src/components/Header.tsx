@@ -81,6 +81,7 @@ const Header = ({ scrollTop }: HeaderProps) => {
                 alt="logo"
                 width={60}
                 height={60}
+                title="dieu-thien-logo"
                 className="website-logo"
               />
               <Image

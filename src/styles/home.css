@@ -24,7 +24,7 @@
   align-items: center;
   z-index: 1;
 }
-.main .slider .banner__text h1#title {
+.main .slider .banner__text #title {
   font-size: 4rem;
   margin: 0;
   color: var(--text-color-cream);
@@ -93,7 +93,7 @@
   background-color: var(--background-green);
   align-content: center;
 }
-.main .special-menu h1 {
+.main .special-menu .heading1 {
   text-align: center;
 }
 .main .order {

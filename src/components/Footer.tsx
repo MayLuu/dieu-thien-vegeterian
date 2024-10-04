@@ -121,7 +121,12 @@ const Footer = () => {
           className="event-floating-button dancing-button"
         >
           <p className="text-button">{t("eventPage.eventTitle")}</p>
-          <img src={"/images/lantern.png"} width={"86px"} alt="latern-icon" />
+          <img
+            src={"/images/lantern.png"}
+            width={"86px"}
+            alt="latern-icon"
+            title="den-trung-thu"
+          />
         </button>
       </div>
 
