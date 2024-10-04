@@ -46,15 +46,17 @@ const Header = ({ scrollTop }: HeaderProps) => {
 
   return (
     <header
-      className={`animate__animated header__container section__container cream-bg ${scrollTop! > 5 ? "bg-white" : "bg-transparent"
-        } ${visible ? "animate__fadeInDown" : "animate__fadeOutUp"}`}
+      className={`animate__animated header__container section__container cream-bg ${
+        scrollTop! > 5 ? "bg-white" : "bg-transparent"
+      } ${visible ? "animate__fadeInDown" : "animate__fadeOutUp"}`}
       style={{
         opacity: visible ? 1 : 0,
         justifyContent: "center",
         alignItems: "center",
         display: "flex",
         gap: " 1.5rem",
-        boxShadow: '2px 4px 12px rgba(206, 145, 44,0.2)'
+        boxShadow: "2px 4px 12px rgba(206, 145, 44,0.2)",
+        top: 0,
       }}
     >
       <div className="header__wrapper">
@@ -93,9 +95,7 @@ const Header = ({ scrollTop }: HeaderProps) => {
           </div>
 
           {/* Navigation */}
-          <div
-            className="header__nav"
-          >
+          <div className="header__nav">
             <Link href="/">{t("general.home")}</Link>
             <Link href="/about">{t("general.aboutUs")}</Link>
             <Link href="/menu">{t("general.menu")}</Link>
@@ -129,16 +129,17 @@ const Header = ({ scrollTop }: HeaderProps) => {
       </div>
 
       {/* Mobile */}
-      <div className={nav ? "header__overlay" : "header__overlay-hidden"}
+      <div
+        className={nav ? "header__overlay" : "header__overlay-hidden"}
         style={{
-          display: nav ? 'block' : 'none',
+          display: nav ? "block" : "none",
           position: "fixed",
           left: 0,
           top: 0,
           width: "100%",
-          height: '100vh',
+          height: "100vh",
           backgroundColor: "rgba(0, 0, 0, 0.9)",
-          zIndex: 11
+          zIndex: 11,
         }}
       >
         <div

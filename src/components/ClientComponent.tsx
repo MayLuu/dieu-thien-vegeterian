@@ -18,10 +18,8 @@ export default function ClientComponent({
       setScrollTop(scrollTopValue);
     };
 
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
-
     };
   }, []);
 

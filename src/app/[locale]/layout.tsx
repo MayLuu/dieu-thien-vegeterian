@@ -14,18 +14,16 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale}>
-      <body className={notoSerif.className}>
-        <NextIntlClientProvider messages={messages}>
-          <ClientComponent>
-            {children}
-            <SpeedInsights />
-          </ClientComponent>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <div className={notoSerif.className}>
+      <NextIntlClientProvider messages={messages}>
+        <ClientComponent>
+          {children}
+          <SpeedInsights />
+        </ClientComponent>
+      </NextIntlClientProvider>
+    </div>
   );
 }
