@@ -99,7 +99,6 @@ export default function Home() {
     if (!hasMounted.current) {
       hasMounted.current = true;
       setShowPopup(true); // Show popup on first load
-
     }
   }, []);
 
@@ -128,9 +127,11 @@ export default function Home() {
                   loading="eager"
                   src={isHighResLoaded ? item.imageHighRes : item.imageLowRes}
                   alt={item.alt}
+                  title={item.alt}
                   width={1440}
                   height={786}
                   style={{ objectFit: "cover", width: "100vw", height: "auto" }}
+                  priority={index === 0}
                 />
               </SwiperSlide>
             );
@@ -294,10 +295,7 @@ export default function Home() {
             );
           })}
         </div>
-
       </div>
-
-
     </div>
   );
 }
