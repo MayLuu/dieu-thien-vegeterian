@@ -1,5 +1,5 @@
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
-import Head from "next/head";
+import { NextIntlClientProvider } from "next-intl";
 import { Metadata } from "next";
 import "./globals.css";
 
@@ -48,31 +48,54 @@ export const metadata: Metadata = {
   },
 };
 
-const RootLayout = ({ children }: React.PropsWithChildren) => (
-  <html>
-    <head>
-      <link rel="icon" href="/logo.svg" />
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap"
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-      <meta
-        name="keywords"
-        content="Nhà hàng chay, món chay, Diệu Thiện, thực đơn chay, ẩm thực chay"
-      />
-      <link rel="canonical" href="https://amthucchaydieuthien.com" />
-      <meta name="robots" content="index, follow" />
-      <meta name="author" content="Ẩm thực chay Diệu Thiện" />
-      <meta name="publisher" content="Ẩm thực chay Diệu Thiện" />
-    </head>
-    <body>
-      <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
-    </body>
-  </html>
-);
+const RootLayout = async ({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: { locale: string };
+}) => {
+  const { locale } = params;
+
+  let messages;
+  try {
+    messages = (await import(`../../messages/${locale}.json`)).default;
+  } catch (error) {
+    console.error(`Error loading messages for locale ${locale}:`, error);
+    messages = {};
+  }
+
+  return (
+    <html lang={locale}>
+      <head>
+        <link rel="icon" href="/logo.svg" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+        <meta
+          name="keywords"
+          content="Nhà hàng chay, món chay, Diệu Thiện, thực đơn chay, ẩm thực chay"
+        />
+        <link rel="canonical" href="https://amthucchaydieuthien.com" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Ẩm thực chay Diệu Thiện" />
+        <meta name="publisher" content="Ẩm thực chay Diệu Thiện" />
+      </head>
+      <body>
+        <NextIntlClientProvider
+          messages={messages}
+          timeZone={process.env.NEXT_PUBLIC_TIME_ZONE || "UTC"}
+        >
+          <AppRouterCacheProvider>{children}</AppRouterCacheProvider>
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+};
 
 export default RootLayout;

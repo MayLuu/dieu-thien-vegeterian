@@ -10,7 +10,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Swiper3D } from "@/components/swiper";
-import { Link } from "@/navigation";
+import { Link } from "@/routing";
 import "@/styles/home.css";
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";

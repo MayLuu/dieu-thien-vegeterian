@@ -2,7 +2,11 @@
 
 import { MenuProvider } from "@/context/MenuContext";
 import { useEffect, useState } from "react";
-import { Footer, Header } from ".";
+import { Header } from ".";
+import dynamic from "next/dynamic";
+
+const Footer = dynamic(() => import("@/components/Footer"), { ssr: false });
+
 export default function ClientComponent({
   children,
 }: {

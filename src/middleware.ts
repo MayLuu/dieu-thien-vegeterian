@@ -1,13 +1,8 @@
-"use client"
 import createMiddleware from 'next-intl/middleware';
-import { locales } from './navigation';
-
+import {routing} from './routing';
  
-export default createMiddleware({
-  locales,
-  defaultLocale: 'vi'
-});
+export default createMiddleware(routing);
  
 export const config = {
-  matcher: ['/', '/(vi|en|zh)/:path*']
+  matcher: ['/', '/(vi|en|zh)/:path*', '/((?!api|_next|.*\\..*).*)']
 };
