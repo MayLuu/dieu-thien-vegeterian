@@ -1,7 +1,15 @@
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { NextIntlClientProvider } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 import { Metadata } from "next";
+import { Noto_Serif } from "next/font/google";
 import "./globals.css";
+
+const notoSerif = Noto_Serif({
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 const structuredData = {
   "@context": "https://schema.org",
@@ -55,7 +63,9 @@ const RootLayout = async ({
   children: React.ReactNode;
   params: { locale: string };
 }) => {
-  const { locale } = params;
+  const locale = params?.locale || "vi";
+
+  unstable_setRequestLocale(locale);
 
   let messages;
   try {
@@ -66,13 +76,10 @@ const RootLayout = async ({
   }
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={notoSerif.className}>
       <head>
         <link rel="icon" href="/logo.svg" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        />
+        {/* Removed the font <link> tag */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

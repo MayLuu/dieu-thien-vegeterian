@@ -52,23 +52,33 @@ const FirstLoadBanner = (props: SectionProps) => {
   } = props;
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const currentIndexRef = useRef(currentIndex);
   const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const isAutumn = new Date().getMonth() == 8;
 
   useEffect(() => {
+    currentIndexRef.current = currentIndex;
+  }, [currentIndex]);
+
+  useEffect(() => {
     if (showPopup) {
       intervalRef.current = setInterval(() => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % eventBanners.length);
+        setCurrentIndex((prevIndex) => {
+          const nextIndex = (prevIndex + 1) % eventBanners.length;
+          if (nextIndex === eventBanners.length - 1) {
+            clearInterval(intervalRef.current!);
+          }
+          return nextIndex;
+        });
       }, 3000);
-
-      return () => {
-        if (eventBanners.length == currentIndex + 1) {
-          clearInterval(intervalRef.current || 0);
-        } else {
-        }
-      };
     }
-  }, [showPopup, eventBanners.length]);
+
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
+  }, [showPopup]);
 
   return (
     showPopup &&
@@ -79,7 +89,7 @@ const FirstLoadBanner = (props: SectionProps) => {
             <CloseIcon />
           </button>
           <Link href="/events">
-            <img
+            <Image
               className="current-image"
               width={412}
               height={346}

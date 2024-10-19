@@ -2,7 +2,7 @@
 import "animate.css";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "@/routing";
 import { LocalSwitcher } from ".";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -19,26 +19,24 @@ const Header = ({ scrollTop }: HeaderProps) => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const timerRef = useRef<number | null>(null);
 
-  useEffect(() => {
-    handleScroll();
-  }, [scrollTop]);
-
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     const currentScrollPos = scrollTop!;
     setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 50);
     setPrevScrollPos(currentScrollPos);
-    // Clear the timer if it exists
     if (timerRef.current !== null) {
       clearTimeout(timerRef.current);
     }
 
-    // Set a timer to show the header after 500ms when scrolling up
     if (prevScrollPos > currentScrollPos) {
       timerRef.current = window.setTimeout(() => {
         setVisible(true);
       }, 500);
     }
-  };
+  }, [scrollTop, prevScrollPos]);
+
+  useEffect(() => {
+    handleScroll();
+  }, [scrollTop, handleScroll]);
 
   const handleNav = () => {
     setNav(!nav);
