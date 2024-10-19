@@ -6,20 +6,24 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import PlaceIcon from "@mui/icons-material/Place";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { Link } from "../navigation";
-import { useState } from "react";
+import { Link } from "@/routing";
+import { useEffect, useState } from "react";
 
 const Footer = () => {
   const t = useTranslations();
-
-  const isAutumn = new Date().getMonth() == 8;
-
   const [showVideo, setShowVideo] = useState(false);
+  const [isAutumn, setIsAutumn] = useState(false);
+  const [zaloHref, setZaloHref] = useState(
+    "https://chat.zalo.me/?phone=0856779886"
+  );
 
-  const linkElement = document.getElementById("linkzalo");
-  if (linkElement) {
-    (linkElement as HTMLAnchorElement).href = "https://zalo.me/0856779886";
-  }
+  useEffect(() => {
+    const currentMonth = new Date().getMonth();
+    setIsAutumn(currentMonth === 8);
+
+    setZaloHref("https://zalo.me/0856779886");
+  }, []);
+
   const openVideo = () => {
     setShowVideo(true);
   };
@@ -87,7 +91,7 @@ const Footer = () => {
 
       {/* Zalo plugin */}
       <a
-        href="https://chat.zalo.me/?phone=0856779886"
+        href={zaloHref}
         id="linkzalo"
         target="_blank"
         rel="noopener noreferrer"

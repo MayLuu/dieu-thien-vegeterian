@@ -3,7 +3,7 @@ import "animate.css";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { Link } from "../navigation";
+import { Link } from "@/routing";
 import { LocalSwitcher } from ".";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
