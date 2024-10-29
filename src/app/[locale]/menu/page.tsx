@@ -43,6 +43,16 @@ const Menu = () => {
     }
   }, [width]);
 
+  const PriceComponent = ({ price, categoryType }): React.ReactNode => {
+    let priceValue = `${Validate.unit(Number(price))}đ`
+    if (categoryType == 'hotPot') {
+      priceValue = `${Validate.unit(Number(price))}đ - ${Validate.unit(Number(price + 70000))}đ `
+    }
+    return (
+    <p id="menu-item--price">{priceValue}</p>
+  )
+  };
+
   const renderMenuItems = (
     menu: { [x: string]: any },
     thumbsSwiper: { [x: string]: any },
@@ -139,9 +149,8 @@ const Menu = () => {
                                 </p>
                               </div>
                             )}
-                            <p id="menu-item--price">
-                              {Validate.unit(Number(item.price))}₫
-                            </p>
+                            
+                            <PriceComponent price={item.price} categoryType={key}/>
                           </div>
                         </div>
                       </div>

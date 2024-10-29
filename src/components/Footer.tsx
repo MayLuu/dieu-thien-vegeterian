@@ -119,21 +119,24 @@ const Footer = () => {
 
       {/* Mid Autumn Plugin */}
 
-      <div className="floating-button-wrapper">
-        <button
-          onClick={openVideo}
-          className="event-floating-button dancing-button"
-        >
-          <p className="text-button">{t("eventPage.eventTitle")}</p>
-          <Image
-            src={"/images/lantern.png"}
-            width={86}
-            height={86}
-            alt="latern-icon"
-            title="den-trung-thu"
-          />
-        </button>
-      </div>
+      {
+        isAutumn && <div className="floating-button-wrapper">
+          <button
+            onClick={openVideo}
+            className="event-floating-button dancing-button"
+          >
+            <p className="text-button">{t("eventPage.eventTitle")}</p>
+            <Image
+              src={"/images/lantern.png"}
+              width={86}
+              height={86}
+              alt="latern-icon"
+              title="den-trung-thu"
+            />
+          </button>
+        </div>
+      }
+     
 
       {showVideo && isAutumn && (
         <div className="video-overlay">
