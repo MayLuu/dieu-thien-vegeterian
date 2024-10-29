@@ -149,8 +149,11 @@ const Menu = () => {
                                 </p>
                               </div>
                             )}
+
+                            {
+                              key == 'hotPot' && index == 5 ? <p id="menu-item--price">{Validate.unit(Number(item.price))}đ</p>: <PriceComponent price={item.price} categoryType={key}/> 
+                            }
                             
-                            <PriceComponent price={item.price} categoryType={key}/>
                           </div>
                         </div>
                       </div>
