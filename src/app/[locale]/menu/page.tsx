@@ -43,7 +43,7 @@ const Menu = () => {
     }
   }, [width]);
 
-  const PriceComponent = ({ price, categoryType }): React.ReactNode => {
+  const PriceComponent = ({ price = 0, categoryType = 'hotpot' }): React.ReactNode => {
     let priceValue = `${Validate.unit(Number(price))}đ`
     if (categoryType == 'hotPot') {
       priceValue = `${Validate.unit(Number(price))}đ - ${Validate.unit(Number(price + 70000))}đ `
