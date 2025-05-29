@@ -1,19 +1,16 @@
 "use client";
+import setLanguageValue from "@/lib/setLanguage";
 import { useLocale } from "next-intl";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { ChangeEvent, useTransition } from "react";
 
 const LocalSwitcher = () => {
-  const [isPending, startTransition] = useTransition();
-  const router = useRouter();
   const localActive = useLocale();
 
   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
-    const nextLocale = e.target.value;
-    startTransition(() => {
-      router.replace(`/${nextLocale}`);
-    });
+    const lang = e.target.value;
+    setLanguageValue(lang);
   };
 
   return (

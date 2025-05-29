@@ -81,7 +81,31 @@
     "template": "Dieu Thien Restaurant",
     "title": "Unique Vegetarian Flavors | Dieu Thien Restaurant",
     "desc": "Experience unique and rich vegetarian dishes at our restaurant, blending traditional and modern flavors. Enjoy a peaceful atmosphere, attentive service, and a beautifully designed space for a memorable dining experience that delights both the taste buds and the soul.",
-    "locale": "en-US"
+    "locale": "en-US",
+    "home": {
+      "title": "Home | Diệu Thiện Restaurant",
+      "desc": "Experience our unique and rich vegetarian dishes, combining traditional and modern flavors. Enjoy the peaceful atmosphere, attentive service and beautifully designed space, bringing a memorable dining experience, captivating both the taste buds and the soul."
+    },
+    "aboutUs": {
+      "title": "About us | Diệu Thiện Restaurant",
+      "desc": "Learn more about Diệu Thiện Restaurant..."
+    },
+    "menu": {
+      "title": "Menu | Diệu Thiện Restaurant",
+      "desc": "Explore our diverse vegetarian menu..."
+    },
+    "order": {
+      "title": "Order | Diệu Thiện Restaurant",
+      "desc": "Enjoy delicious vegeterian dish with comfort space inspired from Buddhism"
+    },
+    "contact": {
+      "title": "Contact | Diệu Thiện Restaurant",
+      "desc": "Contact us know for reservation and plan for vegeterian events"
+    },
+    "event": {
+      "title": "Event | Diệu Thiện Restaurant",
+      "desc": "We hold variety of celebrations with tasty and healthy food"
+    }
   },
   "eventPage": {
     "eventTitle": "Mid-Autumn Festival",

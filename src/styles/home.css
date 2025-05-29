@@ -78,6 +78,7 @@
   }
 }
 .main .welcome {
+  height: 100vh;
   display: flex;
   min-height: fit-content;
   background-color: var(--background-cream);
@@ -85,7 +86,8 @@
   align-items: center;
   gap: 4rem;
 }
-.main .welcome .heading1 {
+.main .welcome .heading1,
+.main .order .heading1  {
   color: var(--background-green);
 }
 .main .special-menu {

@@ -81,7 +81,31 @@
     "template": "Nhà hàng Diệu Thiện",
     "title": "Hương vị chay độc đáo | Nhà hàng Diệu Thiện",
     "desc": "Trải nghiệm những món chay độc đáo và phong phú tại nhà hàng chúng tôi, hòa quyện giữa hương vị truyền thống và hiện đại. Tận hưởng bầu không khí yên bình, phục vụ chu đáo và không gian được thiết kế đẹp mắt, mang đến trải nghiệm ăn uống đáng nhớ, làm say mê cả vị giác lẫn tâm hồn.",
-    "locale": "vi-VN"
+    "locale": "vi-VN",
+    "home": {
+      "title": "Trang chủ | Nhà hàng Diệu Thiện",
+      "desc": "Trải nghiệm những món ăn chay độc đáo và phong phú, kết hợp giữa hương vị truyền thống và hiện đại. Thưởng thức không gian yên bình, dịch vụ tận tâm và thiết kế đẹp mắt, mang đến trải nghiệm ẩm thực đáng nhớ, làm say đắm cả vị giác lẫn tâm hồn."
+    },
+    "aboutUs": {
+      "title": "Giới thiệu | Nhà hàng Diệu Thiện",
+      "desc": "Tìm hiểu thêm về Nhà hàng Diệu Thiện..."
+    },
+    "menu": {
+      "title": "Thực đơn | Nhà hàng Diệu Thiện",
+      "desc": "Khám phá thực đơn chay đa dạng của chúng tôi..."
+    },
+    "order": {
+      "title": "Đặt món | Nhà hàng Diệu Thiện",
+      "desc": "Thưởng thức những món chay ngon trong không gian thoải mái, lấy cảm hứng từ Phật giáo."
+    },
+    "contact": {
+      "title": "Liên hệ | Nhà hàng Diệu Thiện",
+      "desc": "Liên hệ ngay với chúng tôi để đặt bàn và tổ chức sự kiện chay."
+    },
+    "event": {
+      "title": "Sự kiện | Nhà hàng Diệu Thiện",
+      "desc": "Chúng tôi tổ chức nhiều sự kiện với những món ăn ngon và tốt cho sức khỏe."
+    }
   },
   "eventPage": {
     "eventTitle": "Trung thu",

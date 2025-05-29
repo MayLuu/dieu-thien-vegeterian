@@ -5,43 +5,27 @@
       "items": [
         {
           "name": {
-            "vi": "Mì ramen (Khô/ nước)",
-            "en": "vegan ramen ( dry / soup )",
-            "zh": "纯素拉面（干/汤）"
+            "vi": "PAD thái",
+            "en": "korean kimchi hot pot",
+            "zh": "泰语PAD"
           },
           "price": 55000,
           "desc": {
-            "vi": "mỳ ramen, nước dùng",
-            "en": "Ramen noodles, broth",
-            "zh": "拉面、汤汁"
+            "vi": "hủ tiếu, giá đỗ, hẹ, đậu hũ chiên, nấm chiên, xốt me, dùng kèm lạc rang, ớt, chanh.",
+            "en": "noodles, bean sprouts, chives, fried tofu, fried mushrooms, tamarind sauce, served with roasted peanuts, chili, and lemon.",
+            "zh": "面条，豆芽，韭菜，炸豆腐，炸蘑菇，罗望子酱，配烤花生，辣椒和柠檬。"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMi%CC%80%20ramen_monchinh.jpg?alt=media&token=7ba6bcf4-515a-484e-acd6-ab22bc55b5f3",
-          "bestSeller": false,
-          "isSpicy": false
-        },
-        {
-          "name": {
-            "vi": "Nấm xúc bánh đa",
-            "en": "Stir-fried Mushrooms served with Sesame Rice Crackers",
-            "zh": "炒蘑菇配芝麻脆饼"
-          },
-          "price": 55000,
-          "desc": {
-            "vi": "nấm, bánh đa, gia vị",
-            "en": "mushrooms, rice paper, spices",
-            "zh": "蘑菇、宣纸、香料"
-          },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FNa%CC%82%CC%81m%20xu%CC%81c%20ba%CC%81nh%20%C4%91a_monkhaivi.jpg?alt=media&token=efc9ec85-3da1-42b0-a0f6-c8c1d5147086",
-          "bestSeller": false,
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2FPad%20Tha%CC%81i_dacbiet.jpg?alt=media&token=3792ee20-4dcc-4281-a66a-1d17e489ab13",
+          "bestSeller": true,
           "isSpicy": false
         },
         {
           "name": {
             "vi": "ĐẬU HŨ NON CHIÊN GIÒN CHÀ BÔNG",
             "en": "Fried Young Tofu with Meat floss",
-            "zh": "肉松嫩豆腐"
+            "zh": "酥脆棉花嫩豆腐"
           },
-          "price": 55000,
+          "price": 150000,
           "desc": {
             "vi": "đậu hủ non, chà bông chay, rong biển, mỡ hành dùng kèm với mayonnaise tương ớt",
             "en": "Soft tofu, vegetarian floss, seaweed, onion fat served with mayonnaise and chili sauce",
@@ -53,27 +37,11 @@
         },
         {
           "name": {
-            "vi": "NẤM bào ngư xốc muối hongkong",
-            "en": "HongKong Salted Oyster Mushrooms",
-            "zh": "香港咸平菇"
-          },
-          "price": 55000,
-          "desc": {
-            "vi": "nấm bào ngư, muối Hong Kong dùng kèm với mayonnaise tương ớt",
-            "en": "abalone mushrooms, Hong Kong salt served with mayonnaise and chili sauce",
-            "zh": "鲍鱼菇、港盐 配蛋黄酱和辣椒酱"
-          },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2FNa%CC%82%CC%81m%20ba%CC%80o%20ngu%CC%9B%20xo%CC%82%CC%81c%20muo%CC%82%CC%81i%20HongKong_dacbiet.jpg?alt=media&token=7158a1fe-cd82-4452-a322-31ac284da192",
-          "bestSeller": true,
-          "isSpicy": false
-        },
-        {
-          "name": {
             "vi": "ĐẬU NON RONG BIỂN SỐT TERIYAKI",
             "en": "Seaweed rolled Young Tofu & Teriyaki Sauce",
-            "zh": "海苔卷嫩豆腐和照烧酱"
+            "zh": "嫩豆海鲜配照烧酱"
           },
-          "price": 55000,
+          "price": 150000,
           "desc": {
             "vi": "đậu hủ non cuộn rong biển chiên giòn, sốt teriyaki",
             "en": "Crispy fried seaweed rolled tofu, teriyaki sauce",
@@ -87,13 +55,13 @@
           "name": {
             "vi": "KHOAI TÂY BỌT BIỂN",
             "en": "spongy spongy potato",
-            "zh": "海绵状的海绵状的土豆"
+            "zh": "海绵土豆"
           },
-          "price": 59000,
+          "price": 150000,
           "desc": {
-            "vi": "khoai tây , chà bông chay , rong biển dùng với mayonnaise tương ớt",
-            "en": "potatoes, vegetarian floss, seaweed served with mayonnaise and chili sauce",
-            "zh": "土豆、素肉丝、海藻配蛋黄酱和辣椒酱"
+            "vi": "khoai tây ; chà bông chay ; rong biển dùng với mayonnaise tương ớt",
+            "en": "potato ; vegetarian floss ; seaweed served with mayonnaise and chili sauce",
+            "zh": "土豆 ;素食牙线；海藻配蛋黄酱和辣椒酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FKhoai%20ta%CC%82y%20bo%CC%A3t%20bie%CC%82%CC%89n_khaivi.jpg?alt=media&token=36f0a7a6-db84-4900-a69c-34cc66617d56",
           "bestSeller": false,
@@ -104,6 +72,21 @@
     "salad": {
       "icon": "/icons/salad.svg",
       "items": [
+        {
+          "name": {
+            "vi": "Nấm xúc bánh đa",
+            "en": "Stir-fried Mushrooms served with Sesame Rice Crackers",
+            "zh": "将蘑菇舀入宣纸中"
+          },
+          "price": 150000,
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FNa%CC%82%CC%81m%20xu%CC%81c%20ba%CC%81nh%20%C4%91a_monkhaivi.jpg?alt=media&token=efc9ec85-3da1-42b0-a0f6-c8c1d5147086",
+          "bestSeller": false,
+          "isSpicy": false
+        },
         {
           "name": {
             "vi": "GỎI NẤM BÀO NGƯ XÉ TRỘN",
@@ -124,7 +107,7 @@
           "name": {
             "vi": "GỎI somtum thái lan",
             "en": "Thailand Somtum Salad ",
-            "zh": "泰国 Somtum 沙拉 "
+            "zh": "泰式沙拉"
           },
           "price": 59000,
           "desc": {
@@ -140,7 +123,7 @@
           "name": {
             "vi": "gỎI NGÓ SEN",
             "en": "Lotus Delight Salad ",
-            "zh": "莲花沙拉 "
+            "zh": "莲花沙拉"
           },
           "price": 55000,
           "desc": {
@@ -156,7 +139,7 @@
           "name": {
             "vi": "GỎI RONG SỤN",
             "en": "Cartilage Algae Salad",
-            "zh": "软骨藻沙拉"
+            "zh": "软骨沙拉"
           },
           "price": 55000,
           "desc": {
@@ -172,7 +155,7 @@
           "name": {
             "vi": "SALAD Trái cây NHIỆT ĐỚi",
             "en": "Tropical Fruity Salad ",
-            "zh": "热带水果沙拉 "
+            "zh": "热带水果沙拉"
           },
           "price": 59000,
           "desc": {
@@ -180,7 +163,7 @@
             "en": "Lettuce, tomato, dragon fruit, pineapple, American corn, orange, raisins, passion fruit sauce",
             "zh": "生菜、番茄、火龙果、菠萝、美国玉米、橙子、葡萄干、百香果酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FSalad%20tra%CC%81i%20ca%CC%82y%20nhie%CC%A3%CC%82t%20%C4%91o%CC%9B%CC%81i_khaivi.jpg?alt=media&token=c2cb735b-0704-45ca-98c2-03158b1908d7",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FGo%CC%89i%20rong%20su%CC%A3n_khaivi.jpg?alt=media&token=5b7e2fcb-8602-40ec-85c0-22c4942a48ef",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -214,8 +197,8 @@
           "price": 50000,
           "desc": {
             "vi": "nhân khoai các loại, cà rốt, mộc nhĩ, bắp, đậu xanh, dùng kèm nước mắm chua ngọt",
-            "en": "Stuffed with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
-            "zh": "塞满什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
+            "en": "Filled with assorted potatoes, carrots, wood ear mushrooms, corn, green beans, served with sweet and sour fish sauce",
+            "zh": "馅料为什锦土豆、胡萝卜、木耳、玉米、青豆，配糖醋鱼露"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2Fcha%CC%89%20gio%CC%80_moncuon.jpg?alt=media&token=a75f9867-69e2-437b-a14d-74b3f08f7161",
           "bestSeller": false,
@@ -225,7 +208,7 @@
           "name": {
             "vi": "gỏi cuốn",
             "en": "Summer Roll",
-            "zh": "夏季卷"
+            "zh": "春卷"
           },
           "price": 50000,
           "desc": {
@@ -241,7 +224,7 @@
           "name": {
             "vi": "bì cuốn",
             "en": "Crystal Autumn Roll",
-            "zh": "水晶秋卷"
+            "zh": "卷信封"
           },
           "price": 50000,
           "desc": {
@@ -257,7 +240,7 @@
           "name": {
             "vi": "mẹt cuốn",
             "en": "Veggie Wrap & Roll",
-            "zh": "蔬菜卷"
+            "zh": "他妈的滚"
           },
           "price": 55000,
           "desc": {
@@ -273,13 +256,13 @@
           "name": {
             "vi": "bánh xèo",
             "en": "Vietnamese Pancake",
-            "zh": "越南煎饼"
+            "zh": "班赫西奥"
           },
-          "price": 59000,
+          "price": 55000,
           "desc": {
             "vi": "nhân giá đỗ, cà rốt, nấm xào thập cẩm, đậu xanh, cuốn bành tráng với rau sống các loại, dùng kèm nước mắm chua ngọt.",
-            "en": "stuffed with bean sprouts, carrots, mixed stir-fried mushrooms, green beans, rolled with assorted raw vegetables, served with sweet and sour fish sauce.",
-            "zh": "里面塞满了豆芽、胡萝卜、炒蘑菇、青豆，卷上什锦生蔬菜，配上糖醋鱼露。"
+            "en": "stuffed with bean sprouts, carrots, mixed stir-fried mushrooms, green beans, rolled into rice paper with assorted raw vegetables, served with sweet and sour fish sauce.",
+            "zh": "里面塞满了豆芽、胡萝卜、炒蘑菇、青豆，卷成米纸，配上什锦生菜，配上糖醋鱼露。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBa%CC%81nh%20xe%CC%80o_moncuon.jpg?alt=media&token=7425fff4-9c1c-4105-95c2-379f5bce4f53",
           "bestSeller": false,
@@ -289,7 +272,7 @@
           "name": {
             "vi": "Nấm nướng lá lốt",
             "en": "Grilled mushrooms rolled in piper lolot",
-            "zh": "烤蘑菇卷在风笛手洛洛特"
+            "zh": "槟榔叶烤蘑菇"
           },
           "price": 55000,
           "desc": {
@@ -309,78 +292,78 @@
         {
           "name": {
             "vi": "lẩu nấm tiêu xanh",
-            "en": "Green pepper & mushrooms hotpot",
+            "en": "Green pepper & mushrooms hot pot",
             "zh": "青椒蘑菇火锅"
           },
           "price": 150000,
           "desc": {
-            "vi": "nước lẩu tiêu xanh , rau mồng tơi , rau cải thảo , rau cải bẹ xanh , nấm đùi gà , nấm bào ngư , nấm kim châm , đậu hủ non , dùng kèm nước mắm chay ăn kèm và bún tươi",
-            "en": "green pepper hotpot, spinach, Chinese cabbage, mustard greens, chicken thigh mushrooms, abalone mushrooms, enoki mushrooms, soft tofu, served with vegetarian fish sauce and fresh vermicelli",
-            "zh": "青椒火锅，菠菜，大白菜，芥菜，鸡腿菇，鲍鱼菇，金针菇，嫩豆腐，配素鱼露和鲜粉丝"
+            "vi": "nước lẩu tiêu xanh ; rau mồng tơi ; rau cải thảo ; rau cải bẹ xanh ; nấm đùi gà ; nấm bào ngư ; nấm kim châm ; đậu hủ non ; dùng kèm nước mắm chay ăn kèm và bún tươi",
+            "en": "green pepper hotpot ; spinach ; Chinese cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; Enoki mushroom ; soft tofu ; Served with vegetarian fish sauce and fresh vermicelli",
+            "zh": "青椒火锅；菠菜 ;大白菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；金针菇；软豆腐；配素食鱼露和新鲜粉丝"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20na%CC%82%CC%81m%20ha%CC%82%CC%80m%20tie%CC%82u%20xanh_monlau.jpg?alt=media&token=4bf45d0a-6d41-487c-99d6-e7b151289319",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20na%CC%82%CC%81m%20ha%CC%82%CC%80m%20tie%CC%82u%20xanh_monlau(1).jpg?alt=media&token=13d58f72-87f2-4df3-8f81-f27674d48ad8",
           "bestSeller": false,
           "isSpicy": false
         },
         {
           "name": {
             "vi": "lẩu thái",
-            "en": "Thai hotpot",
+            "en": "Thai hot pot",
             "zh": "泰式火锅"
           },
           "price": 150000,
           "desc": {
-            "vi": "nước lẩu thái , rau bắp chuối , rau cải thảo , rau muống , rau cần nước , nấm đùi gà , nấm kim châm , nấm bào ngư , đậu hủ non dùng kèm với nước mắm chay và bún tươi",
-            "en": "Thai hot pot sauce, banana cabbage, Chinese cabbage, water spinach, water spinach, chicken thigh mushrooms, enoki mushrooms, abalone mushrooms, soft tofu served with vegetarian fish sauce and fresh vermicelli",
-            "zh": "泰式火锅酱，香蕉白菜，大白菜，空心菜，空心菜，鸡腿菇，金针菇，鲍鱼菇，软豆腐配素鱼露和鲜粉条"
+            "vi": "nước lẩu thái ; rau bắp chuối ; rau cải thảo ; rau muống ; rau cần nước ; nấm đùi gà ; nấm kim châm ; nấm bào ngư ; đậu hủ non dùng kèm với nước mắm chay và bún tươi",
+            "en": "Thai hotpot ; banana vegetables ; Chinese cabbage ; spinach ; Vegetables need water; chicken drumstick mushrooms ; Enoki mushroom ; abalone mushrooms ; Soft tofu served with vegetarian fish sauce and fresh vermicelli",
+            "zh": "泰式火锅；香蕉蔬菜；大白菜；菠菜 ;蔬菜需要水；鸡腿蘑菇；金针菇；鲍鱼蘑菇；软豆腐配素鱼露和新鲜粉丝"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20Tha%CC%81i_monlau(1).jpg?alt=media&token=36cd92a3-3e5b-4d92-9b2a-7a12a5ccc377",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20Tha%CC%81i_monlau.jpg?alt=media&token=04fe5c75-aaec-4c57-9504-085f7618e640",
           "bestSeller": false,
           "isSpicy": false
         },
         {
           "name": {
             "vi": "lẩu sa tế diệu thiện",
-            "en": "\"Dieu Thien\" spicy sauce hotpot",
-            "zh": "「Dieu Thien」辣酱火锅"
+            "en": "Dieu Thien spicy sauce hot pot",
+            "zh": "很棒的沙爹火锅"
           },
           "price": 150000,
           "desc": {
-            "vi": "nước lẩu sa tế , rau mồng tơi , rau cải thảo , nấm bào ngư , nấm đùi gà , nấm kim châm đen , đậu hủ , tàu hủ ki dùng kèm với nước mắm sa tế và bún tươi",
-            "en": "satay hotpot, spinach, Chinese cabbage, abalone mushrooms, chicken thigh mushrooms, black enoki mushrooms, tofu, tofu served with satay fish sauce and fresh vermicelli",
-            "zh": "沙爹火锅，菠菜，大白菜，鲍鱼菇，鸡腿菇，黑金针菇，豆腐，沙爹鱼露豆腐和鲜粉条"
+            "vi": "nước lẩu sa tế ; rau mồng tơi ; rau cải thảo ; nấm bào ngư ; nấm đùi gà ; nấm kim châm đen ; đậu hủ ; tàu hủ ki dùng kèm với nước mắm sa tế và bún tươi",
+            "en": "satay hotpot ; spinach ; Chinese cabbage ; abalone mushrooms ; chicken drumstick mushrooms ; black enoki mushroom ; tofu ; Tofu ki served with satay fish sauce and fresh vermicelli",
+            "zh": "沙爹火锅；菠菜 ;大白菜；鲍鱼蘑菇；鸡腿蘑菇；黑金针菇；豆腐；豆腐记配沙爹鱼露和新鲜粉丝"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20sa%20te%CC%82%CC%81%20Die%CC%A3%CC%82u%20Thie%CC%A3%CC%82n_monlau(1).jpg?alt=media&token=fb819ffd-ad81-4e22-b5d6-63c322b2e3ec",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20sa%20te%CC%82%CC%81%20Die%CC%A3%CC%82u%20Thie%CC%A3%CC%82n_monlau.jpg?alt=media&token=d4903c65-c5ad-435b-8d62-3a3f02331e1a",
           "bestSeller": false,
           "isSpicy": true
         },
         {
           "name": {
             "vi": "lẩu chao",
-            "en": "furmented bean curd hotpot",
-            "zh": "腐乳火锅"
+            "en": "furmented bean curd hot pot",
+            "zh": "潮火锅"
           },
           "price": 150000,
           "desc": {
-            "vi": "nước lẩu chao , rau mồng tơi , rau cải thảo , rau cải bẹ xanh , nấm đùi gà , nấm bào ngư , tàu hủ ki dùng kèm với nước chấm chao chay và bún tươi",
-            "en": "Chao hotpot, spinach, Chinese cabbage, mustard greens, chicken thigh mushrooms, abalone mushrooms, tofu served with vegetarian chao dipping sauce and fresh vermicelli",
-            "zh": "潮火锅，菠菜，大白菜，芥菜，鸡腿菇，鲍鱼菇，豆腐配素潮酱和新鲜粉丝"
+            "vi": "nước lẩu chao ; rau mồng tơi ; rau cải thảo ; rau cải bẹ xanh ; nấm đùi gà ; nấm bào ngư ; tàu hủ ki dùng kèm với nước chấm chao chay và bún tươi",
+            "en": "chao hotpot ; spinach ; Chinese cabbage ; mustard greens ; chicken drumstick mushrooms ; abalone mushrooms ; Tofu ki served with vegetarian dipping sauce and fresh vermicelli",
+            "zh": "潮火锅;菠菜 ;大白菜；芥菜；鸡腿蘑菇；鲍鱼蘑菇；豆腐木配素食蘸酱和新鲜粉丝"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20chao_monlau.jpg?alt=media&token=7c754995-1978-4ef9-881c-339b0742a3b2",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20chao_monlau(1).jpg?alt=media&token=eca3ce0d-c42b-4927-a669-a7ca9f84cd03",
           "bestSeller": false,
           "isSpicy": false
         },
         {
           "name": {
             "vi": "lẩu kim chi hàn quốc",
-            "en": "korean kimchi hotpot",
+            "en": "korean kimchi hot pot",
             "zh": "韩国泡菜火锅"
           },
           "price": 150000,
           "desc": {
-            "vi": "nước lẩu kim chi , rau bắp cải tím , rau bắp cải thảo , nấm bào ngư dùng với mì hàn quốc",
-            "en": "kimchi hotpot, purple cabbage, Chinese cabbage, abalone mushrooms served with Korean noodles",
-            "zh": "泡菜火锅，紫甘蓝，大白菜，鲍鱼蘑菇配韩国面条"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2Fla%CC%82%CC%89u%20kim%20chi-monlau.jpg?alt=media&token=f8045917-53be-4d54-8783-9471cc306036",
           "bestSeller": false,
@@ -389,14 +372,13 @@
         {
           "name": {
             "vi": "lẩu uyên ương",
-            "en": "lovebird hotpot",
+            "en": "lovebird hot pot",
             "zh": "爱情鸟火锅"
           },
           "price": 250000,
           "desc": {
-            "vi": "nước lẩu uyên ương, sa tế, rau vời mì hàn quốc",
-            "en": "Mandarin hotpot, satay, vegetables and Korean noodles",
-            "zh": "普通话火锅、沙爹、蔬菜和韩国面条"
+            "en": "",
+            "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20uye%CC%82n%20u%CC%9Bo%CC%9Bng_monlau.jpg?alt=media&token=11819106-1900-4f9f-95eb-00406bc6f65d",
           "bestSeller": false,
@@ -417,9 +399,9 @@
           "desc": {
             "vi": "cơm, cá mặn chay, chà bông chay, rong biển chay, hành lá (có điều chỉnh)",
             "en": "rice, vegetarian salted fish, vegetarian floss, vegetarian seaweed, green onions (adjustable)",
-            "zh": "米饭、素咸鱼、素肉松、素紫菜、葱（适量）"
+            "zh": "白饭、素咸鱼、素肉松、素紫菜、葱（适量）"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCo%CC%9Bm%20chie%CC%82n%20rong%20bie%CC%82%CC%89n_monchinh.jpg?alt=media&token=5df048ec-8ec7-4a03-912b-15bd37cde101",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20chao_monlau(1).jpg?alt=media&token=eca3ce0d-c42b-4927-a669-a7ca9f84cd03",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -427,7 +409,7 @@
           "name": {
             "vi": "cơm chiên thơm kiểu thái",
             "en": "Thai fried rice with pineapple",
-            "zh": "泰式菠萝炒饭"
+            "zh": "泰式香炒饭"
           },
           "price": 55000,
           "desc": {
@@ -459,7 +441,7 @@
           "name": {
             "vi": "cơm trộn hàn quốc",
             "en": "korean mixed rice",
-            "zh": "韩式什锦饭"
+            "zh": "韩国什锦饭"
           },
           "price": 59000,
           "desc": {
@@ -475,7 +457,7 @@
           "name": {
             "vi": "cơm nấm lúc lắc & canh rau củ",
             "en": "saute dice mushroom rice & curry soup",
-            "zh": "炒蘑菇粒和咖喱汤"
+            "zh": "摇晃蘑菇饭和蔬菜汤"
           },
           "price": 55000,
           "desc": {
@@ -506,8 +488,8 @@
         {
           "name": {
             "vi": "MIẾN TRỘN",
-            "en": "korean kimchi hotpot",
-            "zh": "韩国泡菜火锅"
+            "en": "korean kimchi hot pot",
+            "zh": "混合九人"
           },
           "price": 55000,
           "desc": {
@@ -521,27 +503,11 @@
         },
         {
           "name": {
-            "vi": "PAD thái",
-            "en": "korean kimchi hotpot",
-            "zh": "韩国泡菜火锅"
+            "vi": "HỦ TIẾU ÁP CHẢO",
+            "en": "korean kimchi hot pot",
+            "zh": "炒面"
           },
           "price": 55000,
-          "desc": {
-            "vi": "hủ tiếu, giá đỗ, hẹ, đậu hũ chiên, nấm chiên, xốt me, dùng kèm lạc rang, ớt, chanh.",
-            "en": "noodles, bean sprouts, chives, fried tofu, fried mushrooms, tamarind sauce, served with roasted peanuts, chili, and lemon.",
-            "zh": "面条，豆芽，韭菜，炸豆腐，炸蘑菇，罗望子酱，配烤花生，辣椒和柠檬。"
-          },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2FPad%20Tha%CC%81i_dacbiet.jpg?alt=media&token=3792ee20-4dcc-4281-a66a-1d17e489ab13",
-          "bestSeller": true,
-          "isSpicy": false
-        },
-        {
-          "name": {
-            "vi": "HỦ TIẾU ÁP CHẢO",
-            "en": "korean kimchi hotpot",
-            "zh": "韩国泡菜火锅"
-          },
-          "price": 59000,
           "desc": {
             "vi": "Hủ tiếu, ớt chuông, cải thảo, hành tây, cải thài, đậu hũ chiên, nấm chiên, tỏi phi.",
             "en": "Rice noodles, bell peppers, Chinese cabbage, onions, Chinese cabbage, fried tofu, fried mushrooms, fried garlic.",
@@ -554,10 +520,10 @@
         {
           "name": {
             "vi": "MÌ vàng XÀO THẬP CẨM",
-            "en": "korean kimchi hotpot",
-            "zh": "韩国泡菜火锅"
+            "en": "korean kimchi hot pot",
+            "zh": "炒黄面"
           },
-          "price": 59000,
+          "price": 55000,
           "desc": {
             "vi": "Mì vàng, ớt chuông, cải thảo, hành tây, cải thài, đậu hũ chiên, nấm chiên, hành phi.",
             "en": "Yellow noodles, bell peppers, Chinese cabbage, onions, Chinese cabbage, fried tofu, fried mushrooms, fried onions.",
@@ -570,8 +536,8 @@
         {
           "name": {
             "vi": "MÌ Ý SỐT CÀ CHUA NẤM",
-            "en": "korean kimchi hotpot",
-            "zh": "韩国泡菜火锅"
+            "en": "korean kimchi hot pot",
+            "zh": "番茄蘑菇意大利面"
           },
           "price": 59000,
           "desc": {
@@ -579,21 +545,20 @@
             "en": "Spaghetti, chicken drumstick mushrooms, tomato sauce,",
             "zh": "意大利面、鸡腿蘑菇、番茄酱、"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMi%CC%80%20Y%CC%81%20so%CC%82%CC%81t%20ca%CC%80%20chua%20na%CC%82%CC%81m%20hu%CC%9Bo%CC%9Bng_monchinh.jpg?alt=media&token=c7979b2d-d046-47df-96ae-1a129346ed59",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMi%CC%80%20ramen_monchinh.jpg?alt=media&token=7ba6bcf4-515a-484e-acd6-ab22bc55b5f3",
           "bestSeller": false,
           "isSpicy": false
         },
         {
           "name": {
             "vi": "CÀ RI BÁNH MÌ",
-            "en": "korean kimchi hotpot",
-            "zh": "韩国泡菜火锅"
+            "en": "korean kimchi hot pot",
+            "zh": "咖喱面包"
           },
           "price": 65000,
           "desc": {
-            "vi": "cà ri, bánh mì",
-            "en": "curry, bread",
-            "zh": "咖喱、面包"
+            "en": "",
+            "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FCa%CC%80%20ri%20ba%CC%81nh%20mi%CC%80_monchinh.jpg?alt=media&token=a3c8c9ed-fbab-438a-b731-bb0ddc048e50",
           "bestSeller": false,
@@ -602,17 +567,47 @@
         {
           "name": {
             "vi": "NẤm lÚC LẮC KHOAI TÂY",
-            "en": "korean kimchi hotpot",
-            "zh": "韩国泡菜火锅"
+            "en": "korean kimchi hot pot",
+            "zh": "蘑菇配土豆"
           },
           "price": 65000,
           "desc": {
-            "vi": "nấm, khoai tây",
-            "en": "mushrooms, potatoes",
-            "zh": "蘑菇、土豆"
+            "en": "",
+            "zh": ""
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FNa%CC%82%CC%81m%20lu%CC%81c%20la%CC%86%CC%81c-khoai%20ta%CC%82y_monchinh.JPG?alt=media&token=f7791b30-7bfa-4b02-860c-528b01a2a6b8",
           "bestSeller": false,
+          "isSpicy": false
+        },
+        {
+          "name": {
+            "vi": "Mì ramen (Khô/ nước)",
+            "en": "vegan ramen ( dry / soup )",
+            "zh": "拉面（干/水）"
+          },
+          "price": 150000,
+          "desc": {
+            "en": "",
+            "zh": ""
+          },
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FMi%CC%80%20ramen_monchinh.jpg?alt=media&token=7ba6bcf4-515a-484e-acd6-ab22bc55b5f3",
+          "bestSeller": false,
+          "isSpicy": false
+        },
+        {
+          "name": {
+            "vi": "NẤM bào ngư xốc muối hongkong",
+            "en": "HongKong Salted Oyster Mushrooms",
+            "zh": "港盐炒鲍鱼菇"
+          },
+          "price": 150000,
+          "desc": {
+            "vi": "nấm bào ngư, muối Hong Kong dùng kèm với mayonnaise tương ớt",
+            "en": "abalone mushrooms, Hong Kong salt served with mayonnaise and chili sauce",
+            "zh": "鲍鱼菇、港盐 配蛋黄酱和辣椒酱"
+          },
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/dacbiet%2FNa%CC%82%CC%81m%20ba%CC%80o%20ngu%CC%9B%20xo%CC%82%CC%81c%20muo%CC%82%CC%81i%20HongKong_dacbiet.jpg?alt=media&token=7158a1fe-cd82-4452-a322-31ac284da192",
+          "bestSeller": true,
           "isSpicy": false
         }
       ]
@@ -624,15 +619,15 @@
           "name": {
             "vi": "CANH NẤM ĐẬU HỦ RONG BIỂN",
             "en": "Seaweed Soup with Tofu & Mushrooms",
-            "zh": "豆腐蘑菇紫菜汤"
+            "zh": "蘑菇豆腐海鲜汤"
           },
           "price": 50000,
           "desc": {
-            "vi": "rong biển , tàu hủ, nấm bào ngư, cà rốt , hành phi , tiêu, gừng",
-            "en": "seaweed, tofu, abalone mushrooms, carrots, fried onions, pepper, ginger",
-            "zh": "海带、豆腐、鲍鱼菇、胡萝卜、炸洋葱、胡椒、姜"
+            "vi": "rong biển ; tàu hủ, nấm bào ngư, cà rốt , hành phi ; tiêu, gừng",
+            "en": "seaweed ; tofu, abalone mushrooms, carrots, fried onions; pepper, ginger",
+            "zh": "海藻;豆腐、鲍鱼菇、胡萝卜、炸洋葱；胡椒、生姜"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FCanh%20na%CC%82%CC%81m%20ta%CC%80u%20hu%CC%83%20rong%20bie%CC%82%CC%89n_moncanh.jpg?alt=media&token=3ff3a3e5-f700-4c64-8f20-34e4405516c3",
+          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20na%CC%82%CC%81m%20tuye%CC%82%CC%81t%20he%CC%A3t%20sen_moncanh.jpg?alt=media&token=c1843967-442e-44f4-aa0d-8a1d7a8f0c15",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -640,7 +635,7 @@
           "name": {
             "vi": "CANH CHUA NAM BỘ",
             "en": "Southern Vietnamese Sweet & Sour Soup",
-            "zh": "南越糖醋汤"
+            "zh": "南方酸汤"
           },
           "price": 50000,
           "desc": {
@@ -656,7 +651,7 @@
           "name": {
             "vi": "CANH Cải xanh nấu nấm",
             "en": "Mustard Greens Soup with Mushrooms",
-            "zh": "芥菜蘑菇汤"
+            "zh": "汤西兰花蘑菇煮"
           },
           "price": 50000,
           "desc": {
@@ -672,13 +667,13 @@
           "name": {
             "vi": "SÚP TÓC TIÊN",
             "en": "Fat Choy Soup",
-            "zh": "发菜汤"
+            "zh": "TOC天汤"
           },
           "price": 39000,
           "desc": {
-            "vi": "tóc tiên , bắp mĩ , cà rốt , nấm , đậu que , hành phi , tiêu , ngò rí",
-            "en": "fairy hair, American corn, carrots, mushrooms, string beans, fried onions, pepper, coriander",
-            "zh": "仙女毛、美国玉米、胡萝卜、蘑菇、四季豆、炒洋葱、胡椒、香菜"
+            "vi": "tóc tiên ; bắp mĩ ; cà rốt ; nấm ; đậu que ; hành phi ; tiêu ; ngò rí",
+            "en": "fairy hair ; American corn ; carrot ; mushroom ; string beans ; onions ; pepper ; coriander",
+            "zh": "仙女的头发；美国玉米；胡萝卜 ;蘑菇;四季豆；洋葱；胡椒;香菜"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20to%CC%81c%20tie%CC%82n_moncanh.jpg?alt=media&token=3078a31b-51f1-4ce8-a399-075cedf7e44b",
           "bestSeller": false,
@@ -688,13 +683,13 @@
           "name": {
             "vi": "SÚP NẤM TUYẾT HẠT SEN",
             "en": "Lotus seed & White Wood-ear Mushroom Soup",
-            "zh": "莲子白木耳汤"
+            "zh": "雪菇莲子汤"
           },
           "price": 39000,
           "desc": {
-            "vi": "nấm tuyết , hạt sen , nấm cà rốt , đậu que , hành phi , tiêu, ngò rí .",
-            "en": "snow mushrooms, lotus seeds, carrot mushrooms, string beans, fried onions, pepper, coriander.",
-            "zh": "雪菇、莲子、胡萝卜蘑菇、四季豆、炒洋葱、辣椒、香菜。"
+            "vi": "nấm tuyết ; hạt sen ; nấm cà rốt ; đậu que ; hành phi ; tiêu; ngò rí .",
+            "en": "snow mushroom ; lotus seeds ; carrot mushrooms ; string beans ; onions ; pepper; Coriander.",
+            "zh": "雪蘑菇；莲子；胡萝卜蘑菇；四季豆；洋葱；胡椒;香菜。"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FSu%CC%81p%20na%CC%82%CC%81m%20tuye%CC%82%CC%81t%20he%CC%A3t%20sen_moncanh.jpg?alt=media&token=c1843967-442e-44f4-aa0d-8a1d7a8f0c15",
           "bestSeller": false,
@@ -709,13 +704,13 @@
           "name": {
             "vi": "RAU MUỐNG XÀO TỎI",
             "en": "Stir-fried Water Spinach with Garlic",
-            "zh": "蒜炒空心菜"
+            "zh": "蒜炒米纳赫"
           },
           "price": 45000,
           "desc": {
-            "vi": "rau muống, tỏi phi dùng kèm nước tương",
-            "en": "Fried spinach and garlic served with soy sauce",
-            "zh": "炒菠菜和大蒜，配酱油"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2Frau%20muo%CC%82%CC%81ng%20xa%CC%80o%20to%CC%89i_monxao.jpg?alt=media&token=2da8f0f4-0282-4ae1-ba5f-1c7fb0c1c4d3",
           "bestSeller": false,
@@ -725,13 +720,13 @@
           "name": {
             "vi": "RAU MUỐNG XÀO NẤM",
             "en": "Stir-fried Water Spinach with Mushrooms",
-            "zh": "香菇炒空心菜"
+            "zh": "蘑菇炒色"
           },
           "price": 55000,
           "desc": {
-            "vi": "rau muống, nấm bào ngư, tỏi phi dùng với nước tương",
-            "en": "water spinach, abalone mushrooms, fried garlic served with soy sauce",
-            "zh": "空心菜、鲍鱼菇、酱油炒蒜"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FRau%20muo%CC%82%CC%81ng%20xa%CC%80o%20na%CC%82%CC%81m_monman.jpg?alt=media&token=31da0d7b-f1b6-480a-9f9b-3829e365d284",
           "bestSeller": false,
@@ -741,13 +736,13 @@
           "name": {
             "vi": "RAU XÀO THẬP CẨM",
             "en": "Mixed Stir-fried Veggies",
-            "zh": "什锦炒蔬菜"
+            "zh": "什锦蔬菜"
           },
           "price": 55000,
           "desc": {
-            "vi": "cải thảo, cà rốt, ớt chuông, cải thìa, tỏi phi dùng kèm với nước tương",
-            "en": "Chinese cabbage, carrots, bell peppers, bok choy, fried garlic served with soy sauce",
-            "zh": "大白菜，胡萝卜，青椒，白菜，炸蒜，酱油"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FRau%20xa%CC%80o%20tha%CC%A3%CC%82p%20ca%CC%82%CC%89m_monman_.jpg?alt=media&token=ef486948-d904-45a8-8b53-07cefead04f6",
           "bestSeller": false,
@@ -757,13 +752,13 @@
           "name": {
             "vi": "RAU LUỘC KHO QUẸT",
             "en": "Boiled Veggie with Caramelized Salted Sauce",
-            "zh": "焦糖咸酱煮蔬菜"
+            "zh": "水煮带脑蔬菜"
           },
           "price": 55000,
           "desc": {
-            "vi": "cải thảo, khổ qua, cà rốt, cải thìa, đậu bắp, bầu dùng kèm với kho quẹt",
-            "en": "Chinese cabbage, bitter melon, carrots, bok choy, okra, gourd served with stew",
-            "zh": "大白菜、苦瓜、胡萝卜、白菜、秋葵、葫芦炖菜"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FRau%20luo%CC%A3%CC%82c-kho%20que%CC%A3t_monman.jpg?alt=media&token=3886a8a4-402d-4df7-a8c4-4d96b2e8af02",
           "bestSeller": false,
@@ -773,13 +768,13 @@
           "name": {
             "vi": "CẢI THÌA SỐT NẤM ĐÔNG CÔ",
             "en": "Bok-choy with Shiitake Sauce",
-            "zh": "香菇酱小白菜"
+            "zh": "肚肚配辣椒蘑菇酱"
           },
           "price": 55000,
           "desc": {
-            "vi": "cải thìa, cà rốt, nấm đông cô, sốt dầu hào chay",
-            "en": "Bok choy, carrots, shiitake mushrooms, vegetarian oyster sauce",
-            "zh": "白菜、胡萝卜、香菇、素蚝油"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FCa%CC%89i%20thi%CC%80a%20so%CC%82%CC%81t%20na%CC%82%CC%81m%20%C4%91o%CC%82ng%20co%CC%82_monman.JPG?alt=media&token=b3e282e4-4ca1-4029-ba19-b514d3c6840e",
           "bestSeller": false,
@@ -789,13 +784,13 @@
           "name": {
             "vi": "NẤM SỐT TIÊU ĐEN",
             "en": "Stir-fried Mushroom with Black Pepper Sauce",
-            "zh": "黑椒炒蘑菇"
+            "zh": "黑胡椒酱蘑菇"
           },
           "price": 65000,
           "desc": {
-            "vi": "nấm đùi gà và nước sốt tiêu đen",
-            "en": "chicken thigh mushrooms and black pepper sauce",
-            "zh": "鸡大腿蘑菇和黑胡椒酱"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FNa%CC%82%CC%81m%20so%CC%82%CC%81t%20tie%CC%82u%20%C4%91en_monman.jpg?alt=media&token=c51fc7f0-559e-439d-bc5f-9a498a039977",
           "bestSeller": false,
@@ -805,13 +800,13 @@
           "name": {
             "vi": "ĐẬU HỦ SỐT TỨ XUYÊN",
             "en": "Mapo Tofu",
-            "zh": "麻婆豆腐"
+            "zh": "四旋豆腐"
           },
           "price": 55000,
           "desc": {
-            "vi": "cà rốt, hành tây , nấm , nước sốt tứ xuyên",
-            "en": "carrots, onions, mushrooms, sichuan sauce",
-            "zh": "胡萝卜、洋葱、蘑菇、川酱"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20non%20so%CC%82%CC%81t%20tu%CC%9B%CC%81%20xuye%CC%82n_monman.jpg?alt=media&token=127fdafd-749c-4f24-82bf-c0a0f086f3f7",
           "bestSeller": false,
@@ -821,13 +816,13 @@
           "name": {
             "vi": "ĐẬU HỦ CHƯNG TƯƠNG",
             "en": "Steamed Tofu with Salted Soybean Sauce",
-            "zh": "咸酱蒸豆腐"
+            "zh": "蒸豆腐"
           },
           "price": 55000,
           "desc": {
-            "vi": "nước lẩu kim chi , rau bắp cải tím , rau bắp cải thảo , nấm bào ngư dùng với mì hàn quốc",
-            "en": "kimchi hotpot, purple cabbage, Chinese cabbage, abalone mushrooms served with Korean noodles",
-            "zh": "泡菜火锅，紫甘蓝，大白菜，鲍鱼蘑菇配韩国面条"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20chu%CC%9Bng%20tu%CC%9Bo%CC%9Bng_monman.jpg?alt=media&token=75a7c087-59c9-4ee6-a01e-8f6f4f85a9da",
           "bestSeller": false,
@@ -837,13 +832,13 @@
           "name": {
             "vi": "ĐẬU HỦ XỐC SA TẾ",
             "en": "Satay Tofu",
-            "zh": "沙爹豆腐"
+            "zh": "沙酱豆腐"
           },
           "price": 55000,
           "desc": {
-            "vi": "đậu hủ chiên , hành tây , ớt chuông , nước sốt sa tế",
-            "en": "fried tofu, onion, bell pepper, satay sauce",
-            "zh": "炸豆腐、洋葱、彩椒、沙爹酱"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2F%C4%90a%CC%A3%CC%82u%20hu%CC%83%20xo%CC%82%CC%81c%20sa%20te%CC%82%CC%81_monman.jpg?alt=media&token=65951195-23c9-48f6-b738-618a4cbaf70a",
           "bestSeller": false,
@@ -853,13 +848,13 @@
           "name": {
             "vi": "NẤM RƠM KHO TIÊU",
             "en": "Braised Straw mushroom with Pepper",
-            "zh": "椒焖草菇"
+            "zh": "胡椒草菇"
           },
           "price": 65000,
           "desc": {
-            "vi": "nấm rơm , hành tây , tiêu",
-            "en": "straw mushrooms, onions, pepper",
-            "zh": "草菇、洋葱、辣椒"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FNa%CC%82%CC%81m%20ro%CC%9Bm%20kho%20tie%CC%82u_monman.jpg?alt=media&token=e4de3db4-c10b-4ba6-b15b-b73c0eb94761",
           "bestSeller": false,
@@ -869,13 +864,13 @@
           "name": {
             "vi": "CHÂN NẤM KHO GỪNG",
             "en": "Braised Mushroom with Ginger",
-            "zh": "姜焖蘑菇"
+            "zh": "姜茸蘑菇"
           },
           "price": 65000,
           "desc": {
-            "vi": "nấm rơm , hành tây , tiêu",
-            "en": "straw mushrooms, onions, pepper",
-            "zh": "草菇、洋葱、辣椒"
+            "vi": "nước lẩu kim chi ; rau bắp cải tím ; rau bắp cải thảo ; nấm bào ngư dùng với mì hàn quốc",
+            "en": "kimchi hotpot ; purple cabbage ; Chinese cabbage ; Abalone mushrooms served with Korean noodles",
+            "zh": "泡菜火锅；紫甘蓝;大白菜；鲍鱼蘑菇配韩式面条"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monman%2FCha%CC%82n%20na%CC%82%CC%81m%20kho%20gu%CC%9B%CC%80ng_monman3871.JPG?alt=media&token=0a3650e7-4c60-43ce-a4f4-5ea5326743f0",
           "bestSeller": false,
@@ -890,13 +885,13 @@
           "name": {
             "vi": "Chè tuyết yến dưỡng nhan",
             "en": "Gum Tragacanth Refresh Beauty Sweet Soup",
-            "zh": "黄芪补气养颜甜汤"
+            "zh": "燕窝雪茶美容养颜"
           },
           "price": 35000,
           "desc": {
-            "vi": "Tuyết yếu , tuyết liên tử , nhựa đào , kỷ tử , táo đỏ , long nhãn",
-            "en": "Weak snow, snow lotus, peach gum, goji berry, red apple, longan",
-            "zh": "弱雪、雪莲、桃胶、枸杞、红苹果、龙眼"
+            "vi": "Tuyết yếu ; tuyết liên tử ; nhựa đào ; kỷ tử ; táo đỏ ; long nhãn",
+            "en": "Weak snow ; snow lotus ; peach resin ; Goji berries ; red apple ; Longan",
+            "zh": "雪弱；雪莲花；桃胶；枸杞子；红苹果;龙眼"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FChe%CC%80%20tuye%CC%82%CC%81t%20ye%CC%82%CC%81n%20du%CC%9Bo%CC%9B%CC%83ng%20nhan_trangmieng.jpg?alt=media&token=e63ccd1d-751b-452b-9398-076fbe08a19b",
           "bestSeller": false,
@@ -906,13 +901,13 @@
           "name": {
             "vi": "Chè hạt sen đông trùng hạ thảo",
             "en": "Lotus Seed Sweet Soup with Cordyceps",
-            "zh": "虫草莲子甜汤"
+            "zh": "虫草莲子茶"
           },
           "price": 35000,
           "desc": {
-            "vi": "hạt sen, kỷ tử , táo đỏ , đông trùng hạ thảo",
-            "en": "lotus seeds, goji berries, red apples, cordyceps",
-            "zh": "莲子、枸杞、红苹果、冬虫夏草"
+            "vi": "hạt sen; kỷ tử ; táo đỏ ; đông trùng hạ thảo",
+            "en": "lotus seeds; Goji berries ; red apple ; Cordyceps",
+            "zh": "莲子；枸杞子；红苹果;虫草"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FChe%CC%80%20ha%CC%A3t%20sen%20%C4%91o%CC%82ng%20tru%CC%80ng%20ha%CC%A3%20tha%CC%89o_trangmieng.jpg?alt=media&token=e55222b8-7b14-41d1-9d32-69b53b8ce267",
           "bestSeller": false,
@@ -926,9 +921,9 @@
           },
           "price": 35000,
           "desc": {
-            "vi": "sữa chua , mức dâu tằm , mức tắc rim , đá bào",
-            "en": "yogurt, mulberry juice, kumquat jelly, shaved ice",
-            "zh": "酸奶、桑葚汁、金橘果冻、刨冰"
+            "vi": "sữa chua ; mức dâu tằm ; mức tắc rim ; đá bào",
+            "en": "yogurt ; mulberry level ; rim occlusion level; shaved ice",
+            "zh": "酸奶 ;桑葚级；边缘咬合程度；刨冰"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FSu%CC%9B%CC%83a%20chua%20da%CC%82u%20ta%CC%86%CC%80m_trangmieng.JPG?alt=media&token=b1ed9b2a-09df-46e7-80e1-d43ac675c35d",
           "bestSeller": false,
@@ -942,9 +937,9 @@
           },
           "price": 12000,
           "desc": {
-            "vi": "được nấu từ sữa đậu nành nguyên chất , gelatin dùng kèm với cái loại mức trái cây",
-            "en": "Made from pure soy milk, gelatin served with fruit sauce",
-            "zh": "由纯豆浆、明胶和果酱制成"
+            "vi": "được nấu từ sữa đậu nành nguyên chất ; gelatin dùng kèm với cái loại mức trái cây",
+            "en": "Made from pure soy milk; Gelatin served with fruit sauce",
+            "zh": "由纯豆浆制成；明胶配水果酱"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2Fpannacotta-trangmieng.jpg?alt=media&token=a3dae487-b05d-49fb-a751-1458e12c0eff",
           "bestSeller": false,
@@ -961,13 +956,13 @@
           "name": {
             "vi": "TRÀ THẢO MỘC",
             "en": "Herbal Tea",
-            "zh": "花草茶"
+            "zh": "Herbal Tea"
           },
           "price": 35000,
           "desc": {
-            "vi": "bông cúc , hoa hồng, kỷ tử , táo đỏ , đường phèn , đông trùng hạ thảo ( có thể dùng nóng hoặc lạnh )",
-            "en": "daisies , rose, Goji berries , Apple , sugar , Cordyceps (can be used hot or cold)",
-            "zh": "雏菊、玫瑰、枸杞子、苹果、糖、冬虫夏草（冷热均可）"
+            "vi": "bông cúc ; hoa hồng; kỷ tử ; táo đỏ ; đường phèn ; đông trùng hạ thảo ( có thể dùng nóng hoặc lạnh )",
+            "en": "daisies ; rose; Goji berries ; Apple ; sugar ; Cordyceps (can be used hot or cold)",
+            "zh": "daisies ; rose; Goji berries ; Apple ; sugar ; Cordyceps (can be used hot or cold)"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20tha%CC%89o%20mo%CC%A3%CC%82c_trasangtao.JPG?alt=media&token=5c3c14e0-f95d-4fe6-9512-dd21a30073aa",
           "bestSeller": false,
@@ -977,29 +972,29 @@
           "name": {
             "vi": "TRÀ ĐÀO CAM SẢ",
             "en": "Orange Lemongrass Peach Tea",
-            "zh": "橙香茅桃茶"
+            "zh": "Orange Lemongrass Peach Tea"
           },
           "price": 35000,
           "desc": {
-            "vi": "sả đập dập , trà đào , serup đào , mức đào , nước cốt tắc , đào miếng",
-            "en": "crushed lemongrass, peach tea , peach syrup , peach jam , kumquat juice ,sliced peach",
-            "zh": "香茅碎、桃茶、桃糖浆、桃果酱、金橘汁、桃片"
+            "vi": "sả đập dập ; trà đào ; serup đào ; mức đào ; nước cốt tắc ; đào miếng",
+            "en": "crushed lemongrass; peach tea ; peach syrup ; peach jam ; kumquat juice ;sliced peach",
+            "zh": "crushed lemongrass; peach tea ; peach syrup ; peach jam ; kumquat juice ;sliced peach"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20%C4%91a%CC%80o%20cam%20sa%CC%89_trasangtao.JPG?alt=media&token=304c914f-9aaf-4be4-b833-40e5a5ec5bd1",
-          "bestSeller": true,
+          "bestSeller": false,
           "isSpicy": false
         },
         {
           "name": {
             "vi": "TRÀ LÀI LỆ CHI",
             "en": "Lychee Jasmine Tea",
-            "zh": "荔枝茉莉花茶"
+            "zh": "Lychee Jasmine Tea"
           },
           "price": 35000,
           "desc": {
-            "vi": "serup vải , vải tươi",
-            "en": "Lychee syrup , fresh lychee",
-            "zh": "荔枝糖浆、新鲜荔枝"
+            "vi": "serup vải ; vải tươi",
+            "en": "Lychee syrup ; fresh lychee",
+            "zh": "Lychee syrup ; fresh lychee"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20la%CC%80i%20le%CC%A3%CC%82%20chi_trasangtao.JPG?alt=media&token=7e11fc08-31b8-4190-a6d0-d4b30f58a687",
           "bestSeller": false,
@@ -1009,13 +1004,13 @@
           "name": {
             "vi": "TRÀ ỔI HỒNG",
             "en": "Pink Guava Tea",
-            "zh": "粉红番石榴茶"
+            "zh": "Pink Guava Tea"
           },
           "price": 35000,
           "desc": {
-            "vi": "nước cốt tắc , mức ổi , serup ổi , ổi tươi",
-            "en": "kumquat juice , guava jam , guava syrup, fresh guava",
-            "zh": "金橘汁、番石榴果酱、番石榴糖浆、新鲜番石榴"
+            "vi": "nước cốt tắc ; mức ổi ; serup ổi ; ổi tươi",
+            "en": "kumquat juice ; guava jam ; guava syrup; fresh guava",
+            "zh": "kumquat juice ; guava jam ; guava syrup; fresh guava"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20o%CC%82%CC%89i%20ho%CC%82%CC%80ng_trasangtao.JPG?alt=media&token=3333eb63-9ab5-43dc-8fae-8fa27f4ce823",
           "bestSeller": false,
@@ -1025,13 +1020,13 @@
           "name": {
             "vi": "TRÀ GỪNG MẬT ONG",
             "en": "Honey Ginger Hot Tea",
-            "zh": "蜂蜜姜热茶"
+            "zh": "Honey Ginger Hot Tea"
           },
           "price": 35000,
           "desc": {
-            "vi": "trà gừng , mật ong , gừng cắt lát",
-            "en": "ginger tea , honey , sliced ginger",
-            "zh": "姜茶、蜂蜜、姜片"
+            "vi": "trà gừng ; mật ong ; gừng cắt lát",
+            "en": "ginger tea ; honey ; sliced ginger",
+            "zh": "ginger tea ; honey ; sliced ginger"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20gu%CC%9B%CC%80ng%20ma%CC%A3%CC%82t%20ong_trasangtao.JPG?alt=media&token=0390f4aa-02a4-4d1a-9cc0-70b2f648bb41",
           "bestSeller": false,
@@ -1041,13 +1036,13 @@
           "name": {
             "vi": "TRÀ TẮC XÍ MUỘI",
             "en": "Sooty Kumquat Tea",
-            "zh": "乌黑金橘茶"
+            "zh": "Sooty Kumquat Tea"
           },
           "price": 35000,
           "desc": {
-            "vi": "xí muội , trà lipton , nước cốt tắc , mức tắc rim",
-            "en": "soot , lipton tea , kumquat juice , Kumquat Marmalade",
-            "zh": "烟灰、立顿茶、金橘汁、金橘果酱"
+            "vi": "xí muội ; trà lipton ; nước cốt tắc ; mức tắc rim",
+            "en": "soot ; lipton tea ; kumquat juice ; Kumquat Marmalade",
+            "zh": "soot ; lipton tea ; kumquat juice ; Kumquat Marmalade"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20ta%CC%86%CC%81c%20xi%CC%81%20muo%CC%A3%CC%82i_trasangtao.JPG?alt=media&token=08ed6df7-0383-4921-9140-b0cda52c14f5",
           "bestSeller": false,
@@ -1057,16 +1052,16 @@
           "name": {
             "vi": "TRÀ LÀI HẠT ĐÁC",
             "en": "Arenga pinnata Jasmine Tea",
-            "zh": "槟榔茉莉花茶"
+            "zh": "Arenga pinnata Jasmine Tea"
           },
           "price": 35000,
           "desc": {
             "vi": "nước ép thơm thêm hạt đác rim thơm",
             "en": "pineapple juice added with arenga pinnata",
-            "zh": "添加了槟榔的菠萝汁"
+            "zh": "pineapple juice added with arenga pinnata"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20la%CC%80i%20ha%CC%A3t%20%C4%91a%CC%81c_trasangtao.JPG?alt=media&token=9307f7d8-e258-4105-be6e-ff60a7174fb1",
-          "bestSeller": true,
+          "bestSeller": false,
           "isSpicy": false
         }
       ]
@@ -1078,13 +1073,13 @@
           "name": {
             "vi": "thơm ép",
             "en": "Pineapple",
-            "zh": "菠萝"
+            "zh": "Pineapple"
           },
           "price": 35000,
           "desc": {
             "vi": "nước ép thơm nguyên chất",
             "en": "pineapple juice",
-            "zh": "菠萝汁"
+            "zh": "pineapple juice"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fthomep_nuocep.jpg?alt=media&token=6de3e059-83e3-40f2-9290-f74289212e99",
           "bestSeller": false,
@@ -1094,13 +1089,13 @@
           "name": {
             "vi": "cam ép",
             "en": "Orange",
-            "zh": "橙子"
+            "zh": "Orange"
           },
           "price": 35000,
           "desc": {
             "vi": "nước ép cam nguyên chất",
             "en": "orange juice",
-            "zh": "橙汁"
+            "zh": "orange juice"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fnuoc-ep-cam-tuoi-thom-ngon-tai-nha.jpg?alt=media&token=67b7bf76-20fa-4a61-942b-8597afbeb776",
           "bestSeller": false,
@@ -1110,13 +1105,13 @@
           "name": {
             "vi": "dưa hấu",
             "en": "Watermelon",
-            "zh": "西瓜"
+            "zh": "Watermelon"
           },
           "price": 35000,
           "desc": {
             "vi": "nước ép dưa hấu nguyên chất",
             "en": "watermelon juice",
-            "zh": "西瓜汁"
+            "zh": "watermelon juice"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fduahau_nuocep%202.jpg?alt=media&token=366c2c11-53dd-4b3c-a7a0-5fd9f4ece395",
           "bestSeller": false,
@@ -1126,13 +1121,13 @@
           "name": {
             "vi": "chanh dây",
             "en": "Passionfruit",
-            "zh": "百香果"
+            "zh": "Passionfruit"
           },
           "price": 35000,
           "desc": {
-            "vi": "nước ép chanh dây cô đặc , serup chanh dây , mức chanh dây",
-            "en": "Passion fruit juice, passion fruit syrup, passion fruit jam",
-            "zh": "百香果汁、百香果糖浆、百香果酱"
+            "vi": "nước ép chanhc dây cô đặc ; serup chanh dây ; mức chanh dây",
+            "en": "Passion fruit juice; passion fruit syrup; passion fruit jam",
+            "zh": "Passion fruit juice; passion fruit syrup; passion fruit jam"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fchanhday_nuocep.jpg?alt=media&token=39578f10-f292-45e2-9ea1-9b9a60a9e554",
           "bestSeller": false,
@@ -1140,31 +1135,15 @@
         },
         {
           "name": {
-            "vi": "Cam cà rốt",
-            "en": "Orange Carrot",
-            "zh": "橙色胡萝卜"
-          },
-          "price": 35000,
-          "desc": {
-            "vi": "nước ép cam, cà rốt",
-            "en": "orange juice",
-            "zh": "橙汁"
-          },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fparadigm-visuals-Tl_YI6wdNIE-unsplash.jpg?alt=media&token=a14c1c4c-e132-4563-bb6d-2f96c8d636d4",
-          "bestSeller": false,
-          "isSpicy": false
-        },
-        {
-          "name": {
             "vi": "Thơm cà rốt",
             "en": "Pineapple Carrot",
-            "zh": "菠萝胡萝卜"
+            "zh": "Pineapple Carrot"
           },
           "price": 35000,
           "desc": {
             "vi": "mix nước ép nguyên chất của thơm và cà rốt",
             "en": "mix pineapple juice and carrot juice",
-            "zh": "将菠萝汁和胡萝卜汁混合"
+            "zh": "mix pineapple juice and carrot juice"
           },
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2FIMG_5212.jpeg?alt=media&token=040bbd7b-6c31-4397-add7-292d127bbcce",
           "bestSeller": false,
@@ -1179,14 +1158,10 @@
           "name": {
             "vi": "Soda Biển xanh",
             "en": "Blue ocean",
-            "zh": "蓝海"
+            "zh": "Blue ocean"
           },
           "price": 30000,
-          "desc": {
-            "vi": "serup biển xanh , serup bạc hà , nước cốt chanh , 1-2 lá bạc hà đập dập , soda",
-            "en": "blue sea serum, mint serum, lemon juice, 1-2 crushed mint leaves, soda",
-            "zh": "蓝海精华、薄荷精华、柠檬汁、1-2片碎薄荷叶、苏打水"
-          },
+          "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Bie%CC%82%CC%89n%20xanh_soda.jpg?alt=media&token=cfa0b542-efbd-459d-8bc4-1c6c43447b2f",
           "bestSeller": false,
           "isSpicy": false
@@ -1195,14 +1170,10 @@
           "name": {
             "vi": "Soda Chanh dây nhiệt đới",
             "en": "tropical passionfruit",
-            "zh": "热带百香果"
+            "zh": "tropical passionfruit"
           },
           "price": 30000,
-          "desc": {
-            "vi": "serup chanh dây , mức chanh dây , soda ",
-            "en": "passion fruit serum, passion fruit syrup, soda",
-            "zh": "百香果精华液、百香果糖浆、苏打水"
-          },
+          "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Chanh%20da%CC%82y_soda.jpg?alt=media&token=6d80ab54-7a51-4f08-be6f-884605b1b178",
           "bestSeller": false,
           "isSpicy": false
@@ -1211,14 +1182,10 @@
           "name": {
             "vi": "Soda Chanh tươi",
             "en": "Fresh & sour",
-            "zh": "又鲜又酸"
+            "zh": "Fresh & sour"
           },
           "price": 30000,
-          "desc": {
-            "vi": "nước cốt chanh tươi , serup đường , soda",
-            "en": "fresh lemon juice, sugar serum, soda",
-            "zh": "新鲜柠檬汁、糖精华、苏打水"
-          },
+          "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Chanh%20tu%CC%9Bo%CC%9Bi_soda.jpg?alt=media&token=df5eccd2-5139-4157-90ac-ebc1f669cdff",
           "bestSeller": false,
           "isSpicy": false
@@ -1227,14 +1194,10 @@
           "name": {
             "vi": "Soda Việt quất",
             "en": "purple dream",
-            "zh": "紫色的梦"
+            "zh": "purple dream"
           },
           "price": 30000,
-          "desc": {
-            "vi": "nước cốt việt quốc, serup đường , soda",
-            "en": "blueberry juice, sugar serum, soda",
-            "zh": "蓝莓汁、糖浆、苏打水"
-          },
+          "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Vie%CC%A3%CC%82t%20qua%CC%82%CC%81t_Soda.jpg?alt=media&token=8e6507ad-71a2-42fb-92a6-ab76677c9f5e",
           "bestSeller": false,
           "isSpicy": false
@@ -1248,12 +1211,10 @@
           "name": {
             "vi": "Trà sữa Thái xanh",
             "en": "Thai Green Milk Tea",
-            "zh": "泰式绿奶茶"
+            "zh": "Thai Green Milk Tea"
           },
           "price": 35000,
-          "desc": {
-            "zh": ""
-          },
+          "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trathai%2FTra%CC%80%20su%CC%9B%CC%83a%20Tha%CC%81i%20xanh_trathai.JPG?alt=media&token=f3e3584a-9151-4d09-99e4-bf7c24295e76",
           "bestSeller": false,
           "isSpicy": false
@@ -1262,12 +1223,10 @@
           "name": {
             "vi": "Trà Thái xanh chanh mật ong",
             "en": "Thai green tea with lemon and honey",
-            "zh": "泰式绿茶加柠檬和蜂蜜"
+            "zh": "Thai green tea with lemon and honey"
           },
           "price": 35000,
-          "desc": {
-            "zh": ""
-          },
+          "desc": {},
           "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trathai%2FTra%CC%80%20Tha%CC%81i%20xanh%20chanh%20ma%CC%A3%CC%82t%20ong_trathai.JPG?alt=media&token=1a479f2b-2d4d-4076-a70f-45e8bdc00714",
           "bestSeller": false,
           "isSpicy": false
@@ -1281,13 +1240,13 @@
           "name": {
             "vi": "Cà phê Đen đá | nóng",
             "en": "Iced | Hot Black Coffee",
-            "zh": "冰镇|热黑咖啡"
+            "zh": "Iced | Hot Black Coffee"
           },
           "price": 20000,
           "desc": {
             "vi": "cà phê nguyên chất cùng một chút đường cát",
             "en": "pure coffee with a little granulated sugar",
-            "zh": "纯咖啡加少许砂糖"
+            "zh": "pure coffee with a little granulated sugar"
           },
           "img": "/logo.svg",
           "bestSeller": true,
@@ -1297,13 +1256,13 @@
           "name": {
             "vi": "Cà phê Sữa đá | nóng",
             "en": "Iced | Hot Condensed Milk Coffee",
-            "zh": "冰镇|热炼乳咖啡"
+            "zh": "Iced | Hot Condensed Milk Coffee"
           },
           "price": 25000,
           "desc": {
-            "vi": "cà phê nguyên chất , sữa đặc",
-            "en": "pure coffee , condensed milk",
-            "zh": "纯咖啡、炼乳"
+            "vi": "cà phê nguyên chất ; sữa đặc",
+            "en": "pure coffee ; condensed milk",
+            "zh": "pure coffee ; condensed milk"
           },
           "img": "/logo.svg",
           "bestSeller": false,
@@ -1313,13 +1272,13 @@
           "name": {
             "vi": "Bạc xỉu",
             "en": "White Coffee",
-            "zh": "白咖啡"
+            "zh": "White Coffee"
           },
           "price": 35000,
           "desc": {
-            "vi": "cà phê nguyên chất , sữa tươi , sữa đặc",
-            "en": "pure coffee , Fresh milk , condensed milk",
-            "zh": "纯咖啡、鲜奶、炼乳"
+            "vi": "cà phê nguyên chất ; sữa tươi ; sữa đặc",
+            "en": "pure coffee ; Fresh milk ; condensed milk",
+            "zh": "pure coffee ; Fresh milk ; condensed milk"
           },
           "img": "/logo.svg",
           "bestSeller": false,
@@ -1329,13 +1288,13 @@
           "name": {
             "vi": "Cà phê Kem Muối",
             "en": "Salted Cream Coffee",
-            "zh": "咸奶油咖啡"
+            "zh": "Salted Cream Coffee"
           },
           "price": 35000,
           "desc": {
-            "vi": "cà phê nguyên chất , sữa đặc , kem muối",
-            "en": "pure coffee , condensed milk , salt cream",
-            "zh": "纯咖啡、炼乳、盐奶油"
+            "vi": "cà phê nguyên chất ; sữa đặc ; kem muối",
+            "en": "pure coffee ; condensed milk ; salt cream",
+            "zh": "pure coffee ; condensed milk ; salt cream"
           },
           "img": "/logo.svg",
           "bestSeller": false,
@@ -1350,12 +1309,10 @@
           "name": {
             "vi": "Cocacola",
             "en": "cocacola",
-            "zh": "可口可乐"
+            "zh": "cocacola"
           },
           "price": 18000,
-          "desc": {
-            "zh": ""
-          },
+          "desc": {},
           "img": "/logo.svg",
           "bestSeller": false,
           "isSpicy": false
@@ -1364,12 +1321,10 @@
           "name": {
             "vi": "Pepsi",
             "en": "pepsi",
-            "zh": "百事可乐"
+            "zh": "pepsi"
           },
           "price": 18000,
-          "desc": {
-            "zh": ""
-          },
+          "desc": {},
           "img": "/logo.svg",
           "bestSeller": false,
           "isSpicy": false
@@ -1378,12 +1333,10 @@
           "name": {
             "vi": "7 up",
             "en": "7 up",
-            "zh": "7 向上"
+            "zh": "7 up"
           },
           "price": 18000,
-          "desc": {
-            "zh": ""
-          },
+          "desc": {},
           "img": "/logo.svg",
           "bestSeller": false,
           "isSpicy": false
@@ -1392,12 +1345,10 @@
           "name": {
             "vi": "Sting",
             "en": "sting",
-            "zh": "蜇"
+            "zh": "sting"
           },
           "price": 18000,
-          "desc": {
-            "zh": ""
-          },
+          "desc": {},
           "img": "/logo.svg",
           "bestSeller": false,
           "isSpicy": false
@@ -1406,12 +1357,10 @@
           "name": {
             "vi": "Nước suối",
             "en": "mineral water",
-            "zh": "矿泉水"
+            "zh": "mineral water"
           },
           "price": 12000,
-          "desc": {
-            "zh": ""
-          },
+          "desc": {},
           "img": "/logo.svg",
           "bestSeller": false,
           "isSpicy": false

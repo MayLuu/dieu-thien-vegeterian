@@ -3,10 +3,9 @@ import "animate.css";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Link } from "@/routing";
+import Link from "next/link";
 import { LocalSwitcher } from ".";
-import MenuIcon from "@mui/icons-material/Menu";
-import CloseIcon from "@mui/icons-material/Close";
+import { Menu, X } from "lucide-react";
 
 type HeaderProps = {
   scrollTop?: number;
@@ -121,7 +120,7 @@ const Header = ({ scrollTop }: HeaderProps) => {
           </div>
 
           <div className="navbar_menu-icon" onClick={handleNav}>
-            <MenuIcon sx={{ fontSize: 28 }} />
+            <Menu size={28} />
           </div>
         </div>
       </div>
@@ -151,7 +150,7 @@ const Header = ({ scrollTop }: HeaderProps) => {
               <Image src={"/logo.svg"} alt="" width="87" height="35" />
             </Link> */}
             <div className="header__mobile-close" onClick={() => setNav(false)}>
-              <CloseIcon />
+              <X />
             </div>
           </div>
 

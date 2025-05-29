@@ -1,0 +1,430 @@
+.menu {
+  font-family: "Noto Serif", serif;
+  margin-top: 60px;
+  background-color: var(--background-green);
+  
+  img.banner {
+    @media screen and (max-width: 768px) {
+      width: 100vw;
+    }
+  }
+  
+  .swiper--list-item {
+    &.swiper-horizontal {
+      padding-left: 4rem;
+    }
+    
+    .swiper-slide {
+      width: auto;
+    }
+  }
+  
+  .ant-tabs-left > .ant-tabs-nav .ant-tabs-tab + .ant-tabs-tab {
+    padding: 16px 2rem 16px 1rem !important;
+  }
+  
+  .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab {
+    @media (max-width: 400px) {
+      padding: 6px 12px;
+    }
+  }
+  
+  .ant-tabs-tab {
+    span {
+      @media (max-width: 400px) {
+        font-size: 0.8rem;
+      }
+    }
+    
+    &.ant-tabs-tab-active {
+      padding-right: 28px !important;
+    }
+    
+    &-icon img {
+      @media (max-width: 400px) {
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  }
+}
+
+img {
+  display: block;
+}
+
+.menu--title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-dark-yellow);
+  color: var(--text-color-dark);
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  height: 100px;
+  
+  @media (max-width: 768px) {
+    width: auto;
+    height: 50px;
+  }
+  
+  @media (max-width: 520px) {
+    height: 36px;
+  }
+}
+
+h1.menu--title {
+  margin: 0;
+  font-size: 2.5rem;
+  padding: 1rem 5rem;
+  background-color: var(--background-cream);
+  border-radius: 8px;
+  box-shadow: 10px 10px rgba(56, 29, 18, 0.5);
+  height: 40px;
+  width: 200px;
+  min-width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color-green);
+  
+  @media (max-width: 768px) {
+    font-size: 1.6rem;
+    width: auto;
+    height: 25px;
+    padding: 1rem 2rem;
+  }
+  
+  @media (max-width: 520px) {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+  }
+}
+
+.menu--content {
+  padding: 5%;
+  background-color: var(--background-green);
+  max-width: var(--max-menu-width);
+  margin: 0 auto;
+  
+  .ant-tabs-content-holder {
+    background-image: url("/images/bg-menuItem.png");
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
+  }
+  
+  &.drink .menu-list {
+    min-height: 640px;
+    
+    @media (max-width: 400px) {
+      min-height: 500px;
+    }
+  }
+  
+  .menu-list {
+    @media (max-width: 400px) {
+      min-height: 500px;
+    }
+  }
+  
+  .swiper--list-item {
+    .swiper-slide .tabs-image {
+      @media (max-width: 520px) {
+        max-width: 80px;
+        width: 80px;
+        max-height: 80px;
+        height: 60px;
+        border-radius: 8px;
+      }
+    }
+  }
+  
+  &.drink .swiper--list-item .swiper-slide .tabs-image {
+    @media (max-width: 520px) {
+      width: 65px;
+      height: 65px;
+    }
+  }
+  
+  .item-favorite {
+    @media (max-width: 768px) {
+      height: 35px;
+      width: 35px;
+    }
+    
+    @media (max-width: 520px) {
+      height: 28px;
+      width: 28px;
+    }
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    @media (max-width: 400px) {
+      width: 24px;
+      height: 24px;
+      
+      &:after {
+        font-size: 0.6rem;
+      }
+    }
+  }
+  
+  @media (max-width: 1650px) {
+    padding: 5%;
+  }
+}
+
+h2,
+span,
+p {
+  font-family: "Noto Serif", BlinkMacSystemFont, "Noto Serif", Roboto,
+    "Noto Serif", "Noto Serif", serif;
+}
+
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  
+  &#menu-item--title {
+    padding: 0.5rem 1rem;
+    background-color: var(--background-green);
+    color: var(--text-color-cream);
+    border-radius: 8px;
+    
+    @media (max-width: 400px) {
+      padding: 0.25rem 0.5rem;
+    }
+  }
+}
+
+.swiper--item-info {
+  .swiper-slide-active {
+    height: 100% !important;
+  }
+  
+  .item-info {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-bottom: 2rem;
+    
+    @media (max-width: 768px) {
+      flex-direction: column !important;
+      gap: 1rem;
+    }
+    
+    @media (max-width: 768px) {
+      gap: 0.5rem;
+      padding-bottom: 0.4rem;
+    }
+    
+    img.swiper--item-img {
+      min-height: 350px;
+      min-width: 400px;
+      border-radius: 5%;
+      object-fit: cover;
+      object-position: 50% 75%;
+      
+      @media (max-width: 768px) {
+        width: 100%;
+        height: 200px;
+        min-height: 350px;
+        min-width: 0;
+        border-radius: 0.5rem;
+      }
+      
+      @media (max-width: 520px) {
+        min-height: 200px;
+        height: 200px;
+      }
+      
+      @media (max-width: 320px) {
+        min-height: 160px;
+        height: 160px;
+      }
+      
+      &.drink {
+        @media (max-width: 768px) {
+          min-height: 0;
+          width: 350px;
+          height: 350px;
+          margin: 0 auto;
+        }
+        
+        @media (max-width: 520px) {
+          width: 200px;
+          height: 200px;
+        }
+        
+        @media (max-width: 320px) {
+          width: 160px;
+          height: 160px;
+        }
+      }
+    }
+    
+    .item-info__text {
+      width: 100%;
+      
+      #menu-item--title {
+        text-transform: uppercase;
+        
+        @media (max-width: 768px) {
+          font-size: 1.2rem;
+        }
+        
+        @media (max-width: 520px) {
+          font-size: 1rem;
+          margin: 8px 0;
+        }
+      }
+      
+      #menu-item--price {
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        border: 1px solid #255442;
+        padding: 0.5rem 0.75rem;
+        width: fit-content;
+        float: right;
+        border-radius: 0.2rem;
+        
+        @media (max-width: 768px) {
+          margin: 0;
+        }
+      }
+      
+      #menu-item--desc {
+        @media (max-width: 520px) {
+          font-size: 0.85rem;
+          line-height: 1rem;
+          opacity: 0.9;
+        }
+        
+        .ingredient-title {
+          font-weight: 600;
+          font-size: 1.1rem;
+          
+          @media (max-width: 520px) {
+            font-size: 0.9rem;
+          }
+        }
+      }
+      
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .menu-item--isSpicy {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+.swiper--list-item .swiper-slide-thumb-active {
+  opacity: 1 !important;
+}
+
+.menu-list {
+  height: 100%;
+  
+  .menu-category {
+    color: var(--background-green);
+    padding: 0.2rem 0.5rem;
+    border-bottom: 2px solid var(--background-green);
+    width: fit-content;
+    margin: 1rem auto;
+    
+    @media (max-width: 520px) {
+      font-size: 1.1rem;
+    }
+  }
+  
+  .menu--info {
+    .drink-text-menu {
+      max-width: 40%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      
+      @media (max-width: 768px) {
+        max-width: 80%;
+      }
+      
+      @media (max-width: 520px) {
+        max-width: 100%;
+      }
+      
+      .drink-text {
+        margin-top: 1rem;
+        font-weight: 600;
+      }
+      
+      .drink-price {
+        font-weight: 600;
+      }
+    }
+    
+    .swiper-wrapper {
+      max-width: 850px;
+      margin: 0 auto;
+      max-height: 80vh;
+      min-height: fit-content;
+    }
+    
+    .item-info__img {
+      position: relative;
+      
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+    }
+    
+    img {
+      border-radius: 16px;
+      
+      &.item-favorite {
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+      }
+    }
+    
+    p {
+      color: var(--text-color-green);
+      
+      &#menu-item--price {
+        font-size: 1.5rem;
+        text-align: end;
+      }
+    }
+  }
+}
+
+.section {
+  @media (max-width: 768px) {
+    margin: 4rem 0;
+    height: fit-content;
+  }
+}
+
+.section__content {
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+}
+
+.section__text {
+  @media (max-width: 768px) {
+    text-align: justify;
+  }
+}

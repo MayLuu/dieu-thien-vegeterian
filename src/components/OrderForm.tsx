@@ -2,39 +2,30 @@
 import { database } from "@/config/firebaseConfig";
 import { send } from "@/lib/sendEmailAction";
 import { Validate } from "@/utils/validate";
-import {
-  Box,
-  Button,
-  CircularProgress,
-  Snackbar,
-  TextField,
-} from "@mui/material";
-import MuiAlert, { AlertProps } from "@mui/material/Alert";
-import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
-import { DatePicker } from "@mui/x-date-pickers/DatePicker";
-import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
-import { TimePicker } from "@mui/x-date-pickers/TimePicker";
-import dayjs from "dayjs";
-import customParseFormat from "dayjs/plugin/customParseFormat";
+import { 
+  Button, 
+  DatePicker, 
+  Input, 
+  InputNumber, 
+  message, 
+  Space, 
+  Spin, 
+  TimePicker 
+} from "antd";
 import { ref, set } from "firebase/database";
 import { useLocale, useTranslations } from "next-intl";
 import React, { useEffect, useState } from "react";
-import { Controller, SubmitHandler, useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
+import dayjs from "dayjs";
+import customParseFormat from "dayjs/plugin/customParseFormat";
 
 dayjs.extend(customParseFormat);
-
-const Alert = React.forwardRef<HTMLDivElement, AlertProps>(function Alert(
-  props,
-  ref
-) {
-  return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
-});
 
 type OrderForm = {
   userName: string;
   phone: string;
-  orderDate: Date;
-  orderTime: Date;
+  orderDate: dayjs.Dayjs;
+  orderTime: dayjs.Dayjs;
   email: string;
   participantNumber: number;
   notes: string;
@@ -50,62 +41,29 @@ const OrderFormComponent = () => {
   const localActive = useLocale();
 
   const [loading, setLoading] = useState(false);
-  const [open, setOpen] = useState(false);
   const [isTimeValid, setIsTimeValid] = useState(true);
+  const [messageApi, contextHolder] = message.useMessage();
 
-  const {
-    handleSubmit,
-    control,
-    formState: { errors },
-    watch,
-  } = useForm<OrderForm>();
-
-  const handleClose = (
-    event?: React.SyntheticEvent | Event,
-    reason?: string
-  ) => {
-    if (reason === "clickaway") {
-      return;
+  const { 
+    control, 
+    handleSubmit, 
+    watch, 
+    reset,
+    formState: { errors } 
+  } = useForm<OrderForm>({
+    defaultValues: {
+      orderTime: dayjs().add(30, 'm')
     }
-    setOpen(false);
-  };
+  });
 
-  const onSubmit: SubmitHandler<OrderForm> = async (data) => {
-    setLoading(true);
-    try {
-      const formattedData = {
-        ...data,
-        orderDate: dayjs(data.orderDate).format("DD-MM-YYYY"),
-        orderTime: dayjs(data.orderTime).format("HH:mm"),
-      };
-
-      const newOrderId = Date.now().toString();
-      const orderRef = ref(database, `orders/${newOrderId}`);
-      await set(orderRef, formattedData);
-
-      setOpen(true);
-      if (isValidLocale(localActive)) {
-        const formData = new FormData();
-        Object.entries(formattedData).forEach(([key, value]) =>
-          formData.append(key, value as string)
-        );
-        await send(formData, localActive);
-      }
-    } catch (error) {
-      console.error("Error saving data to Firebase:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
-
-  const orderDate = watch("orderDate");
-  const orderTime = watch("orderTime");
+  const watchOrderDate = watch('orderDate');
+  const watchOrderTime = watch('orderTime');
 
   useEffect(() => {
-    if (orderDate && orderTime) {
-      const selectedDateTime = dayjs(orderDate)
-        .set("hour", dayjs(orderTime).hour())
-        .set("minute", dayjs(orderTime).minute());
+    if (watchOrderDate && watchOrderTime) {
+      const selectedDateTime = watchOrderDate
+        .set('hour', watchOrderTime.hour())
+        .set('minute', watchOrderTime.minute());
 
       const isWithinAllowedTime =
         (selectedDateTime.hour() >= 10 && selectedDateTime.hour() < 13) ||
@@ -114,247 +72,235 @@ const OrderFormComponent = () => {
 
       setIsTimeValid(isWithinAllowedTime && isInFuture);
     }
-  }, [orderDate, orderTime]);
+  }, [watchOrderDate, watchOrderTime]);
+
+  const onSubmit = async (data: OrderForm) => {
+    setLoading(true);
+    try {
+      const formattedData = {
+        ...data,
+        orderDate: data.orderDate.format("DD-MM-YYYY"),
+        orderTime: data.orderTime.format("HH:mm"),
+      };
+
+      const newOrderId = Date.now().toString();
+      const orderRef = ref(database, `orders/${newOrderId}`);
+      await set(orderRef, formattedData);
+
+      messageApi.success(t("form.sendEmailSuccess"));
+      
+      if (isValidLocale(localActive)) {
+        const formData = new FormData();
+        Object.entries(formattedData).forEach(([key, value]) =>
+          formData.append(key, value as string)
+        );
+        await send(formData, localActive);
+      }
+      
+      reset();
+    } catch (error) {
+      console.error("Error saving data to Firebase:", error);
+      messageApi.error(t("form.sendEmailError"));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const validateEmail = (value: string) => {
+    if (!value || Validate.email(value)) {
+      return true;
+    }
+    return t("form.invalidEmail");
+  };
+
+  const disabledDate = (current: dayjs.Dayjs) => {
+    return current && current < dayjs().startOf('day');
+  };
 
   return (
-    <>
-      <h2>{t("general.order")}</h2>
-      <form onSubmit={handleSubmit(onSubmit)}>
+    <div className="order-form-container">
+      {contextHolder}
+      <h2 className="form-title">{t("general.order")}</h2>
+      
+      <form onSubmit={handleSubmit(onSubmit)} className="order-form">
         <div className="form-row">
-          <Controller
-            control={control}
-            name="userName"
-            rules={{
-              required: t("form.required"),
-            }}
-            render={({ field: { onChange, onBlur, value } }) => (
-              <TextField
-                autoComplete="off"
-                name="userName"
-                placeholder={t("form.userName")}
-                label={t("form.userName")}
-                onBlur={onBlur}
-                value={value}
-                onChange={onChange}
-                required
-                fullWidth
-              />
-            )}
-          />
+          <div className="form-field">
+            <label>{t("form.userName")}</label>
+            <Controller
+              name="userName"
+              control={control}
+              rules={{ required: t("form.required") as string }}
+              render={({ field }) => (
+                <Input 
+                  {...field} 
+                  placeholder={t("form.userName")} 
+                  status={errors.userName ? "error" : ""}
+                />
+              )}
+            />
+            {errors.userName && <p className="error-message">{errors.userName.message}</p>}
+          </div>
 
+          <div className="form-field">
+            <label>{t("general.phoneNumber")}</label>
+            <Controller
+              name="phone"
+              control={control}
+              rules={{ required: t("form.required") as string }}
+              render={({ field }) => (
+                <Input 
+                  {...field} 
+                  placeholder={t("general.phoneNumber")} 
+                  status={errors.phone ? "error" : ""}
+                />
+              )}
+            />
+            {errors.phone && <p className="error-message">{errors.phone.message}</p>}
+          </div>
+        </div>
+
+        <div className="form-row">
+          <div className="form-field">
+            <label>{t("form.orderDate")}</label>
+            <Controller
+              name="orderDate"
+              control={control}
+              rules={{ 
+                required: t("form.required") as string,
+                validate: value => 
+                  value && value.isAfter(dayjs().subtract(1, "d")) || 
+                  t("form.invalidDate") as string
+              }}
+              render={({ field }) => (
+                <DatePicker 
+                  {...field}
+                  format="DD/MM/YYYY" 
+                  style={{ width: '100%' }}
+                  disabledDate={disabledDate}
+                  status={errors.orderDate ? "error" : ""}
+                />
+              )}
+            />
+            {errors.orderDate && <p className="error-message">{errors.orderDate.message}</p>}
+          </div>
+
+          <div className="form-field">
+            <label>{t("form.orderTime")}</label>
+            <Controller
+              name="orderTime"
+              control={control}
+              rules={{ required: t("form.required") as string }}
+              render={({ field }) => (
+                <TimePicker 
+                  {...field}
+                  format="HH:mm"
+                  style={{ width: '100%' }}
+                  disabledTime={() => ({
+                    disabledHours: () => {
+                      const disabledHours = [];
+                      // Disable all hours except 10:00-13:00 and 17:00-20:00
+                      for (let i = 0; i < 24; i++) {
+                        if ((i < 10 || i >= 13) && (i < 17 || i >= 20)) {
+                          disabledHours.push(i);
+                        }
+                      }
+                      // If selected date is today, disable all past hours
+                      if (watchOrderDate?.isSame(dayjs(), 'day')) {
+                        for (let i = 0; i < dayjs().hour(); i++) {
+                          if (!disabledHours.includes(i)) {
+                            disabledHours.push(i);
+                          }
+                        }
+                      }
+                      return disabledHours;
+                    },
+                    disabledMinutes: () => []
+                  })}
+                  minuteStep={15}
+                  status={errors.orderTime ? "error" : ""}
+                />
+              )}
+            />
+            {errors.orderTime && <p className="error-message">{errors.orderTime.message}</p>}
+          </div>
+        </div>
+
+        <div className="form-row">
+          <div className="form-field">
+            <label>{t("general.email")}</label>
+            <Controller
+              name="email"
+              control={control}
+              rules={{ 
+                required: t("form.required") as string,
+                validate: validateEmail
+              }}
+              render={({ field }) => (
+                <Input 
+                  {...field} 
+                  placeholder={t("general.email")} 
+                  status={errors.email ? "error" : ""}
+                />
+              )}
+            />
+            {errors.email && <p className="error-message">{errors.email.message}</p>}
+          </div>
+
+          <div className="form-field">
+            <label>{t("form.participantNumber")}</label>
+            <Controller
+              name="participantNumber"
+              control={control}
+              rules={{ required: t("form.required") as string }}
+              render={({ field }) => (
+                <InputNumber 
+                  {...field}
+                  min={1} 
+                  placeholder={t("form.participantNumber")}
+                  style={{ width: '100%' }}
+                  status={errors.participantNumber ? "error" : ""}
+                />
+              )}
+            />
+            {errors.participantNumber && <p className="error-message">{errors.participantNumber.message}</p>}
+          </div>
+        </div>
+
+        <div className="form-field">
+          <label>{t("form.comment")}</label>
           <Controller
+            name="notes"
             control={control}
-            name="phone"
-            rules={{
-              required: t("form.required"),
-            }}
-            render={({ field: { onChange, onBlur, value } }) => (
-              <TextField
-                autoComplete="off"
-                type="number"
-                label={t("general.phoneNumber")}
-                placeholder={t("general.phoneNumber")}
-                name="phone"
-                required
-                onBlur={onBlur}
-                value={value}
-                onChange={onChange}
-                InputProps={{
-                  inputProps: {
-                    min: 0,
-                  },
-                }}
-                fullWidth
+            render={({ field }) => (
+              <Input.TextArea 
+                {...field}
+                rows={5} 
+                placeholder={t("form.comment")}
               />
             )}
           />
         </div>
-        <Box className="form-row">
-          <Controller
-            control={control}
-            name="orderDate"
-            rules={{
-              required: t("form.required"),
-              validate: (value) => {
-                if (!value || !dayjs(value).isAfter(dayjs().subtract(1, "d"))) {
-                  return t("form.invalidDate");
-                }
-                return true;
-              },
-            }}
-            render={({ field: { onChange, value } }) => (
-              <LocalizationProvider
-                dateAdapter={AdapterDayjs}
-                adapterLocale={localActive}
-              >
-                <DatePicker
-                  disablePast
-                  label={t("form.orderDate")}
-                  format="DD/MM/YYYY"
-                  onChange={(date) => onChange(date ? date.toDate() : null)}
-                  value={value ? dayjs(value) : null}
-                  minDate={dayjs()}
-                />
-              </LocalizationProvider>
+
+        <div className="form-submit">
+          <Button
+            className="submit-btn"
+            type="primary"
+            htmlType="submit"
+            disabled={loading || !isTimeValid}
+            style={{ width: '100%', height: '46px', borderRadius: '20px' }}
+          >
+            {loading ? (
+              <Space>
+                <Spin size="small" />
+                {t("form.send")}
+              </Space>
+            ) : (
+              t("form.send")
             )}
-          />
-
-          <Controller
-            control={control}
-            name="orderTime"
-            rules={{
-              required: t("form.required"),
-              validate: (value) => {
-                if (!value) {
-                  return t("form.invalidTime");
-                }
-                return true;
-              },
-            }}
-            render={({ field: { onChange, value } }) => (
-              <LocalizationProvider
-                dateAdapter={AdapterDayjs}
-                adapterLocale={localActive}
-              >
-                <TimePicker
-                  label={t("form.orderTime")}
-                  ampm={false}
-                  onChange={(time) => onChange(time ? time.toDate() : null)}
-                  value={value ? dayjs(value) : dayjs().add(30, "m")}
-                  minTime={
-                    dayjs(orderDate).isSame(dayjs(), "day")
-                      ? dayjs().add(30, "m")
-                      : dayjs(orderDate).hour(10).minute(0)
-                  }
-                  maxTime={dayjs(orderDate).hour(20).minute(1)}
-                  shouldDisableTime={(timeValue, clockType) => {
-                    if (clockType === "hours") {
-                      if (timeValue.hour() >= 13 && timeValue.hour() < 17) {
-                        return true;
-                      }
-                    }
-
-                    return false;
-                  }}
-                  disablePast={
-                    orderDate && dayjs(orderDate).isSame(dayjs(), "day")
-                      ? true
-                      : false
-                  }
-                />
-              </LocalizationProvider>
-            )}
-          />
-        </Box>
-        <Box className="form-row">
-          <Controller
-            control={control}
-            name="email"
-            rules={{
-              required: t("form.required"),
-              validate: (value) =>
-                Validate.email(value) || t("form.invalidEmail"),
-            }}
-            render={({ field: { onChange, onBlur, value } }) => (
-              <TextField
-                autoComplete="off"
-                label={t("general.email")}
-                placeholder={t("general.email")}
-                name="email"
-                required
-                onBlur={onBlur}
-                value={value}
-                onChange={onChange}
-                fullWidth
-              />
-            )}
-          />
-          <Controller
-            control={control}
-            name="participantNumber"
-            rules={{
-              required: t("form.required"),
-            }}
-            render={({ field: { onChange, onBlur, value } }) => (
-              <TextField
-                autoComplete="off"
-                type="number"
-                label={t("form.participantNumber")}
-                placeholder={t("form.participantNumber")}
-                name="participantNumber"
-                required
-                onBlur={onBlur}
-                value={value}
-                onChange={onChange}
-                InputProps={{
-                  inputProps: {
-                    min: 1,
-                  },
-                }}
-                fullWidth
-              />
-            )}
-          />
-        </Box>
-
-        <Controller
-          control={control}
-          name="notes"
-          render={({ field: { onChange, onBlur, value } }) => (
-            <TextField
-              label={t("form.comment")}
-              placeholder={t("form.comment")}
-              name="notes"
-              multiline
-              rows={8}
-              onBlur={onBlur}
-              value={value}
-              onChange={onChange}
-              fullWidth
-            />
-          )}
-        />
-
-        {errors.email && (
-          <span className="error">{t("form.invalidEmail")}</span>
-        )}
-        {errors.orderDate && (
-          <span className="error">{t("form.invalidDate")}</span>
-        )}
-        {errors.orderTime && (
-          <span className="error">{t("form.invalidTime")}</span>
-        )}
-
-        <Button
-          className="submit-btn"
-          variant="contained"
-          type="submit"
-          disabled={loading || !isTimeValid}
-        >
-          {loading ? (
-            <Box sx={{ display: "flex", alignItems: "center" }}>
-              <CircularProgress
-                size={24}
-                sx={{ color: "white", marginRight: "8px" }}
-              />
-              {t("form.send")}
-            </Box>
-          ) : (
-            t("form.send")
-          )}
-        </Button>
+          </Button>
+        </div>
       </form>
-      <Snackbar
-        open={open}
-        autoHideDuration={6000}
-        onClose={handleClose}
-        anchorOrigin={{ vertical: "top", horizontal: "right" }}
-      >
-        <Alert onClose={handleClose} severity="success" sx={{ width: "100%" }}>
-          {t("form.sendEmailSuccess")}
-        </Alert>
-      </Snackbar>
-    </>
+    </div>
   );
 };
 

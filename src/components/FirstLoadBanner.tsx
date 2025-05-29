@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import "@/styles/popup_layer.css";
-import CloseIcon from "@mui/icons-material/Close";
-import { Link } from "@/routing";
+import "@/styles/popup_layer.scss";
+import { X } from "lucide-react";
+import Link from "next/link";
 interface SectionProps {
   title?: string;
   text?: string;
@@ -86,7 +86,7 @@ const FirstLoadBanner = (props: SectionProps) => {
       <div className="popup-overlay">
         <div className="popup-content">
           <button className="close-button" onClick={closePopup}>
-            <CloseIcon />
+            <X />
           </button>
           <Link href="/events">
             <Image
