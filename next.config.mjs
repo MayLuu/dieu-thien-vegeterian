@@ -4,6 +4,9 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  generateBuildId: async () => {
+    return `${Date.now()}`;
+  },
   output: 'standalone',
   images: {
     remotePatterns: [
