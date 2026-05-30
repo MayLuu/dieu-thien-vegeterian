@@ -13,6 +13,7 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { CldImage } from 'next-cloudinary';
 
 type TabPosition = "left" | "top";
 
@@ -118,6 +119,7 @@ const Menu = () => {
                             height={isDrinkMenu ? 400 : 350}
                             unoptimized
                           />
+                            
                         </div>
                         <div className="item-info__text">
                           <h2 id="menu-item--title">
@@ -241,9 +243,12 @@ const Menu = () => {
         style={{ width: "100%", height: "auto" }}
       />
 
+     
+
       <div className="menu--title">
         <h1 className="menu--title">{t("food")}</h1>
       </div>
+     
       <div className="menu--content">
         <Tabs tabPosition={tabPosition} type="card" items={foodMenuItems} />
       </div>
