@@ -5,7 +5,7 @@
       "items": [
         {
           "name": {
-            "vi": "Mì ramen",
+            "vi": "Mì ramen ( khô và nước )",
             "en": "vegan ramen ( dry / soup )",
             "zh": "素食拉面（干拌/汤面）"
           },
@@ -15,7 +15,7 @@
             "en": "Ramen noodles, broth",
             "zh": "拉面，汤"
           },
-          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1775977936/salad-rau_vyjipw.jpg",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325976/M%C3%AC_ramen_monchinh_dnqjwy.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -31,7 +31,7 @@
             "en": "mushrooms, rice crackers, spices",
             "zh": "蘑菇、米饼、香料"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/khaivi%2FNa%CC%82%CC%81m%20xu%CC%81c%20ba%CC%81nh%20%C4%91a_monkhaivi.jpg?alt=media&token=efc9ec85-3da1-42b0-a0f6-c8c1d5147086",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325988/N%E1%BA%A5m_x%C3%BAc_b%C3%A1nh_%C4%91a_monkhaivi_sriwx7.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -281,7 +281,7 @@
             "en": "The filling consists of bean sprouts, carrots, stir-fried mixed mushrooms, and mung beans, wrapped in rice paper with various fresh vegetables, and served with sweet and sour fish sauce.",
             "zh": "馅料包括豆芽、胡萝卜、炒什锦蘑菇和绿豆，用米纸包裹着各种新鲜蔬菜，佐以糖醋鱼露。"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncuon%2FBa%CC%81nh%20xe%CC%80o_moncuon.jpg?alt=media&token=7425fff4-9c1c-4105-95c2-379f5bce4f53",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325852/B%C3%A1nh_x%C3%A8o_moncuon_jw9jjp.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -334,7 +334,7 @@
             "en": "Thai hot pot broth, banana blossom, Chinese cabbage, water spinach, water celery, king oyster mushrooms, enoki mushrooms, oyster mushrooms, and soft tofu, served with vegetarian fish sauce and fresh rice noodles.",
             "zh": "泰式火锅汤底，香蕉花，大白菜，空心菜，水芹，杏鲍菇，金针菇，平菇，嫩豆腐，佐以素鱼露和新鲜米粉。"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20Tha%CC%81i_monlau(1).jpg?alt=media&token=36cd92a3-3e5b-4d92-9b2a-7a12a5ccc377",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325867/L%E1%BA%A9u_Th%C3%A1i_monlau_1_jrs05t.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -350,7 +350,7 @@
             "en": "Satay hot pot broth, spinach, Chinese cabbage, oyster mushrooms, king oyster mushrooms, black enoki mushrooms, tofu, and dried tofu skin, served with satay fish sauce and fresh rice noodles.",
             "zh": "沙爹火锅汤底，菠菜，大白菜，平菇，杏鲍菇，黑金针菇，豆腐，豆腐皮，佐以沙爹鱼露和新鲜米粉。"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20sa%20te%CC%82%CC%81%20Die%CC%A3%CC%82u%20Thie%CC%A3%CC%82n_monlau(1).jpg?alt=media&token=fb819ffd-ad81-4e22-b5d6-63c322b2e3ec",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325952/L%E1%BA%A9u_sa_t%E1%BA%BF_Di%E1%BB%87u_Thi%E1%BB%87n_monlau_1_wkjfs9.png",
           "bestSeller": false,
           "isSpicy": true
         },
@@ -398,7 +398,7 @@
             "en": "鸳鸯 hot pot broth, chili paste, vegetables, and Korean noodles.",
             "zh": "火锅汤底、辣椒酱、蔬菜和韩国面条。"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monlau%2FLa%CC%82%CC%89u%20uye%CC%82n%20u%CC%9Bo%CC%9Bng_monlau.jpg?alt=media&token=11819106-1900-4f9f-95eb-00406bc6f65d",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325969/L%E1%BA%A9u_uy%C3%AAn_%C6%B0%C6%A1ng_monlau_tasirl.png",
           "bestSeller": false,
           "isSpicy": false
         }
@@ -611,7 +611,7 @@
             "en": "mushrooms, potatoes",
             "zh": "蘑菇、土豆"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/monchinh%2FNa%CC%82%CC%81m%20lu%CC%81c%20la%CC%86%CC%81c-khoai%20ta%CC%82y_monchinh.JPG?alt=media&token=f7791b30-7bfa-4b02-860c-528b01a2a6b8",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325929/N%E1%BA%A5m_l%C3%BAc_l%E1%BA%AFc-khoai_t%C3%A2y_monchinh_fi29of.jpg",
           "bestSeller": false,
           "isSpicy": false
         }
@@ -632,7 +632,7 @@
             "en": "Seaweed, tofu, oyster mushrooms, carrots, fried onions, pepper, ginger",
             "zh": "海带、豆腐、平菇、胡萝卜、炸洋葱、辣椒、生姜"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/moncanh%2FCanh%20na%CC%82%CC%81m%20ta%CC%80u%20hu%CC%83%20rong%20bie%CC%82%CC%89n_moncanh.jpg?alt=media&token=3ff3a3e5-f700-4c64-8f20-34e4405516c3",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325975/Canh_n%E1%BA%A5m_t%C3%A0u_h%C5%A9_rong_bi%E1%BB%83n_moncanh-sup_uynxis.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -672,7 +672,7 @@
           "name": {
             "vi": "SÚP TÓC TIÊN",
             "en": "Fat Choy Soup",
-            "zh": "肥菜汤"
+            "zh": "发菜汤"
           },
           "price": 39000,
           "desc": {
@@ -781,7 +781,7 @@
             "en": "Bok choy, carrots, shiitake mushrooms, vegetarian oyster sauce",
             "zh": "小白菜、胡萝卜、香菇、素蚝油"
           },
-          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780151902/IMG_3819_kma4oc.jpg",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325910/C%E1%BA%A3i_th%C3%ACa_s%E1%BB%91t_n%E1%BA%A5m_%C4%91%C3%B4ng_c%C3%B4_monman_mirtvr.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -877,7 +877,7 @@
             "en": "straw mushrooms, onions, peppers",
             "zh": "草菇、洋葱、辣椒"
           },
-          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780151897/IMG_3762_zqt1wz.jpg",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325924/Ch%C3%A2n_n%E1%BA%A5m_kho_g%E1%BB%ABng_monman3871_wx1ylw.jpg",
           "bestSeller": false,
           "isSpicy": false
         }
@@ -898,7 +898,7 @@
             "en": "Snowflake, snow lotus seeds, peach resin, goji berries, red dates, longan",
             "zh": "雪花莲、雪莲子、桃树脂、枸杞、红枣、龙眼"
           },
-          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780151909/IMG_3970_ehrvcj.jpg",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325938/Ch%C3%A8_tuy%E1%BA%BFt_y%E1%BA%BFn_d%C6%B0%E1%BB%A1ng_nhan_trangmieng_kqi251.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -914,7 +914,7 @@
             "en": "lotus seeds, goji berries, red dates, cordyceps",
             "zh": "莲子、枸杞、红枣、虫草"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/trangmieng%2FChe%CC%80%20ha%CC%A3t%20sen%20%C4%91o%CC%82ng%20tru%CC%80ng%20ha%CC%A3%20tha%CC%89o_trangmieng.jpg?alt=media&token=e55222b8-7b14-41d1-9d32-69b53b8ce267",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325935/Ch%C3%A8_h%E1%BA%A1t_sen_%C4%91%C3%B4ng_tr%C3%B9ng_h%E1%BA%A1_th%E1%BA%A3o_trangmieng_v3wb22.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -930,7 +930,7 @@
             "en": "Yogurt, mulberry jam, kumquat jam, shaved ice",
             "zh": "酸奶、桑葚酱、金橘酱、刨冰"
           },
-          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780151908/IMG_3954_nyczae.jpg",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325891/S%E1%BB%AFa_chua_d%C3%A2u_t%E1%BA%B1m_trangmieng_dngnth.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -969,7 +969,7 @@
             "en": "daisies , rose, Goji berries , Apple , sugar , Cordyceps (can be used hot or cold)",
             "zh": "雏菊、玫瑰、枸杞、苹果、糖、冬虫夏草（可热食或冷食）"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20tha%CC%89o%20mo%CC%A3%CC%82c_trasangtao.JPG?alt=media&token=5c3c14e0-f95d-4fe6-9512-dd21a30073aa",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325945/Tr%C3%A0_th%E1%BA%A3o_m%E1%BB%99c_trasangtao_pvaku6.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -985,7 +985,7 @@
             "en": "crushed lemongrass, peach tea , peach syrup , peach jam , kumquat juice ,sliced peach",
             "zh": "柠檬草碎、桃子茶、桃子糖浆、桃子果酱、金橘汁、桃片"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20%C4%91a%CC%80o%20cam%20sa%CC%89_trasangtao.JPG?alt=media&token=304c914f-9aaf-4be4-b833-40e5a5ec5bd1",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325873/Tr%C3%A0_%C4%91%C3%A0o_cam_s%E1%BA%A3_trasangtao_exv4fk.jpg",
           "bestSeller": true,
           "isSpicy": false
         },
@@ -1001,7 +1001,7 @@
             "en": "Lychee syrup , fresh lychee",
             "zh": "荔枝糖浆，新鲜荔枝"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20la%CC%80i%20le%CC%A3%CC%82%20chi_trasangtao.JPG?alt=media&token=7e11fc08-31b8-4190-a6d0-d4b30f58a687",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325893/Tr%C3%A0_l%C3%A0i_l%E1%BB%87_chi_trasangtao_rysrnm.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1017,7 +1017,7 @@
             "en": "kumquat juice , guava jam , guava syrup, fresh guava",
             "zh": "金橘汁、番石榴果酱、番石榴糖浆、新鲜番石榴"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20o%CC%82%CC%89i%20ho%CC%82%CC%80ng_trasangtao.JPG?alt=media&token=3333eb63-9ab5-43dc-8fae-8fa27f4ce823",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325881/Tr%C3%A0_%E1%BB%95i_h%E1%BB%93ng_trasangtao_wmmicw.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1033,7 +1033,7 @@
             "en": "ginger tea , honey , sliced ginger",
             "zh": "姜茶、蜂蜜、姜片"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20gu%CC%9B%CC%80ng%20ma%CC%A3%CC%82t%20ong_trasangtao.JPG?alt=media&token=0390f4aa-02a4-4d1a-9cc0-70b2f648bb41",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325923/Tr%C3%A0_g%E1%BB%ABng_m%E1%BA%ADt_ong_trasangtao_fpdkuv.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1049,7 +1049,7 @@
             "en": "soot , lipton tea , kumquat juice , Kumquat Marmalade",
             "zh": "烟灰、立顿茶、金橘汁、金橘果酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20ta%CC%86%CC%81c%20xi%CC%81%20muo%CC%A3%CC%82i_trasangtao.JPG?alt=media&token=08ed6df7-0383-4921-9140-b0cda52c14f5",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325888/Tr%C3%A0_t%E1%BA%AFc_x%C3%AD_mu%E1%BB%99i_trasangtao_hurnp9.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1065,7 +1065,7 @@
             "en": "pineapple juice added with arenga pinnata",
             "zh": "加入菠萝汁和棕榈果"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trasangtao%2FTra%CC%80%20la%CC%80i%20ha%CC%A3t%20%C4%91a%CC%81c_trasangtao.JPG?alt=media&token=9307f7d8-e258-4105-be6e-ff60a7174fb1",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325926/Tr%C3%A0_l%C3%A0i_h%E1%BA%A1t_%C4%91%C3%A1c_trasangtao_p9smi5.jpg",
           "bestSeller": true,
           "isSpicy": false
         }
@@ -1086,7 +1086,7 @@
             "en": "pineapple juice",
             "zh": "菠萝汁"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fthomep_nuocep.jpg?alt=media&token=6de3e059-83e3-40f2-9290-f74289212e99",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780326551/Th%C6%A1mep_hom2ry.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1102,7 +1102,7 @@
             "en": "orange juice",
             "zh": "橙汁"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fnuoc-ep-cam-tuoi-thom-ngon-tai-nha.jpg?alt=media&token=67b7bf76-20fa-4a61-942b-8597afbeb776",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780326550/camep_xlfuo2.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1118,7 +1118,7 @@
             "en": "watermelon juice",
             "zh": "西瓜汁"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fduahau_nuocep%202.jpg?alt=media&token=366c2c11-53dd-4b3c-a7a0-5fd9f4ece395",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780326550/duahau_jgctft.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1134,7 +1134,7 @@
             "en": "Passion fruit juice, passion fruit syrup, passion fruit jam",
             "zh": "百香果汁、百香果糖浆、百香果果酱"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fchanhday_nuocep.jpg?alt=media&token=39578f10-f292-45e2-9ea1-9b9a60a9e554",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780326550/chanhday_bry0vw.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1150,7 +1150,7 @@
             "en": "orange juice",
             "zh": "橙汁"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2Fparadigm-visuals-Tl_YI6wdNIE-unsplash.jpg?alt=media&token=a14c1c4c-e132-4563-bb6d-2f96c8d636d4",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780326549/camcarot_mlqaxx.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1166,7 +1166,7 @@
             "en": "mix pineapple juice and carrot juice",
             "zh": "混合菠萝汁和胡萝卜汁"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_nuocep%2FIMG_5212.jpeg?alt=media&token=040bbd7b-6c31-4397-add7-292d127bbcce",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780326637/thomcarot1_pylxs5.jpg",
           "bestSeller": false,
           "isSpicy": false
         }
@@ -1187,7 +1187,7 @@
             "en": "blue sea serum, mint serum, lemon juice, 1-2 crushed mint leaves, soda",
             "zh": "蓝海精华液、薄荷精华液、柠檬汁、1-2片碾碎的薄荷叶、苏打水"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Bie%CC%82%CC%89n%20xanh_soda.jpg?alt=media&token=cfa0b542-efbd-459d-8bc4-1c6c43447b2f",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325980/Soda_Bi%E1%BB%83n_xanh_soda_f4kydh.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1203,7 +1203,7 @@
             "en": "passion fruit serum, passion fruit syrup, soda",
             "zh": "百香果精华液、百香果糖浆、苏打水"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Chanh%20da%CC%82y_soda.jpg?alt=media&token=6d80ab54-7a51-4f08-be6f-884605b1b178",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325992/Soda_Chanh_d%C3%A2y_soda_mszjus.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1219,7 +1219,7 @@
             "en": "fresh lemon juice, sugar serum, soda",
             "zh": "鲜榨柠檬汁、糖浆、苏打水"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Chanh%20tu%CC%9Bo%CC%9Bi_soda.jpg?alt=media&token=df5eccd2-5139-4157-90ac-ebc1f669cdff",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325988/Soda_Chanh_t%C6%B0%C6%A1i_soda_or3jrz.png",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1233,9 +1233,9 @@
           "desc": {
             "vi": "nước cốt việt quốc, serup đường , soda",
             "en": "blueberry juice, sugar serum, soda",
-            "zh": "蓝莓汁、糖精、苏打水"
+            "zh": "蓝莓汁、糖浆、苏打水"
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_soda%2FSoda%20Vie%CC%A3%CC%82t%20qua%CC%82%CC%81t_Soda.jpg?alt=media&token=8e6507ad-71a2-42fb-92a6-ab76677c9f5e",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325990/Soda_Vi%E1%BB%87t_qu%E1%BA%A5t_Soda_fkftwl.png",
           "bestSeller": false,
           "isSpicy": false
         }
@@ -1254,7 +1254,7 @@
           "desc": {
             "zh": ""
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trathai%2FTra%CC%80%20su%CC%9B%CC%83a%20Tha%CC%81i%20xanh_trathai.JPG?alt=media&token=f3e3584a-9151-4d09-99e4-bf7c24295e76",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325929/Tr%C3%A0_s%E1%BB%AFa_Th%C3%A1i_xanh_trathai_jso0yy.jpg",
           "bestSeller": false,
           "isSpicy": false
         },
@@ -1268,7 +1268,7 @@
           "desc": {
             "zh": ""
           },
-          "img": "https://firebasestorage.googleapis.com/v0/b/dieuthien-production.appspot.com/o/nuoc_trathai%2FTra%CC%80%20Tha%CC%81i%20xanh%20chanh%20ma%CC%A3%CC%82t%20ong_trathai.JPG?alt=media&token=1a479f2b-2d4d-4076-a70f-45e8bdc00714",
+          "img": "https://res.cloudinary.com/dix539uvo/image/upload/v1780325996/Tr%C3%A0_Th%C3%A1i_xanh_chanh_m%E1%BA%ADt_ong_trathai_kerx8n.jpg",
           "bestSeller": false,
           "isSpicy": false
         }
